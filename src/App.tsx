@@ -2468,28 +2468,6 @@ const orderedChordsForStrip = useMemo(() => {
             {selectedSong.title}
           </h2>
 
-          {embedUrl && !stageMode && (
-            <div style={{ textAlign: "center", marginTop: 10, marginBottom: 6 }}>
-              <button
-                onClick={() => setShowVideo((v) => !v)}
-                style={{
-                  padding: "8px 18px",
-                  borderRadius: 999,
-                  border: "1px solid #b00000",
-                  background: "#ff4d4d",
-                  color: "#000",
-                  fontWeight: 800,
-                  cursor: "pointer",
-                  fontSize: 14,
-                  transition: "transform 0.1s ease",
-                }}
-              >
-                {showVideo ? "Hide Video" : "▶ Play Video"}
-              </button>
-
-              {showVideo && <div style={{ marginTop: 6, fontSize: 12, opacity: 0.7 }}>Video playing (floating window)</div>}
-            </div>
-          )}
 
           {selectedSong.youtube && !embedUrl && !stageMode && (
             <div style={{ textAlign: "center", marginTop: 6 }}>
@@ -2567,19 +2545,6 @@ const orderedChordsForStrip = useMemo(() => {
             )}
           </div>
 
-          {!stageMode && (
-            <>
-              <div style={{ textAlign: "center", marginTop: 12, marginBottom: 6 }}>
-                <button onClick={() => setViewMode("lyrics")} style={pillStyle(viewMode === "lyrics", dark)}>
-                  Lyrics Only
-                </button>
-                <button onClick={() => setViewMode("both")} style={pillStyle(viewMode === "both", dark)}>
-                  Lyrics + Chords
-                </button>
-              </div>
-              {/* NOTE: Transpose buttons removed by request */}
-            </>
-          )}
 
           {viewMode === "both" && isPhonePortrait() && !stageMode && (
             <div style={{ textAlign: "center", fontSize: 12, opacity: 0.65, marginBottom: 8 }}>
