@@ -17,74 +17,67 @@ type Song = {
 const songsData: Song[] = [
   {
     id: 1,
-    title: "1. Cânt lui Dumnezeu glorie",
-    key: "G",
-    youtube: "https://www.youtube.com/watch?v=JKoox3ZWKXk&list=RDJKoox3ZWKXk&start_radio=1",
+    title: "1. Goodness of God",
+    key: "F",
+    youtube: ,
     lyrics: `
-1. Cânt Domnului că mi-a făcut bine,
-Lui Dumnezeu glorie!
-Mi se bucură inima-n mine,
-Lui Dumnezeu glorie!
+Verse 1
+I love You Lord
+Oh Your mercy never fails me
+All my days
+I’ve been held in Your hands
+From the moment that I wake up
+Until I lay my head
+I will sing of the goodness of God
 
-R: 
-Cânt lui Dumnezeu glorie
-Și tot pământul să-I cânte
-Lui Dumnezeu glorie!
-El ne-a adus mântuire,
-De-aceea-i cânt pe vecie
-Lui Dumnezeu glorie.
+Chorus
+All my life You have been faithful
+All my life
+You have been so so good
+With every breath
+That I am able
+I will sing of the goodness of God
 
+Verse 2
+I love Your voice
+You have led me through the fire
+In darkest nights
+You are close like no other
+I’ve known You as a Father
+I’ve known You as a friend
+I have lived in the goodness of God
 
-2.
-Cu natura-ntreagă îi cânt și eu
-Lui Dumnezeu glorie!
-Să-L slăvească munții și apele,
-Lui Dumnezeu glorie!
+Chorus
+All my life You have been faithful
+All my life
+You have been so so good
+With every breath
+That I am able
+I will sing of the goodness of God
 
-3.
-Cu cei ce-L iubesc în veci voi cânta
-Lui Dumnezeu glorie!
-Căci în slava veșnică vom intra,
-Lui Dumnezeu glorie.
+Bridge
+Your goodness is running after
+It’s running after me
+Your goodness is running after
+It’s running after me
+With my life laid down
+I’m surrendered now
+I give You everything
+Your goodness is running after
+It’s running after me
+
+Chorus
+All my life You have been faithful
+All my life
+You have been so so good
+With every breath
+That I am able
+I will sing of the goodness of God
+Tag
+Oh I'm gonna sing
+Of the goodness of God
 `,
-    chords: `
-1.
-         G                C    G
-Cânt Domnului că mi-a făcut bine,
-Em             A  D
-Lui Dumnezeu glorie!
-       G         C     G
-Mi se bucură inima-n mine,
-Em             D  G
-Lui Dumnezeu glorie!
-
-R:
-       G
-Cânt lui Dumnezeu glorie
-    C                   G
-Și tot pământul să-I cânte
-Em            A   D
-Lui Dumnezeu glorie!
-    G              G7
-El ne-a adus mântuire,
-     C              G
-De-aceea-i cânt pe vecie
-Em            D   G
-Lui Dumnezeu glorie.
-
-
-2.
-Cu natura-ntreagă îi cânt și eu
-Lui Dumnezeu glorie!
-Să-L slăvească munții și apele,
-Lui Dumnezeu glorie!
-
-3.
-Cu cei ce-L iubesc în veci voi cânta
-Lui Dumnezeu glorie!
-Căci în slava veșnică vom intra,
-Lui Dumnezeu glorie.
-`,
+    chords: ``,
   },
   {
     id: 2,
