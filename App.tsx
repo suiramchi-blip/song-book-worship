@@ -1,0 +1,2663 @@
+import React, { useEffect, useMemo, useRef, useState } from "react";
+import kingdomKidsLogo from "./Image.png"
+
+type ViewMode = "lyrics" | "both";
+type SectionType = "chorus" | "verse" | "bridge" | "other";
+
+type Song = {
+  id: number;
+  title: string;
+  key: string;
+  lyrics: string;
+  chords: string;
+  youtube?: string;
+};
+
+
+const songsData: Song[] = [
+  {
+    id: 1,
+    title: "1. Cânt lui Dumnezeu glorie",
+    key: "G",
+    youtube: "https://www.youtube.com/watch?v=JKoox3ZWKXk&list=RDJKoox3ZWKXk&start_radio=1",
+    lyrics: `
+1. Cânt Domnului că mi-a făcut bine,
+Lui Dumnezeu glorie!
+Mi se bucură inima-n mine,
+Lui Dumnezeu glorie!
+
+R: 
+Cânt lui Dumnezeu glorie
+Și tot pământul să-I cânte
+Lui Dumnezeu glorie!
+El ne-a adus mântuire,
+De-aceea-i cânt pe vecie
+Lui Dumnezeu glorie.
+
+
+2.
+Cu natura-ntreagă îi cânt și eu
+Lui Dumnezeu glorie!
+Să-L slăvească munții și apele,
+Lui Dumnezeu glorie!
+
+3.
+Cu cei ce-L iubesc în veci voi cânta
+Lui Dumnezeu glorie!
+Căci în slava veșnică vom intra,
+Lui Dumnezeu glorie.
+`,
+    chords: `
+1.
+         G                C    G
+Cânt Domnului că mi-a făcut bine,
+Em             A  D
+Lui Dumnezeu glorie!
+       G         C     G
+Mi se bucură inima-n mine,
+Em             D  G
+Lui Dumnezeu glorie!
+
+R:
+       G
+Cânt lui Dumnezeu glorie
+    C                   G
+Și tot pământul să-I cânte
+Em            A   D
+Lui Dumnezeu glorie!
+    G              G7
+El ne-a adus mântuire,
+     C              G
+De-aceea-i cânt pe vecie
+Em            D   G
+Lui Dumnezeu glorie.
+
+
+2.
+Cu natura-ntreagă îi cânt și eu
+Lui Dumnezeu glorie!
+Să-L slăvească munții și apele,
+Lui Dumnezeu glorie!
+
+3.
+Cu cei ce-L iubesc în veci voi cânta
+Lui Dumnezeu glorie!
+Căci în slava veșnică vom intra,
+Lui Dumnezeu glorie.
+`,
+  },
+  {
+    id: 2,
+    title: "2. Doamne, numele-Ţi înalţ",
+    key: "G",
+    youtube:
+      "https://www.youtube.com/watch?v=WSYW6SyqioA&list=RDWSYW6SyqioA&start_radio=1",
+    lyrics: `
+1.
+Doamne, numele-Ţi înalţ,	
+Doamne laudă-Ţi cânt Ţie,
+Fericit sunt că Te am,
+Fericit de-a Ta iertare.
+
+R:
+/: Tu ai venit pe pământ, să ne salvezi,
+Sus pe cruce ai murit, iertaţi să fim,
+De pe cruce în mormânt,
+Din mormânt sus la cer,
+Să fii înălţat mereu! :/                                 
+`,
+    chords: `
+1.
+G          C          D  C
+  Doamne, numele-Ţi înalţ,	
+G         C             D  C
+  Doamne laudă-Ţi cânt Ţie,
+G      C             D  C
+  Fericit sunt că Te am,
+G      C              D   C
+  Fericit de-a Ta iertare.
+
+R:
+   G          C        D       C      G
+  /: Tu ai venit pe pământ, să ne salvezi,
+         C         D       C       G
+Sus pe cruce ai murit, iertaţi să fim,
+        C          D
+De pe cruce în mormânt,
+       B7           e
+Din mormânt sus la cer,
+        a7   D    G
+Să fii înălţat mereu! :/                                 
+`,
+  },
+  {
+    id: 3,
+    title: "3. Tu ești vrednic",
+    key: "A",
+    youtube: "",
+    lyrics: `
+R:   
+Tu ești vrednic, Tu ești vrednic
+Slavă, cinste să-Ți dăm!
+Tu ești vrednic de-nchinare
+Și să Te adorăm!
+
+1.
+Căci Tu ai creat Universul și omul,  
+Viața din Tine primim;
+Tu ești vrednic să-Ți dăm slavă
+Și să-Ți mulțumim!
+
+2. 
+Căci Tu ai murit la Golgota pe cruce,
+Sfântă iertare ne-ai dat;
+Tu ești vrednic să-Ți dăm slavă,
+Să fi adorat   
+`,
+    chords: `
+R:   
+ A                D
+Tu ești vrednic, Tu ești vrednic
+A      F#m            E
+Slavă, cinste să-Ți dăm!
+A                D
+Tu ești vrednic de-nchinare
+A        E   A
+Și să Te adorăm!
+
+1.
+     E               A
+Căci Tu ai creat Universul și omul,
+E                  A      
+Viața din Tine primim;
+A        A7      D          B7/D#
+Tu ești vrednic să-Ți dăm slavă
+A         E    A
+Și să-Ți mulțumim!
+
+2. 
+Căci Tu ai murit la Golgota pe cruce,
+Sfântă iertare ne-ai dat;
+Tu ești vrednic să-Ți dăm slavă,  Să fi adorat   
+`,
+  },
+  {
+    id: 4,
+    title: "4. Când eram doar un plod",
+    key: "C",
+    youtube: "https://youtu.be/C1fBEod-8jA?si=I3_e3s7jbUSTL0jE",
+    lyrics: `
+1.  
+/: Când eram doar un plod fără chip
+Ochii Tăi mă vedeau
+În Cartea Ta de mult erau scrise
+Zilele ce m-așteptau. : /
+
+R:
+Tu-mi știi viitorul și ești lângă mine
+De ce să mă îngrijorez?     
+Mi-ai promis că vei sta lângă mine,
+Nicicând n-ai să mă părăsești.
+
+2. 
+/: De voi încerca să m-ascund de Tine
+Nu voi reuși
+Oriunde m-aș duce, chiar la marginea mării
+Mâna Ta mă va călăuzi. : /
+
+3.
+/: Tu mă cunoști întru totul Doamne
+Când stau jos sau mă ridic
+Îmi cunoști toate căile mele	
+Nu pot ascunde nimic. : /
+`,
+    chords: `
+1.  
+    C                  F 
+/: Când eram doar un plod fără chip
+G                C
+Ochii Tăi mă vedeau
+    C            F 
+În Cartea Ta de mult erau scrise
+    G            C
+Zilele ce m-așteptau. : /
+
+R:
+        C               F   
+Tu-mi știi viitorul și ești lângă mine
+   G                C
+De ce să mă îngrijorez?
+C                     F          
+Mi-ai promis că vei sta lângă mine,
+     G                   C
+Nicicând n-ai să mă părăsești.
+
+2. 
+/: De voi încerca să m-ascund de Tine
+Nu voi reuși
+Oriunde m-aș duce, chiar la marginea mării
+Mâna Ta mă va călăuzi. : /
+
+3.
+/: Tu mă cunoști întru totul Doamne
+Când stau jos sau mă ridic
+Îmi cunoști toate căile mele	
+Nu pot ascunde nimic. : /
+`,
+  },
+  {
+    id: 5,
+    title: "5. Ce bucurie am în Isus",
+    key: "C",
+    youtube: "https://youtu.be/MENlE86ora4?si=mQeW3YrZv6-PjUff",
+    lyrics: `
+1.
+Ce bucurie am în Isus!
+O viață nouă El mi-a adus.
+Pentru vecie m-a mântuit
+Și moștenire mi-a dăruit.
+
+R:
+În veci cânta-voi că-s fericit:
+Isus pe cruce m-a mântuit!
+În veci aceasta eu voi cânta:
+„Te-ador, Isuse, ești viața mea!”
+
+2.
+Cu bucurie inima mea
+Una cu Domnul să fie-ar vrea.
+El pace sfântă îmi dă din plin,
+Înviorat sunt prin har divin.
+
+3.
+Ce fericit sunt și liniștit,
+Când e cu mine sunt ocrotit.
+Eu știu prea bine și spun mereu:
+„Domnul e viața și e al meu!”
+`,
+    chords: `
+1.
+        C   F      C
+Ce bucurie am în Isus!
+        Am   D        Gsus G
+O viață nouă El mi-a adus.
+          C   F       C
+Pentru vecie m-a mântuit
+Am       Dm     G      C
+Și moștenire mi-a dăruit.
+
+R:
+           C        F      C
+În veci cânta-voi că-s fericit:
+        Am    D       Gsus G
+Isus pe cruce m-a mântuit!
+          C     F          C
+În veci aceasta eu voi cânta:
+  Am       Dm     G          C
+„Te-ador, Isuse, ești viața mea!”
+
+2.
+Cu bucurie inima mea
+Una cu Domnul să fie-ar vrea.
+El pace sfântă îmi dă din plin,
+Înviorat sunt prin har divin.
+
+3.
+Ce fericit sunt și liniștit,
+Când e cu mine sunt ocrotit.
+Eu știu prea bine și spun mereu:
+„Domnul e viața și e al meu!”
+`,
+  },
+  {
+    id: 6,
+    title: "6. Domnul îmi este adăpost",
+    key: "D",
+    youtube: "https://youtu.be/8yQsTWsXHEw?si=XiGPyaIT-OmI2xKU",
+    lyrics: `
+1.   
+Domnul îmi este adăpost,
+Cetate tare-n vreme rea!
+Deşi e valul furios,
+Îmi e scutită inima.
+                  
+R: 
+Da, eu mă-ncred în Domnul
+Cetatea mea, cetatea mea, Cetatea mea...
+O, Isuse eu Ţie mă-ncredinţez,
+Cetate tare-n vreme rea.
+
+
+2.
+Scut de arşiţa soarelui,
+Cetate tare-n vreme rea!
+E ca lumina farului,
+Ce străluceşte-n noaptea grea.
+
+
+3.
+Cu-al Tău cuvânt marea alini,
+Cetate tare-n vreme rea!
+Sufletu-mi l-acest scut să vii
+Şi nici un rău nu s-a-ntâmpla.
+
+
+4.
+Tu eşti a mea mântuire,
+Cetate tare-n vreme rea!
+Tu-mi dai credinţă, iertare,
+M-aşteaptă-n cer fericirea.
+`,
+    chords: `
+1.
+    D
+Domnul îmi este adăpost,
+                     A
+Cetate tare-n vreme rea!
+  D             Bm
+Deşi e valul furios,
+                 D
+Îmi e scutită inima.
+
+R:
+    G                   
+Da, eu mă-ncred în Domnul
+   D            A            D     D7
+Cetatea mea, cetatea mea, Cetatea mea...
+   G                 D     Bm
+O, Isuse eu Ţie mă-ncredinţez,
+   D            A    D
+Cetate tare-n vreme rea.
+
+
+2.
+Scut de arşiţa soarelui,
+Cetate tare-n vreme rea!
+E ca lumina farului,
+Ce străluceşte-n noaptea grea.
+
+
+3.
+Cu-al Tău cuvânt marea alini,
+Cetate tare-n vreme rea!
+Sufletu-mi l-acest scut să vii
+Şi nici un rău nu s-a-ntâmpla.
+
+
+4.
+Tu eşti a mea mântuire,
+Cetate tare-n vreme rea!
+Tu-mi dai credinţă, iertare,
+M-aşteaptă-n cer fericirea.
+`,
+  },
+  {
+    id: 7,
+    title: "7. Ridică-te, oștirea lui Cristos",
+    key: "D",
+    youtube: "https://www.youtube.com/watch?v=4QQ0-0g6v6Y",
+    lyrics: `
+1.
+Ridică-te, oștirea lui Cristos, 
+La chemarea Lui răspunde!
+Chiar cei mai slabi să spună „Tari suntem”
+Întăriți de-a Lui putere”.
+Iar prin credință și-adevăr, Minciuna celui rău surpând,
+Vom căuta, de dragoste mânați, 
+Din foc pe mulți să-i scoatem.
+
+2.
+De dragul sufletelor prinse-n laț,
+Noi luptăm cu-amăgitorul,
+Iar sabia ce vindecă răniți,
+Mânuim cu vrednici—e.
+Chiar în vâltoarea luptei prinși,
+Rămânem ferm încredințați:
+Cristos va lua, răsplata jertfei Lui, Neamurile moștenire.
+
+3.
+Vino și vezi iubirea, mila Lui,   
+Când Cristos e frânt pe cruce.
+Apoi dușmanii Lui ce zac zdrobiți
+Călcând din moarte EL învi—e.
+El se ivește din mormânt
+Și-ncepe-al biruinței cânt
+Ce curge-adânc și crește neoprit Până-n ziua veșnici—ei.  
+
+4.
+O, Sfinte Duh, dă har să biruim  
+Orice piedică pe cale.
+Și cu credință, alergând spre țel,
+Să primim cununa slavei.
+În timp ce-un nor de martori vii
+Vestesc a harului isprăvi,
+Tânjim și noi s-ajungem ziua când  Cu Isus vom sta în slavă.
+`,
+    chords: `
+1.
+  G/A  D           G/B    A/C#
+Ridică-te, oștirea lui Cristos, 
+      D/F#   G      A  D
+La chemarea Lui răspunde!
+      G/A       D             G/B   A/C#
+Chiar cei mai slabi să spună „Tari suntem”
+    D/F#       G    A  D
+Întăriți de-a Lui putere”.
+     D/F#    G    D/F#   A       D/F#  G     D      A
+Iar prin credință și-adevăr, Minciuna celui rău surpând,
+    G/A D          G/B    A/C#
+Vom căuta, de dragoste mânați, 
+    D/F#   G            A  D
+Din foc pe mulți să-i scoatem.
+
+2.
+De dragul sufletelor prinse-n laț,
+Noi luptăm cu-amăgitorul,
+Iar sabia ce vindecă răniți,
+Mânuim cu vrednici—e.
+Chiar în vâltoarea luptei prinși,
+Rămânem ferm încredințați:
+Cristos va lua, răsplata jertfei Lui, Neamurile moștenire.
+
+3.
+Vino și vezi iubirea, mila Lui,   
+Când Cristos e frânt pe cruce.
+Apoi dușmanii Lui ce zac zdrobiți
+Călcând din moarte EL învi—e.
+El se ivește din mormânt
+Și-ncepe-al biruinței cânt
+Ce curge-adânc și crește neoprit Până-n ziua veșnici—ei.  
+
+4.
+O, Sfinte Duh, dă har să biruim  
+Orice piedică pe cale.
+Și cu credință, alergând spre țel,
+Să primim cununa slavei.
+În timp ce-un nor de martori vii
+Vestesc a harului isprăvi,
+Tânjim și noi s-ajungem ziua când  Cu Isus vom sta în slavă.    
+`,
+  },
+ {
+    id: 8,
+    title: "8. Valoarea mea nu stă-n averi",
+    key: "C",
+    youtube: "https://youtu.be/IrnfxwkKu_E?si=sCenh4Tz8lNtBBHt",
+    lyrics: `
+1.
+Valoarea mea nu stă-n averi,
+Sau ale trupului puteri,
+Ci-n ale dragostei dureri, la Calvar.
+
+2.
+Valoare n-am că-s înzestrat,
+Nici că-s înfrânt sau înălţat,
+Ci-n sângele cel sfânt, vărsat, la Calvar.
+
+R:
+Doar Cristos mi-e bucurie,
+Apă vie, și comoara mea!
+Mă încred în El, nu-n altul,
+Căci numai El îmi umple inima!
+
+3.
+Precum pier florile din câmp,
+Se duc și ani, și faimă-n vânt,
+Dar veșnicia stă chemând, la Calvar.
+
+4.
+Cum să mă laud cu averi,
+Cu cele omenești ce pier?
+Mă laud că-L cunosc pe El, la Calvar.
+
+REFREN  
+
+5.
+Două minuni declar voios:
+Nevrednic sunt, dar valoros,
+Iar prețu-mi l-a plătit Cristos, la Calvar!
+`,
+    chords: `
+1.
+   C            F       C
+Valoarea mea nu stă-n averi,
+     C        F     C
+Sau ale trupului puteri,
+      C        G/B   Am    F      C
+Ci-n ale dragostei dureri, la Calvar.
+
+2.
+Valoare n-am că-s înzestrat,
+Nici că-s înfrânt sau înălţat,
+Ci-n sângele cel sfânt, vărsat, la Calvar.
+
+R:
+ F                 G   Am
+Doar Cristos mi-e bucurie,
+     F         C     G
+Apă vie, și comoara mea!
+F            G         Am
+Mă încred în El, nu-n altul,
+          C/E     F     G  C
+Căci numai El îmi umple inima!
+
+3.
+Precum pier florile din câmp,
+Se duc și ani, și faimă-n vânt,
+Dar veșnicia stă chemând, la Calvar.
+
+4.
+Cum să mă laud cu averi,
+Cu cele omenești ce pier?
+Mă laud că-L cunosc pe El, la Calvar.
+
+REFREN  
+
+5.
+Două minuni declar voios:
+Nevrednic sunt, dar valoros,
+Iar prețu-mi l-a plătit Cristos, la Calvar! 
+`,
+  },
+  {
+  id: 9,
+  title: "9. Dumnezeu este adăpostul",
+  key: "G",
+  youtube: "https://youtu.be/R4ozztUP1sg?si=x7Uiwu29Zxy3zprC",
+  lyrics: `
+1.
+Dumnezeu este adăpostul,   
+Și sprijinul nostru,
+Un ajutor care nu lipseşte,
+Niciodata în nevoi. 
+
+R:
+De aceea, nu ne temem,
+Chiar de s-ar clătina pământul.
+Și s-ar zgudui munții
+În inima mărilor.
+
+Ps 46
+`,
+  chords: `
+1.
+      G             Am7
+Dumnezeu este adăpostul,   
+     D        G
+Și sprijinul nostru,
+       G              Am7
+Un ajutor care nu lipseşte,
+D               G
+Niciodata în nevoi. 
+
+R:
+     C           G
+De aceea, nu ne temem,
+       D                 G
+Chiar de s-ar clătina pământul.
+    C       G
+Și s-ar zgudui munții
+   D          G
+În inima mărilor.
+
+Ps 46
+`,
+},
+  {
+  id: 10,
+  title: "10. Oare nu ți-am poruncit",
+  key: "Dm",
+  youtube: "https://www.youtube.com/watch?v=SEzRyLV9YYE",
+  lyrics: `
+/: Oare nu ți-am poruncit curaj, întăreștete :/
+Nu te înspăimânta și nu te-ngrozi
+Căci Domnul Dumnezeu 
+E cu tine, oriunde, oriunde, 
+Oriunde vei merge    
+Iosua, Iosua unu cu nouă.
+`,
+  chords: `
+    Dm                      A        Dm
+/: Oare nu ți-am poruncit curaj, întăreștete :/
+Gm                       Dm
+Nu te înspăimânta și nu te-ngrozi
+            Gm
+Căci Domnul Dumnezeu 
+      Dm     Gm       Dm
+E cu tine, oriunde, oriunde, 
+   A          Dm
+Oriunde vei merge    
+Dm     Gm    Dm     A  Dm
+Iosua, Iosua unu cu nouă.
+`,
+},
+ {
+  id: 11,
+  title: "11. M-a aflat pe căi străine",
+  key: "C",
+  youtube: "https://youtu.be/aFsixV56K3o?si=2xvGz1XAe5f3_MfV ",
+  lyrics: `
+1.
+M-a aflat pe căi străine
+Bunul meu Păstor, Isus.
+Din adânc și întuneric,
+La lumină m-a adus.
+
+R:
+Aleluia! Aleluia!
+Voi cânta neîncetat
+Prin Isus am mântuire,
+Fie veșnic lăudat!
+
+2
+M-a luat cu drag pe brațe,
+De păcat m-a vindecat,
+Hrană din Cuvântul vieții
+Și putere El mi-a dat!
+
+3
+M-a spălat Mântuitorul,  
+Haină albă am primit,
+M-a sfințit prin al Său sânge,
+O, cât sunt de fericit!
+`,
+  chords: `
+1.
+       C      Am     G
+M-a aflat pe căi străine
+       F     G      C
+Bunul meu Păstor, Isus.
+G     C      Am   G
+Din adânc și întuneric,
+      F    G    C
+La lumină m-a adus.
+
+R:
+    Am   G   F C
+Aleluia! Aleluia!
+       Am    G   F
+Voi cânta neîncetat
+       C     Am   G
+Prin Isus am mântuire,
+     F      G  C
+Fie veșnic lăudat!
+
+2
+M-a luat cu drag pe brațe,
+De păcat m-a vindecat,
+Hrană din Cuvântul vieții
+Și putere El mi-a dat!
+
+3
+M-a spălat Mântuitorul,  
+Haină albă am primit,
+M-a sfințit prin al Său sânge,
+O, cât sunt de fericit!
+`,
+},
+{
+  id: 12,
+  title: "12. Doamne, bunătatea Ta",
+  key: "D",
+  youtube: "https://www.youtube.com/watch?v=UPL5iFPw2pQ",
+  lyrics: `
+1.
+Doamne, bunătatea Ta, Îmi cuprinde inima
+Și mă face fericit, Domnul meu iubit.
+De cu zori până-n apus Numai harul Tău, Isus,
+Îmi inundă inima și viaţa mea.
+
+R:
+N-ai în lume-asemănare, 
+Nu e nimenea sub soare,
+Nici în cer, nici pe pământ
+Cât eşti Tu de sfânt!
+Dragostea-Ți mă copleşeşte,
+Pacea Ta mă linişteşte,
+Harul Tău îmi dă avânt, 
+Tot mai mult să-Ți cânt.
+
+2.
+Norii negrii când apar Tu îmi ești un veşnic far,
+Drumul mi-l călăuzeşti Și mă ocroteşti.
+Și prin arșiță Îți cânt Numai Ție, Doamne sfânt,
+Că-n izvorul Tău ceresc Sufletu-mi sfințesc.
+
+3.
+Doamne, pune-n gura mea.  
+Totdeauna lauda Ta,
+Numai Ție să Îți cânt
+Pe acest pământ.
+Iar când zorii vor veni,
+Numele Tău voi slăvi,
+Asta-i fericirea mea: Să cânt slava Ta!
+`,
+  chords: `
+1.
+ D          Em7        A            D
+Doamne, bunătatea Ta, Îmi cuprinde inima
+D          Em7       G      A     D
+Și mă face fericit, Domnul meu iubit.
+D             Em7       A           D
+De cu zori până-n apus Numai harul Tău, Isus,
+D          Em7   A         D
+Îmi inundă inima și viaţa mea.
+
+R:
+ G
+N-ai în lume-asemănare, 
+D
+Nu e nimenea sub soare,
+A
+Nici în cer, nici pe pământ
+D                D7
+Cât eşti Tu de sfânt!
+G
+Dragostea-Ți mă copleşeşte,
+D
+Pacea Ta mă linişteşte,
+A
+Harul Tău îmi dă avânt, 
+G        A          D
+Tot mai mult să-Ți cânt.
+
+2.
+Norii negrii când apar Tu îmi ești un veşnic far,
+Drumul mi-l călăuzeşti Și mă ocroteşti.
+Și prin arșiță Îți cânt Numai Ție, Doamne sfânt,
+Că-n izvorul Tău ceresc Sufletu-mi sfințesc.
+
+3.
+Doamne, pune-n gura mea.  
+Totdeauna lauda Ta,
+Numai Ție să Îți cânt
+Pe acest pământ.
+Iar când zorii vor veni,
+Numele Tău voi slăvi,
+Asta-i fericirea mea: Să cânt slava Ta!
+`,
+},
+{
+  id: 13,
+  title: "13. Aş vrea, Isuse scump",
+  key: "D",
+  youtube: "https://youtu.be/kV8kytlH7NY?si=mkyYFQYJdIyf4PhX",
+  lyrics: `1.
+Aş vrea, Isuse scump, să fiu ca Tine
+În pribegia mea pe-acest pământ;
+De-atâtea ori când grea ispită vine,
+S-o biruiesc prin sfântul Tău Cuvânt.
+
+R: 
+Aş vrea, Isuse scump, a Ta comoară
+De mângâieri, pe veci să-mi dăruieşti;
+Aş vrea în mine tot ce-i vechi să moară,
+Iar Tu să faci din mine ce doreşti.
+
+2.
+Şi-aş vrea, Isuse scump, a Ta viaţă
+Să se-oglindească pururi în a mea,
+Şi să dispară vălul greu de ceaţă
+Ce-mpiedică să-Ți văd mărirea Ta.
+
+3.
+Şi câte n-aş mai vrea, o, scump Isuse,
+În pribegia mea pe-acest pământ!
+Dorinţele ce îmi rămân nespuse
+Să le-mplineşti prin sfântul Tău Cuvânt! 
+
+`,
+  chords: `
+1.
+           D     G               D Bm
+Aş vrea, Isuse scump, să fiu ca Tine
+         A                  D
+În pribegia mea pe-acest pământ;
+           D         G          D Bm
+De-atâtea ori când grea ispită vine,
+         A                        D  D7
+S-o biruiesc prin sfântul Tău Cuvânt.
+
+R: 
+           G                   D
+Aş vrea, Isuse scump, a Ta comoară
+         G        Em             A
+De mângâieri, pe veci să-mi dăruieşti;
+             D   G                 D Bm
+Aş vrea în mine tot ce-i vechi să moară,
+           A                   D
+Iar Tu să faci din mine ce doreşti.
+
+2.
+Şi-aş vrea, Isuse scump, a Ta viaţă
+Să se-oglindească pururi în a mea,
+Şi să dispară vălul greu de ceaţă
+Ce-mpiedică să-Ți văd mărirea Ta.
+
+3.
+Şi câte n-aş mai vrea, o, scump Isuse,
+În pribegia mea pe-acest pământ!
+Dorinţele ce îmi rămân nespuse
+Să le-mplineşti prin sfântul Tău Cuvânt! 
+`,
+},
+{
+  id: 14,
+  title: "14. Sprijin mi-e Cristos",
+  key: "G",
+  youtube: "https://youtu.be/cL0L8DuG4z8?si=o8DTpO1DjApThZDU",
+  lyrics: `1.
+Când credința-mi s-ar clinti, sprijin mi-e Cristos,
+Când cel rău ar izbuti, sprijin mi-e Cristos.
+Cum să pot înainta când e-ntunecos?
+Când mi-e rece dragostea, sprijin mi-e Cristos.
+
+R:
+Sprijin mi-e Cristos, sprijin mi-e Cristos,
+Sunt iubit în chip nespus, sprijin mi-e Isus.
+
+2.
+Domnul se desfată-n sfinți, sprijin mi-e Cristos,
+Înaintea lui sunt scumpi, sprijin mi-e Cristos.
+Sufletu-mi va fi păzit, va-mplini ce-a spus,
+Cu preț mare m-a plătit, sprijin mi-e Cristos.
+
+3.
+Pentru mine a murit, sprijin mi-e Cristos,
+El dreptatea a-mplinit, sprijin mi-e Cristos,
+El e învierea mea, sprijin mi-e Cristos,
+Ce-am crezut voi și vedea la venirea Sa!  
+`,
+  chords: `
+1.
+  G               G/B     C            D        G
+Când credința-mi s-ar clinti, sprijin mi-e Cristos,
+  G             G/B  C            D       G
+Când cel rău ar izbuti, sprijin mi-e Cristos.
+ Em    D/F#  G   C          B   Em
+Cum să pot înainta când e-ntunecos?
+  Em      D/F#  G     C             D       G
+Când mi-e rece dragostea, sprijin mi-e Cristos.
+
+R:
+  C       D      Em           D/F#      G
+Sprijin mi-e Cristos, sprijin mi-e Cristos,
+ G                     C             D    G
+Sunt iubit în chip nespus, sprijin mi-e Isus.
+
+2.
+Domnul se desfată-n sfinți, sprijin mi-e Cristos,
+Înaintea lui sunt scumpi, sprijin mi-e Cristos.
+Sufletu-mi va fi păzit, va-mplini ce-a spus,
+Cu preț mare m-a plătit, sprijin mi-e Cristos.
+
+3.
+Pentru mine a murit, sprijin mi-e Cristos,
+El dreptatea a-mplinit, sprijin mi-e Cristos,
+El e învierea mea, sprijin mi-e Cristos,
+Ce-am crezut voi și vedea la venirea Sa!  
+`,
+},
+{
+  id: 15,
+  title: "15. Cine-a dat oceanelor hotar?",
+  key: "A",
+  youtube: "https://youtu.be/0R7NacfLQNs?si=SmMHtuUo8AHWqLHV",
+  lyrics: `1.
+Cine-a dat oceanelor hotar?
+Cine-a pus nisipul pe cântar?
+Regi și țări se tem de-al Său Cuvânt,
+Iar natura se ridică-n cânt !
+
+R:
+E-al nostru Domn, stă pe tron în cer,
+Să ne închinăm Lui!
+E-al nostru Domn, nimeni nu-i ca El,
+Să ne închinăm Lui!
+
+2.
+Cine poate sfaturi Lui a-I da?
+Cine Legea Sa o va nega?
+Ce să-nveți pe Cel ce-i infinit?
+Poți sonda minuni de negrăit?
+
+3.
+Cine-n mâini piroane a-ndurat,  
+Vina omului când a purtat?
+Domn etern, prin moarte umilit,
+Viu e-acum, pe tron stă proslăvit!
+
+Bridge (Opțional)
+Tu domnești de-a pururi!
+Tu domnești de-a pururi!
+Tu domnești de-a pururi! 
+Tu domnești de-a pururi! 
+`,
+  chords: `
+1.
+  A          Cm#
+Cine-a dat oceanelor hotar?
+ A           Cm#
+Cine-a pus nisipul pe cântar?
+ D               E
+Regi și țări se tem de-al Său Cuvânt,
+Fm#        Cm#           E
+Iar natura se ridică-n cânt !
+
+R:
+      A  E  Fm#                   D
+E-al nostru Domn, stă pe tron în cer,
+            A   E
+Să ne închinăm Lui!
+      A  E  Fm#                  D
+E-al nostru Domn, nimeni nu-i ca El,
+            A   E
+Să ne închinăm Lui!
+
+2.
+Cine poate sfaturi Lui a-I da?
+Cine Legea Sa o va nega?
+Ce să-nveți pe Cel ce-i infinit?
+Poți sonda minuni de negrăit?
+
+3.
+Cine-n mâini piroane a-ndurat,  
+Vina omului când a purtat?
+Domn etern, prin moarte umilit,
+Viu e-acum, pe tron stă proslăvit!
+
+Bridge (Opțional)
+ A                D
+Tu domnești de-a pururi!
+ A                D
+Tu domnești de-a pururi!
+Fm#               D
+Tu domnești de-a pururi! 
+Fm#               D
+Tu domnești de-a pururi! 
+`,
+},
+{
+  id: 16,
+  title: "16. Cristos, ancora cea tare",
+  key: "C",
+  youtube: "https://youtu.be/kllNj-cLOW8?si=6ty5hPTUaDpFvKmG",
+  lyrics: `1.
+Cristos, ancora cea tare, cu furtuna când mă lupt,
+Când bat vânturi de-ndoială si când pânzele-mi se rup.
+Prin dureri și-n suferință, când speranță nu mai am,
+Neclintit rămâne Domnul, Cel în care-s ancorat.
+
+2.
+Hristos, ancora cea tare, când furtuna bate greu,
+Când ispita mă învinge și e noapte-n jurul meu.
+Mai adânc mă-ncred în Domnul, deși drept sunt acuzat.
+Neclintit rămâne Domnul, Cel în care-s ancorat!
+
+3.
+Hristos, ancora cea tare, necredința când m-a-nvins.
+Disperat ești al meu suflet, dar privește la Isus.
+La calvar ai siguranță, dragostea Și-a demonstrat.
+Neclintit rămâne Domnul, Cel în care-s ancorat!
+
+C: 
+Hristos Stânca mântuirii, credincios și-adevărat.
+Neclintit rămâne veșnic, în El suntem ancorați. 
+`,
+  chords: `
+1.
+          C                      F             C
+Cristos, ancora cea tare, cu furtuna când mă lupt,
+          C            Am            G             G7
+Când bat vânturi de-ndoială si când pânzele-mi se rup.
+        F             C              F     G     Am
+Prin dureri și-n suferință, când speranță nu mai am,
+       C         Am             F      G    C C Am F
+Neclintit rămâne Domnul, Cel în care-s ancorat.
+
+2.
+Hristos, ancora cea tare, când furtuna bate greu,
+Când ispita mă învinge și e noapte-n jurul meu.
+Mai adânc mă-ncred în Domnul, deși drept sunt acuzat.
+Neclintit rămâne Domnul, Cel în care-s ancorat!
+
+3.
+Hristos, ancora cea tare, necredința când m-a-nvins.
+Disperat ești al meu suflet, dar privește la Isus.
+La calvar ai siguranță, dragostea Și-a demonstrat.
+Neclintit rămâne Domnul, Cel în care-s ancorat!
+
+C: 
+Hristos Stânca mântuirii, credincios și-adevărat.
+Neclintit rămâne veșnic, în El suntem ancorați. 
+`,
+},
+{
+  id: 17,
+  title: "17. Stânca tare e Hristos",
+  key: "C",
+  youtube: "https://youtu.be/cFMXmhOkp8M?si=PA5obpdjzp6uOW2Y",
+  lyrics: `1.
+Dacă suntem însetați, să venim la El.
+Doar Isus ne poate da, apa vieții-n dar
+Toți acei ce suntem slabi, să venim la El
+Doar Isus ne va-ntări, ne va da puteri.
+
+R:
+Domnul nostru-i bun și credincios.
+Zi și noapte e cu noi.
+Stânca noastră tare e Hristos,
+Nu ne vom clinti!
+
+2.
+Dacă temeri s-or ivi, să venim la El,
+Adăpost noi vom găsi, când ne va fi greu.
+
+3.
+Cei ce sunteți azi pierduți, să veniți la El,
+Veți primi Salvare-n dar, doar prin jertfa Lui. 
+
+`,
+  chords: `
+1.
+ C   C/E    F    C    Am   G      C
+Dacă suntem însetați, să venim la El.
+ C    C/E     F     C  Am   G       C
+Doar Isus ne poate da, apa vieții-n dar
+ C    C/E     F       C    Am    G     C
+Toți acei ce suntem slabi, să venim la El
+ C    C/E     F    C   Am    G     C
+Doar Isus ne va-ntări, ne va da puteri.
+
+R:
+C       F        C       G     C
+Domnul nostru-i bun și credincios.
+       F     C     G
+Zi și noapte e cu noi.
+        F       C   G     Am
+Stânca noastră tare e Hristos,
+ F     G      C 
+Nu ne vom clinti!
+
+2.
+Dacă temeri s-or ivi, să venim la El,
+Adăpost noi vom găsi, când ne va fi greu.
+
+3.
+Cei ce sunteți azi pierduți, să veniți la El,
+Veți primi Salvare-n dar, doar prin jertfa Lui. 
+`,
+},
+{
+  id: 18 ,
+  title: "18. În fața tronului de sus",
+  key: "D",
+  youtube: "https://youtu.be/wm8k1WN7jkk?si=oUNWaOIBEO9_hxeb",
+  lyrics: `1.
+În fața tronului de sus
+Eu am un bun apărător,
+Un mare Preot, pe Isus
+La care aflu ajutor.
+
+R:
+Săpat eu sunt în palma Sa
+Și pe-a Lui inimă sunt scris
+Iar cât in ceruri El va sta,
+Pârâșul meu va fi învins,
+//: Pârâșul meu va fi învins ://
+
+2.
+Satan când mă va acuza
+Spunându-mi că sunt vinovat,
+Privesc la Domnul, Stânca mea
+Ce-a șters pe cruce-al meu păcat.
+Fiindcă Domnul a murit,
+Eu am ajuns neprihănit;
+Dreptatea s-a îndeplinit,
+/: Prin moartea Lui sunt mântuit, :/ X2
+
+3.
+Și iată Mielul înălțat,  
+Cel nepătat, neprihănit,
+Cuvântul viu și întrupat
+E Rege-al regilor slăvit.
+/: Unit cu El nu voi muri,
+Cu sânge m-a răscumpărat;
+Voi fi cu El în veșnicii,
+Cu Domnul meu glorificat! :/ x2
+
+Cu Domnul meu glorificat!
+`,
+  chords: `
+1.
+          D   G      D
+În fața tronului de sus
+          D       F#m
+Eu am un bun apărător,
+          G    A    Bm
+Un mare Preot, pe Isus
+        G    A   D
+La care aflu ajutor.
+
+R:
+  D/F#    G             A
+Săpat eu sunt în palma Sa
+    D/F#    G   A         Bm
+Și pe-a Lui inimă sunt scris
+    D/F#          A      Bm
+Iar cât in ceruri El va sta,
+  D/F#   G        A  Bm
+Pârâșul meu va fi învins,
+      D/F#   G        A    D
+//: Pârâșul meu va fi învins ://
+
+2.
+Satan când mă va acuza
+Spunându-mi că sunt vinovat,
+Privesc la Domnul, Stânca mea
+Ce-a șters pe cruce-al meu păcat.
+Fiindcă Domnul a murit,
+Eu am ajuns neprihănit;
+Dreptatea s-a îndeplinit,
+/: Prin moartea Lui sunt mântuit, :/ X2
+
+3.
+Și iată Mielul înălțat,  
+Cel nepătat, neprihănit,
+Cuvântul viu și întrupat
+E Rege-al regilor slăvit.
+/: Unit cu El nu voi muri,
+Cu sânge m-a răscumpărat;
+Voi fi cu El în veșnicii,
+Cu Domnul meu glorificat! :/ x2
+
+Cu Domnul meu glorificat!
+`,
+},
+{
+  id: 19,
+  title: "19. Vine-o zi",
+  key: "A",
+  youtube: "https://youtu.be/DPd49tI0n9s?si=OGxlTJQzXITJlQhi",
+  lyrics: `1.
+Într-o zi va fi totul nou, Isus. 
+Rănile ce dor vei lega
+Toate trec doar Tu-n veci rămâi, 
+Domnul meu.
+
+2.
+Totul voi pricepe-ntr-o zi, Isus. 
+Orice îndoieli vor muri;
+Toată teama o voi lăsa 
+în urma mea...
+
+R: 
+Când în cer vom ajunge
+O, ce zi glorioasă-atunci va fi
+Când vom fi cu Isus
+Fața Lui o vom privi.
+
+3.
+Într-o zi Îl vom întâlni pe Isus  
+Copleșiți de-al Sau mare har
+Și într-o clipă vom fi schimbați/x3
+O, ce zi!
+
+4.
+Vine o zi când liberi vom fi, Isus
+Când lupta noastră se va sfârși
+Gloria Ta atunci vom vedea.
+O, ce zi!
+
+`,
+  chords: `
+1.
+A            Bm      F#m
+Într-o zi va fi totul nou, Isus. 
+Bm         A        E
+Rănile ce dor vei lega
+D                E         F#m
+Toate trec doar Tu-n veci rămâi, 
+Bm  A   E
+Domnul meu.
+
+2.
+Totul voi pricepe-ntr-o zi, Isus. 
+Orice îndoieli vor muri;
+Toată teama o voi lăsa 
+în urma mea...
+
+R: 
+        A A4      A
+Când în cer vom ajunge
+      F#m     D              E
+O, ce zi glorioasă-atunci va fi
+        A/C#    D
+Când vom fi cu Isus
+A/E   E          A
+Fața Lui o vom privi.
+
+3.
+Într-o zi Îl vom întâlni pe Isus  
+Copleșiți de-al Sau mare har
+Și într-o clipă vom fi schimbați/x3
+O, ce zi!
+
+4.
+Vine o zi când liberi vom fi, Isus
+Când lupta noastră se va sfârși
+Gloria Ta atunci vom vedea.
+O, ce zi!
+`,
+},
+{
+  id: 20,
+  title: "20. Sunt un pribeag",
+  key: "Bm",
+  youtube: "https://youtu.be/Ki-9V3QNGhE?si=LIzo5dQA70W4_rbG",
+  lyrics: `1.
+Sunt un pribeag fără de ţară,
+Rătăcitor prin lung pustiu.
+Dar am în ceruri o comoară
+Şi ţara mea e-n veşnicii.
+
+R:  
+Mă-ndrept spre cer să-L văd pe Domnul
+Să nu mai fiu un pelegrin!
+Căci după ce-am  să trec Iordanul
+Se va sfârşi al meu suspin!
+
+2.
+Tu vezi ce grea mi-e ‘naintarea
+Mă lupt să biruiesc mereu
+Un dor nestins mă cheamă acasă
+E dorul după Dumnezeu.
+
+3.
+Voi lepăda a mea povară
+Eliberat sub crucea grea
+Nădejdea mea nu o să moară
+Eu voi intra-n odihna Sa!
+
+`,
+  chords: `
+1.
+            Bm
+Sunt un pribeag fără de ţară,
+      Em        F#      Bm
+Rătăcitor prin lung pustiu.
+            Bm
+Dar am în ceruri o comoară
+         Em      F#   Bm
+Şi ţara mea e-n veşnicii.
+
+R:  
+                G        A         D
+Mă-ndrept spre cer să-L văd pe Domnul
+           G      A    D F#7
+Să nu mai fiu un pelegrin!
+            F#               Bm
+Căci după ce-am  să trec Iordanul
+          Em    F#     Bm
+Se va sfârşi al meu suspin!
+
+2.
+Tu vezi ce grea mi-e ‘naintarea
+Mă lupt să biruiesc mereu
+Un dor nestins mă cheamă acasă
+E dorul după Dumnezeu.
+
+3.
+Voi lepăda a mea povară
+Eliberat sub crucea grea
+Nădejdea mea nu o să moară
+Eu voi intra-n odihna Sa!
+`,
+},
+{
+  id: 21,
+  title: "21. Amazing grace",
+  key: "F",
+  youtube: "https://youtu.be/Tvt6E9N7AQw?si=H6m4kXWUBkUJZ7g4",
+  lyrics: `1.
+Amazing grace how sweet the sound
+That saved a wretch like me
+I once was lost, but now I'm found
+Was blind but now I see.
+
+
+2.
+'Twas grace that taught my heart to fear
+And grace my fears relieved
+How precious did that grace appear
+The hour I first believed.
+
+3.
+Through many dangers, toils, and snares
+I have already come
+This grace that brought me safe thus far
+And grace will lead me home.
+
+4.
+When we've been here ten thousand years
+Bright, shining as the sun
+We've no less days to sing God's praise
+Than when we first begun.
+`,
+  chords: `
+1.
+  F                 Bb        F
+Amazing grace how sweet the sound
+      Dm       G         C
+That saved a wretch like me
+   F                 Bb        F
+I once was lost, but now I'm found
+      Dm       C     F
+Was blind but now I see.
+
+
+2.
+'Twas grace that taught my heart to fear
+And grace my fears relieved
+How precious did that grace appear
+The hour I first believed.
+
+3.
+Through many dangers, toils, and snares
+I have already come
+This grace that brought me safe thus far
+And grace will lead me home.
+
+4.
+When we've been here ten thousand years
+Bright, shining as the sun
+We've no less days to sing God's praise
+Than when we first begun.
+`,
+},
+{
+  id: 22,
+  title: "22. There is one Gospel",
+  key: "C",
+  youtube: "https://youtu.be/nmBcTrDu4O4?si=5TJ8Q8J1kvSr4ajI",
+  lyrics: `1.
+There is one Gospel on which I stand, For all eternity
+It is my story, my Father’s plan, The Son has rescued me
+Oh what a Gospel, Oh what a peace
+My highest joy and my deepest need
+Now and forever He is my light
+I stand in the Gospel of Jesus Christ
+
+2.
+There is one Gospel to which I cling, All else I count as loss
+For there, where justice and mercy meet
+He saved me on the cross
+No more I boast in what I can bring
+No more I carry the weight of sin
+For He has brought me from death to life
+I stand in the Gospel of Jesus Christ
+
+3.
+There is one Gospel where hope is found 
+The empty tomb still speaks
+For death could not keep my Saviour down  
+He lives and I am free
+Now on my Saviour, I fix my eyes
+My life is His and His hope is mine!
+For He has promised I, too, will rise
+I stand in the Gospel of Jesus Christ
+
+4.
+And in this Gospel the church is one 
+We do not walk alone
+We have His Spirit as we press on  
+To lead us safely home
+And when in glory still I will sing
+Of this old story that rescued me
+Praise to my Saviour, the King of life
+I stand in the Gospel of Jesus Christ  
+`,
+  chords: `
+1.
+       C                 F                 C        G
+There is one Gospel on which I stand, For all eternity
+   C/E              F                  C       G      C
+It is my story, my Father’s plan, The Son has rescued me
+C                      F     C
+Oh what a Gospel, Oh what a peace
+F           C          Am      G
+My highest joy and my deepest need
+C         Dm7     C/E     F
+Now and forever He is my light
+    F           C         G       C
+I stand in the Gospel of Jesus Christ
+
+2.
+There is one Gospel to which I cling, All else I count as loss
+For there, where justice and mercy meet
+He saved me on the cross
+No more I boast in what I can bring
+No more I carry the weight of sin
+For He has brought me from death to life
+I stand in the Gospel of Jesus Christ
+
+3.
+There is one Gospel where hope is found 
+The empty tomb still speaks
+For death could not keep my Saviour down  
+He lives and I am free
+Now on my Saviour, I fix my eyes
+My life is His and His hope is mine!
+For He has promised I, too, will rise
+I stand in the Gospel of Jesus Christ
+
+4.
+And in this Gospel the church is one 
+We do not walk alone
+We have His Spirit as we press on  
+To lead us safely home
+And when in glory still I will sing
+Of this old story that rescued me
+Praise to my Saviour, the King of life
+I stand in the Gospel of Jesus Christ  
+`,
+},
+{
+  id: 23,
+  title: "23. Christ our hope in life and death",
+  key: "E",
+  youtube: "https://youtu.be/FvwlwL1FUEg?si=t7zvlLIV6KHf2TFj",
+  lyrics: `1.
+What is our hope in life and death?
+Christ alone, Christ alone
+What is our only confidence?
+That our souls to Him belong
+Who holds our days within His hand?
+What comes, apart from His command?
+And what will keep us to the end?
+The love of Christ, in which we stand
+
+R:
+O sing hallelujah!
+Our hope springs eternal
+O sing hallelujah!
+Now and ever we confess
+Christ our hope in life and death
+
+2.
+What truth can calm the troubled soul?
+God is good, God is good
+Where is his grace and goodness known?
+In our great Redeemer's blood
+Who holds our faith when fears arise?
+Who stands above the stormy trial?
+Who sends the waves that bring us nigh?
+Unto the shore, the rock of Christ
+
+3.
+Unto the grave, what shall we sing?
+"Christ, he lives! Christ, he lives!"
+And what reward will heaven bring?
+Everlasting life with him
+There we will rise to meet the Lord
+Then sin and death will be destroyed
+And we will feast in endless joy
+When Christ is ours forevermore. 
+
+`,
+  chords: `
+1.
+             E      Esus       E
+What is our hope in life and death?
+Esus     E      C#m7   B
+Christ alone, Christ alone
+            E     B     C#m
+What is our only confidence?
+A         E        B     E
+That our souls to Him belong
+              G#m             C#m
+Who holds our days within His hand?
+             F#m7       E      A
+What comes, apart from His command?
+               E       B     C#m
+And what will keep us to the end?
+     A         E         B       E  Esus E
+The love of Christ, in which we stand
+
+R:  
+  C#m   A    E
+O sing hallelujah!
+     B            C#m
+Our hope springs eternal
+E   A        E
+O sing hallelujah!
+A       E     B     A
+Now and ever we confess
+           C#m      B        E
+Christ our hope in life and death
+
+2.
+What truth can calm the troubled soul?
+God is good, God is good
+Where is his grace and goodness known?
+In our great Redeemer's blood
+Who holds our faith when fears arise?
+Who stands above the stormy trial?
+Who sends the waves that bring us nigh?
+Unto the shore, the rock of Christ
+
+3.
+Unto the grave, what shall we sing?
+"Christ, he lives! Christ, he lives!"
+And what reward will heaven bring?
+Everlasting life with him
+There we will rise to meet the Lord
+Then sin and death will be destroyed
+And we will feast in endless joy
+When Christ is ours forevermore. 
+`,
+},
+];
+
+// ---------- YouTube helpers ----------
+function isYouTubeUrl(url?: string) {
+  if (!url) return false;
+  return /(^https?:\/\/)?(www\.)?(youtube\.com|youtu\.be)\//i.test(url);
+}
+
+function toYouTubeEmbedUrl(url: string) {
+  const trimmed = url.trim();
+
+  const embedMatch = trimmed.match(/youtube\.com\/embed\/([^?&/]+)/i);
+  if (embedMatch?.[1]) return `https://www.youtube.com/embed/${embedMatch[1]}`;
+
+  const shortMatch = trimmed.match(/youtu\.be\/([^?&/]+)/i);
+  if (shortMatch?.[1]) return `https://www.youtube.com/embed/${shortMatch[1]}`;
+
+  const watchMatch = trimmed.match(/[?&]v=([^?&/]+)/i);
+  if (watchMatch?.[1]) return `https://www.youtube.com/embed/${watchMatch[1]}`;
+
+  return "";
+}
+
+const MOLDOVA_TRICOLOR_URL =
+  "https://upload.wikimedia.org/wikipedia/commons/7/73/Flag_of_Romania.svg";
+
+
+// ---------- Section detection + chorus bold ----------
+function detectSectionLabel(line: string): {
+  isLabel: boolean;
+  type: SectionType;
+  labelText: string;
+} {
+  const s = line.trim();
+  if (!s) return { isLabel: false, type: "other", labelText: "" };
+
+  // ✅ Chorus: must be the FULL line
+  if (/^(R|R:|R\.|Ref|Ref\.|Refren|Chorus)\s*$/i.test(s)) {
+    return { isLabel: true, type: "chorus", labelText: s };
+  }
+
+  // ✅ Verse numbers like "1." or "2:"
+  if (/^\d+\s*[:.]?$/.test(s)) {
+    return { isLabel: true, type: "verse", labelText: s };
+  }
+
+  if (/^bridge\s*$/i.test(s)) {
+    return { isLabel: true, type: "bridge", labelText: "Bridge" };
+  }
+
+  return { isLabel: false, type: "other", labelText: "" };
+}
+
+const isPhonePortrait = () => {
+  if (typeof window === "undefined") return false;
+  const w = window.innerWidth;
+  const h = window.innerHeight;
+  return w < 520 && h > w;
+};
+
+/**
+ * Render text with:
+ * - normal mode: pre-wrap (wraps)
+ * - mono mode (lyrics+chords): pre (NO WRAP) + horizontal scroll
+ */
+function renderWithSectionStyling(
+  text: string,
+  opts: { stageMode: boolean; dark: boolean; autoBoldChorus: boolean; mono?: boolean }
+) {
+  const lines = text.split("\n");
+  let currentSection: SectionType = "other";
+  const isPhone = typeof window !== "undefined" && window.innerWidth < 420;
+
+  const innerStyle: React.CSSProperties = {
+    whiteSpace: opts.mono ? "pre" : "pre-wrap",
+    fontFamily: opts.mono
+      ? "ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+      : "Arial, sans-serif",
+    fontSize: opts.stageMode ? 28 : isPhone ? 14 : 16,
+    lineHeight: opts.stageMode ? 1.7 : opts.mono ? 1.45 : 1.6,
+    color: opts.dark ? "#fff" : "#000",
+    marginTop: 14,
+    overflowWrap: opts.mono ? "normal" : "anywhere",
+    wordBreak: "normal",
+    display: opts.mono ? "inline-block" : "block",
+    minWidth: opts.mono ? "max-content" : undefined,
+  };
+
+  const labelStyle = (type: SectionType): React.CSSProperties => ({
+    display: "inline-block",
+    padding: opts.stageMode ? "6px 12px" : "4px 10px",
+    borderRadius: 999,
+    fontWeight: 900,
+    margin: "10px 0 6px",
+    letterSpacing: 0.5,
+    background: opts.dark
+      ? "rgba(255,255,255,0.12)"
+      : type === "chorus"
+      ? "rgba(11,95,255,0.12)"
+      : "rgba(0,0,0,0.06)",
+    color: opts.dark ? "#fff" : type === "chorus" ? "#0B5FFF" : "#111",
+  });
+
+  const outerStyle: React.CSSProperties = opts.mono
+    ? { overflowX: "auto", WebkitOverflowScrolling: "touch" }
+    : {};
+
+  return (
+    <div style={outerStyle}>
+      <div style={innerStyle}>
+        {lines.map((line, idx) => {
+          const { isLabel, type, labelText } = detectSectionLabel(line);
+
+          if (isLabel) {
+            currentSection = type;
+            return (
+              <div key={idx}>
+                <span style={labelStyle(type)}>{labelText}</span>
+              </div>
+            );
+          }
+
+          const shouldBold =
+            opts.autoBoldChorus && currentSection === "chorus" && line.trim().length > 0;
+
+          return (
+            <div
+              key={idx}
+              style={{
+                fontWeight: shouldBold ? 900 : 500,
+                letterSpacing: opts.mono ? "-0.3px" : undefined,
+              }}
+            >
+              {line}
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
+
+// ---------- Transpose helpers ----------
+const NOTES_SHARP = ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"];
+const NOTES_FLAT  = ["C", "Db", "D", "Eb", "E", "F", "Gb", "G", "Ab", "A", "Bb", "B"];
+
+const ENHARMONIC_TO_SHARP: Record<string, string> = {
+  Db: "C#",
+  Eb: "D#",
+  Gb: "F#",
+  Ab: "G#",
+  Bb: "A#",
+  Cb: "B",
+  Fb: "E",
+  "E#": "F",
+  "B#": "C",
+};
+
+// Cleanup uncommon/ugly spellings after output selection
+const BAD_ENHARMONICS: Record<string, string> = {
+  "Eb#": "E",
+  "B#": "C",
+  "Cb": "B",
+  "Fb": "E",
+};
+
+function normNoteToSharp(n: string) {
+  return ENHARMONIC_TO_SHARP[n] ?? n;
+}
+
+function fixEnharmonic(n: string) {
+  return BAD_ENHARMONICS[n] ?? n;
+}
+
+function transposeNote(note: string, semis: number, preferFlats: boolean) {
+  const base = normNoteToSharp(note);
+  const idx = NOTES_SHARP.indexOf(base);
+  if (idx < 0) return note;
+
+  const next = (idx + semis + 1200) % 12;
+  const out = preferFlats ? NOTES_FLAT[next] : NOTES_SHARP[next];
+  return fixEnharmonic(out);
+}
+
+function transposeChordToken(token: string, semis: number, preferFlats: boolean) {
+  const m = token.match(/^([A-G])([#b]?)(.*)$/);
+  if (!m) return token;
+
+  const root = m[1] + (m[2] || "");
+  let rest = m[3] || "";
+
+  // Handle slash bass notes (now supports /C# properly because regex captures it)
+  if (rest.includes("/")) {
+    const [beforeSlash, afterSlash] = rest.split("/", 2);
+
+    // parse bass: letter + optional accidental + anything else
+    const bassMatch = afterSlash.match(/^([A-G])([#b]?)(.*)$/);
+    if (bassMatch) {
+      const bassRoot = bassMatch[1] + (bassMatch[2] || "");
+      const bassRest = bassMatch[3] || "";
+
+      const newBass = transposeNote(bassRoot, semis, preferFlats);
+
+      // IMPORTANT: if bassRest starts with stray accidentals, drop them
+      const cleanedBassRest = bassRest.replace(/^[#b]+/, "");
+
+      rest = `${beforeSlash}/${newBass}${cleanedBassRest}`;
+    }
+  }
+
+  const newRoot = transposeNote(root, semis, preferFlats);
+  return `${newRoot}${rest}`;
+}
+
+
+// Matches chords even if they end with # (A/C#, F/A# etc)
+// Keeps separators so spacing is preserved
+const CHORD_TOKEN_RX =
+  /(^|[^A-Za-z0-9_])([A-G])([#b]?)(?:(maj|min|dim|aug|sus|add|m)?([0-9]{0,2})?)?(?:\/([A-G])([#b]?))?(?=$|[^A-Za-z0-9_])/g;
+
+
+
+
+// Safety pass (optional but harmless): fix any leftover weird spellings if they appear
+function normalizeSpellings(text: string) {
+  return text
+    .replace(/\bEb#\b/g, "E")
+    .replace(/\bFb\b/g, "E")
+    .replace(/\bB#\b/g, "C")
+    .replace(/\bCb\b/g, "B");
+}
+
+function transposeText(text: string, semis: number, preferFlats: boolean) {
+  if (semis === 0) return text;
+
+  return text.replace(
+    CHORD_TOKEN_RX,
+    (full, lead, letter, accidental, qual, digits, bassLetter, bassAcc) => {
+      const token =
+        `${letter}${accidental || ""}` +
+        `${qual || ""}${digits || ""}` +
+        (bassLetter ? `/${bassLetter}${bassAcc || ""}` : "");
+
+      return `${lead}${transposeChordToken(token, semis, preferFlats)}`;
+    }
+  );
+}
+
+function transposeKeyLabel(key: string, semis: number, preferFlats: boolean) {
+  const m = key.match(/^([A-G])([#b]?)(m)?$/i);
+  if (!m) return key;
+
+  const root = m[1].toUpperCase() + (m[2] || "");
+  const minor = m[3] ? "m" : "";
+
+  const newRoot = transposeNote(root, semis, preferFlats);
+  return `${newRoot}${minor}`;
+}
+// ---------- Chord extraction + degree ordering + diagrams ----------
+
+function extractChordTokens(text: string) {
+  const found: string[] = [];
+  const seen = new Set<string>();
+
+  const rx =
+    /(^|[^A-Za-z0-9_])([A-G])([#b]?)(?:(maj|min|dim|aug|sus|add|m)?([0-9]{0,2})?)?(?:\/([A-G])([#b]?))?(?=$|[^A-Za-z0-9_])/g;
+
+  let m: RegExpExecArray | null;
+  while ((m = rx.exec(text)) !== null) {
+    const token =
+      `${m[2]}${m[3] || ""}${m[4] || ""}${m[5] || ""}` +
+      (m[6] ? `/${m[6]}${m[7] || ""}` : "");
+
+    if (!token || seen.has(token)) continue;
+    seen.add(token);
+    found.push(token);
+  }
+
+  return found;
+}
+
+function chordRoot(token: string) {
+  const m = token.match(/^([A-G])([#b]?)/);
+  return m ? m[1] + (m[2] || "") : "";
+}
+
+function chordIsMinor(token: string) {
+  return /^([A-G])([#b]?)(m)(?!aj)/i.test(token);
+}
+
+function stripSlash(token: string) {
+  return token.split("/")[0];
+}
+
+const MAJOR_DEGREE_OFFSETS = [0, 2, 4, 5, 7, 9, 11];
+
+// ✅ add this (natural minor)
+const MINOR_DEGREE_OFFSETS = [0, 2, 3, 5, 7, 8, 10];
+
+
+function degreeRootNote(
+  root: string,
+  degree: number,
+  preferFlats: boolean,
+  isMinor: boolean
+) {
+  const idx = noteIndex(root);
+  const offsets = isMinor ? MINOR_DEGREE_OFFSETS : MAJOR_DEGREE_OFFSETS;
+  const off = offsets[degree - 1];
+  const out = preferFlats
+    ? NOTES_FLAT[(idx + off) % 12]
+    : NOTES_SHARP[(idx + off) % 12];
+  return fixEnharmonic(out);
+}
+
+function chordsByDegreeOrder(
+  used: string[],
+  displayKey: string,
+  preferFlats: boolean
+) {
+  const { root, minor } = splitKeyLabel(displayKey);
+
+  const order = minor
+    ? [1, 4, 5, 6, 7, 3]   // ✅ minor keys
+    : [1, 4, 5, 6, 2, 3]; // ✅ major keys
+
+  const byRoot = new Map<string, string[]>();
+  used.forEach((c) => {
+    const r = chordRoot(stripSlash(c));
+    if (!byRoot.has(r)) byRoot.set(r, []);
+    byRoot.get(r)!.push(c);
+  });
+
+  return order
+    .map((d) => {
+      const r = degreeRootNote(root, d, preferFlats, minor);
+      const list = byRoot.get(r) || [];
+      if (!list.length) return null;
+
+      // minor expectations
+      const wantMinor = minor
+        ? d === 1 || d === 4
+        : d === 2 || d === 3 || d === 6;
+
+      return list.find((c) => chordIsMinor(c) === wantMinor) || list[0];
+    })
+    .filter(Boolean) as string[];
+}
+
+function ChordDiagram({ chord, dark }: { chord: string; dark: boolean }) {
+  // parse chord root + minor
+  const mm = chord.match(/^([A-G])([#b]?)(m)?/);
+  const root = mm ? mm[1] + (mm[2] || "") : "C";
+  const isMinor = !!(mm && mm[3]);
+
+  // open-chord shapes (low E → high E). 0 means open; numbers are frets.
+  const openChords: Record<string, number[]> = {
+    C:  [0, 3, 2, 0, 1, 0],
+    G:  [3, 2, 0, 0, 0, 3],
+    D:  [0, 0, 0, 2, 3, 2],
+    A:  [0, 0, 2, 2, 2, 0],
+    E:  [0, 2, 2, 1, 0, 0],
+    Am: [0, 0, 2, 2, 1, 0],
+    Em: [0, 2, 2, 0, 0, 0],
+    Dm: [0, 0, 0, 2, 3, 1],
+  };
+
+  const key = root + (isMinor ? "m" : "");
+  const openShape = openChords[key];
+
+  // fallback E-shape (barre)
+  const fallbackShape = isMinor
+    ? [0, 2, 2, 0, 0, 0]   // Em shape
+    : [0, 2, 2, 1, 0, 0];  // E shape
+
+  const shape = openShape ?? fallbackShape;
+
+  // semitone shift from E only for barre fallback
+  const semisFromE = openShape ? 0 : (noteIndex(root) - noteIndex("E") + 12) % 12;
+
+  // absolute frets
+  const absFrets = shape.map(f => (f === 0 ? 0 : f + semisFromE));
+
+  // If barre chord, show diagram starting at the barre fret
+  const startFret = openShape || semisFromE === 0 ? 1 : semisFromE; // e.g., B -> 7
+
+  // convert absolute -> relative frets for drawing window (1..4)
+  const relFrets = absFrets.map(f => (f === 0 ? 0 : f - startFret + 1));
+  const barre = !openShape && semisFromE > 0;
+
+  // drawing constants
+  const W = 90, H = 120;
+  const left = 12, top = 20;
+  const xStep = 13;
+  const yStep = 16;
+
+  const stroke = dark ? "#aaa" : "#555";
+  const dot = dark ? "#9BE7FF" : "#0B5FFF";
+  const text = dark ? "#fff" : "#111";
+
+  return (
+    <svg width={W} height={H}>
+      <text x="45" y="12" textAnchor="middle" fontSize="12" fontWeight="800" fill={text}>
+        {chord}
+      </text>
+
+      {/* start fret label for barre chords */}
+      {startFret > 1 && (
+        <text x="6" y="32" fontSize="10" fontWeight="800" fill={text}>
+          {startFret}fr
+        </text>
+      )}
+
+      {/* strings */}
+      {[0,1,2,3,4,5].map(i => (
+        <line key={"s"+i} x1={left + i*xStep} y1={top} x2={left + i*xStep} y2={top + 4*yStep} stroke={stroke} />
+      ))}
+
+      {/* frets (0..4 lines = 4 fret spaces) */}
+      {[0,1,2,3,4].map(i => (
+        <line
+          key={"f"+i}
+          x1={left}
+          y1={top + i*yStep}
+          x2={left + 5*xStep}
+          y2={top + i*yStep}
+          stroke={stroke}
+          strokeWidth={i === 0 && startFret === 1 ? 3 : 1}
+        />
+      ))}
+
+      {/* barre line shown at fret 1 position within the window */}
+      {barre && (
+        <rect
+          x={left}
+          y={top + ((1 - 1) * yStep) + yStep / 2 - 3}
+          width={5*xStep}
+          height={6}
+          rx={3}
+          fill={dot}
+        />
+      )}
+
+      {/* dots */}
+      {relFrets.map((f, i) =>
+        f > 0 && f <= 4 ? (
+          <circle
+            key={"d"+i}
+            cx={left + i*xStep}
+            cy={top + ((f - 1) * yStep) + yStep/2}
+            r={5}
+            fill={dot}
+          />
+        ) : null
+      )}
+    </svg>
+  );
+}
+
+function ChordStrip({ chords, dark }: { chords: string[]; dark: boolean }) {
+  if (!chords.length) return null;
+  return (
+    <div style={{ display: "flex", gap: 12, overflowX: "auto" }}>
+      {chords.map((c) => (
+        <ChordDiagram key={c} chord={c} dark={dark} />
+      ))}
+    </div>
+  );
+}
+// ---------- Key selector logic (auto flats/sharps) ----------
+const KEY_OPTIONS = [
+  "C",
+  "Db",
+  "D",
+  "Eb",
+  "E",
+  "F",
+  "Gb",
+  "G",
+  "Ab",
+  "A",
+  "Bb",
+  "B",
+];
+
+const FLAT_KEYS = new Set([
+  "F",
+  "Bb",
+  "Eb",
+  "Ab",
+  "Db",
+  "Gb",
+  "Cb",
+  "Dm",
+  "Gm",
+  "Cm",
+  "Fm",
+  "Bbm",
+  "Ebm",
+  "Abm",
+]);
+
+function splitKeyLabel(k: string): { root: string; minor: boolean } {
+  const m = k.trim().match(/^([A-G])([#b]?)(m)?$/i);
+  if (!m) return { root: k.trim(), minor: false };
+  return { root: m[1].toUpperCase() + (m[2] || ""), minor: !!m[3] };
+}
+
+function noteIndex(root: string) {
+  const s = normNoteToSharp(root);
+  return NOTES_SHARP.indexOf(s);
+}
+
+function keyPrefersFlats(keyLabel: string) {
+  const k = keyLabel.trim();
+  if (k.includes("b")) return true;
+  if (k.includes("#")) return false;
+  if (FLAT_KEYS.has(k)) return true;
+  return false; // default to sharps for naturals like E, A, D, G, B
+}
+
+function nearestSemitoneDelta(fromRoot: string, toRoot: string) {
+  const a = noteIndex(fromRoot);
+  const b = noteIndex(toRoot);
+  if (a < 0 || b < 0) return 0;
+  let d = (b - a + 12) % 12; // 0..11
+  if (d > 6) d -= 12; // -5..+6 (nearest direction)
+  return d;
+}
+
+function btnStyle(dark: boolean): React.CSSProperties {
+  return {
+    padding: "6px 10px",
+    cursor: "pointer",
+    borderRadius: 8,
+    border: dark ? "1px solid rgba(255,255,255,0.25)" : "1px solid rgba(0,0,0,0.15)",
+    background: dark ? "rgba(255,255,255,0.08)" : "rgba(255,255,255,0.95)",
+    color: dark ? "#fff" : "#111",
+    fontSize: 13,
+  };
+}
+
+function pillStyle(active: boolean, dark: boolean): React.CSSProperties {
+  return {
+    padding: "8px 12px",
+    margin: "0 6px 10px",
+    cursor: "pointer",
+    borderRadius: 999,
+    border: active
+      ? dark
+        ? "1px solid #9BE7FF"
+        : "1px solid #0B5FFF"
+      : dark
+      ? "1px solid rgba(255,255,255,0.25)"
+      : "1px solid rgba(0,0,0,0.15)",
+    background: active
+      ? dark
+        ? "rgba(155,231,255,0.15)"
+        : "rgba(11,95,255,0.10)"
+      : dark
+      ? "rgba(255,255,255,0.06)"
+      : "rgba(255,255,255,0.95)",
+    color: dark ? "#fff" : "#111",
+    fontSize: 14,
+    fontWeight: active ? 800 : 500,
+  };
+}
+
+export default function App() {
+  const [selectedSong, setSelectedSong] = useState<Song | null>(null);
+  const [viewMode, setViewMode] = useState<ViewMode>("lyrics");
+
+  const [stageMode, setStageMode] = useState(false);
+  const [showFlag, setShowFlag] = useState(false);
+  const [keepAwake, setKeepAwake] = useState(false);
+  const [autoBoldChorus, setAutoBoldChorus] = useState(true);
+
+  const [showVideo, setShowVideo] = useState(false);
+
+  const [transposeSemis, setTransposeSemis] = useState(0);
+  const [preferFlats, setPreferFlats] = useState(false);
+
+  const [targetKey, setTargetKey] = useState<string>("C");
+  const [showKeyPicker, setShowKeyPicker] = useState(false);
+
+  // Force a re-render on rotation so the hint can appear/disappear
+  const [, setViewportTick] = useState(0);
+
+  const wakeLockRef = useRef<any>(null);
+  const dark = stageMode;
+
+  useEffect(() => {
+    const onResize = () => setViewportTick((v) => v + 1);
+    window.addEventListener("resize", onResize);
+    return () => window.removeEventListener("resize", onResize);
+  }, []);
+
+  const containerStyle: React.CSSProperties = useMemo(() => {
+    const base: React.CSSProperties = {
+      position: "relative",
+      minHeight: "100vh",
+      overflowY: "scroll",
+      padding: stageMode ? 28 : 20,
+      paddingBottom: showVideo ? 260 : 20,
+      fontFamily: "Arial, sans-serif",
+      background: stageMode ? "#000" : "#eaf4ff",
+      color: stageMode ? "#fff" : "#000",
+    };
+
+    
+if (showFlag && !stageMode) {
+  base.backgroundImage = `
+    linear-gradient(
+      90deg,
+      rgba(0, 51, 160, 0.18) 0%,
+      rgba(0, 51, 160, 0.18) 33.33%,
+      rgba(255, 209, 0, 0.18) 33.33%,
+      rgba(255, 209, 0, 0.18) 66.66%,
+      rgba(206, 17, 38, 0.18) 66.66%,
+      rgba(206, 17, 38, 0.18) 100%
+    )
+  `;
+  base.backgroundRepeat = "no-repeat";
+}
+
+    return base;
+  }, [stageMode, showFlag, showVideo]);
+
+  useEffect(() => {
+    let cancelled = false;
+
+    async function enableWakeLock() {
+      try {
+        if (!("wakeLock" in navigator)) return;
+        // @ts-ignore
+        const sentinel = await navigator.wakeLock.request("screen");
+        if (cancelled) {
+          await sentinel.release();
+          return;
+        }
+        wakeLockRef.current = sentinel;
+      } catch {}
+    }
+
+    async function disableWakeLock() {
+      try {
+        if (wakeLockRef.current) {
+          await wakeLockRef.current.release();
+          wakeLockRef.current = null;
+        }
+      } catch {}
+    }
+
+    if (keepAwake) enableWakeLock();
+    else disableWakeLock();
+
+    return () => {
+      cancelled = true;
+      disableWakeLock();
+    };
+  }, [keepAwake]);
+
+  // When a song is selected, reset transposition and set default key + accidentals
+  useEffect(() => {
+    if (!selectedSong) return;
+    setTransposeSemis(0);
+    setTargetKey(selectedSong.key);
+    setPreferFlats(keyPrefersFlats(selectedSong.key));
+    setShowKeyPicker(false);
+  }, [selectedSong?.id]);
+
+  // Lyrics + Chords view content (transposed)
+const bothText = useMemo(() => {
+  if (!selectedSong) return "";
+  const raw = selectedSong.chords
+    .split("\n")
+    .some((l) => /[a-zA-ZăâîșțĂÂÎȘȚ]/.test(l))
+    ? selectedSong.chords
+    : `${selectedSong.chords}\n\n${selectedSong.lyrics}`;
+  return transposeText(raw, transposeSemis, preferFlats);
+}, [selectedSong, transposeSemis, preferFlats]);
+
+// --- chords-only text (transposed) for diagrams ---
+const transposedChordsText = useMemo(() => {
+  if (!selectedSong) return "";
+  return transposeText(selectedSong.chords || "", transposeSemis, preferFlats);
+}, [selectedSong, transposeSemis, preferFlats]);
+
+// --- extract used chords ---
+const usedChords = useMemo(() => {
+  return extractChordTokens(transposedChordsText);
+}, [transposedChordsText]);
+
+// ✅ displayKey MUST be defined before orderedChordsForStrip uses it
+const displayKey = useMemo(() => {
+  if (!selectedSong) return "";
+  return transposeKeyLabel(selectedSong.key, transposeSemis, preferFlats);
+}, [selectedSong, transposeSemis, preferFlats]);
+
+// --- order chords as 1,4,5,6,2,3 ---
+const orderedChordsForStrip = useMemo(() => {
+  if (!selectedSong) return [];
+  return chordsByDegreeOrder(usedChords, displayKey, preferFlats);
+}, [selectedSong?.id, usedChords, displayKey, preferFlats]);
+
+
+  useEffect(() => {
+    setShowVideo(false);
+  }, [selectedSong?.id]);
+
+  const embedUrl = useMemo(() => {
+    if (!selectedSong?.youtube) return "";
+    if (!isYouTubeUrl(selectedSong.youtube)) return "";
+    return toYouTubeEmbedUrl(selectedSong.youtube);
+  }, [selectedSong?.youtube]);
+
+  const metaStyle: React.CSSProperties = {
+    textAlign: "center",
+    fontSize: stageMode ? 18 : 14,
+    color: dark ? "rgba(255,255,255,0.9)" : "rgba(0,0,0,0.8)",
+    marginTop: 6,
+    position: "relative",
+  };
+
+  const keyButtonStyle: React.CSSProperties = {
+    display: "inline-flex",
+    alignItems: "center",
+    gap: 6,
+    marginLeft: 8,
+    padding: "4px 10px",
+    borderRadius: 999,
+    border: dark ? "1px solid rgba(255,255,255,0.25)" : "1px solid rgba(0,0,0,0.15)",
+    background: dark ? "rgba(255,255,255,0.08)" : "rgba(255,255,255,0.95)",
+    color: dark ? "#fff" : "#111",
+    fontWeight: 800,
+    cursor: stageMode ? "default" : "pointer",
+    userSelect: "none",
+  };
+
+  const keyPickerStyle: React.CSSProperties = {
+    position: "absolute",
+    left: "50%",
+    transform: "translateX(-50%)",
+    top: stageMode ? 34 : 30,
+    zIndex: 1000,
+    width: "min(520px, 92vw)",
+    padding: 12,
+    borderRadius: 14,
+    border: dark ? "1px solid rgba(255,255,255,0.22)" : "1px solid rgba(0,0,0,0.12)",
+    background: dark ? "#111" : "#fff",
+    boxShadow: "0 12px 30px rgba(0,0,0,0.20)",
+  };
+
+  function applyTargetKey(newKey: string) {
+    if (!selectedSong) return;
+
+    const from = splitKeyLabel(selectedSong.key);
+    const to = splitKeyLabel(newKey);
+
+    const d = nearestSemitoneDelta(from.root, to.root);
+    setTransposeSemis(d);
+    setPreferFlats(keyPrefersFlats(newKey));
+    setTargetKey(newKey);
+    setShowKeyPicker(false);
+  }
+
+  return (
+    <div style={containerStyle}>
+      
+{!stageMode && (
+  <img
+    src={kingdomKidsLogo}
+    alt="Kingdom’s Kids"
+    style={{
+      position: "absolute",
+      top: 8,
+      left: 3,
+      width: 80,
+      opacity: 0.80,
+      zIndex: 0,
+      pointerEvents: "none",
+    }}
+  />
+)}
+
+      <style>{`
+        .moldovaTitle {
+          font-weight: 900;
+          letter-spacing: 0.5px;
+          text-align: center;
+          margin-bottom: 16px;
+          font-size: 38px;
+          background: linear-gradient(
+            90deg,
+            #0033A0 0%,
+            #0033A0 33%,
+            #FFD100 33%,
+            #FFD100 66%,
+            #CE1126 66%,
+            #CE1126 100%
+          );
+          -webkit-background-clip: text;
+          background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-size: 200% 100%;
+          animation: moldovaWave 3.5s ease-in-out infinite;
+          text-shadow: 0 1px 10px rgba(0,0,0,0.12);
+        }
+        @keyframes moldovaWave {
+          0% { background-position: 0% 50%; }
+          50% { background-position: 100% 50%; }
+          100% { background-position: 0% 50%; }
+        }
+        @media (max-width: 480px) {
+          .moldovaTitle { font-size: 30px; }
+        }
+      `}</style>
+
+      {!selectedSong ? (
+        <div style={{ maxWidth: 720, margin: "0 auto", position: "relative", zIndex: 1 }}>
+          <h1 className="moldovaTitle">Moldova 2026</h1>
+
+          <div style={{ display: "flex", flexDirection: "column", gap: 14, textAlign: "center" }}>
+            {songsData.map((song) => (
+              <div
+                key={`${song.id}-${song.title}`}
+                onClick={() => {
+                  setSelectedSong(song);
+                  setViewMode("lyrics");
+                  setStageMode(false);
+                  setShowFlag(false);
+                  setTransposeSemis(0);
+                  setPreferFlats(keyPrefersFlats(song.key));
+                  setTargetKey(song.key);
+                  setShowVideo(false);
+                }}
+                style={{
+                  cursor: "pointer",
+                  padding: "10px 8px",
+                  borderRadius: 10,
+                  border: "1px solid rgba(0,0,0,0.10)",
+                  background: "rgba(255,255,255,0.98)",
+                }}
+              >
+                <div style={{ fontWeight: 800, fontSize: 18 }}>{song.title}</div>
+                <div style={{ fontSize: 14, opacity: 0.85 }}>
+                   Key: {song.key}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      ) : (
+        <div style={{ maxWidth: 920, margin: "0 auto" }}>
+          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: 10 }}>
+            <button
+              onClick={() => {
+                setSelectedSong(null);
+                setStageMode(false);
+                setShowFlag(false);
+                setTransposeSemis(0);
+                setPreferFlats(false);
+                setShowVideo(false);
+                setShowKeyPicker(false);
+              }}
+             style={{
+  background: "none",
+  border: "none",
+  color: dark ? "#9BE7FF" : "#0033A0",
+  cursor: "pointer",
+
+  // ✅ VISIBILITY
+  fontSize: 22,       // bigger
+  fontWeight: 900,    // bolder
+  letterSpacing: 0.3,
+
+  // ✅ POSITION (push below logo)
+  marginTop: 72,      // key line 👈 adjust if needed
+
+  // ✅ TOUCH FRIENDLY
+  padding: "6px 0",
+
+  alignSelf: "flex-start", // keeps it top-left in the row
+}}
+            >
+              ← Back
+            </button>
+
+            <div style={{ display: "flex", gap: 8, flexWrap: "wrap", justifyContent: "flex-end" }}>
+              <button onClick={() => setStageMode((v) => !v)} style={btnStyle(dark)}>
+                {stageMode ? "Exit Stage" : "Stage Mode"}
+              </button>
+
+              <button onClick={() => setShowFlag((v) => !v)} style={btnStyle(dark)} disabled={stageMode}>
+                {showFlag ? "Hide Flag" : "Show Flag"}
+              </button>
+
+              <button onClick={() => setKeepAwake((v) => !v)} style={btnStyle(dark)}>
+                {keepAwake ? "Screen Awake ✓" : "Keep Screen On"}
+              </button>
+
+              <button onClick={() => setAutoBoldChorus((v) => !v)} style={btnStyle(dark)}>
+                {autoBoldChorus ? "Chorus Bold ✓" : "Chorus Bold"}
+              </button>
+            </div>
+          </div>
+
+          <h2 style={{ textAlign: "center", fontWeight: 900, fontSize: stageMode ? 38 : 22, marginTop: 14 }}>
+            {selectedSong.title}
+          </h2>
+
+          {embedUrl && !stageMode && (
+            <div style={{ textAlign: "center", marginTop: 10, marginBottom: 6 }}>
+              <button
+                onClick={() => setShowVideo((v) => !v)}
+                style={{
+                  padding: "8px 18px",
+                  borderRadius: 999,
+                  border: "1px solid #b00000",
+                  background: "#ff4d4d",
+                  color: "#000",
+                  fontWeight: 800,
+                  cursor: "pointer",
+                  fontSize: 14,
+                  transition: "transform 0.1s ease",
+                }}
+              >
+                {showVideo ? "Hide Video" : "▶ Play Video"}
+              </button>
+
+              {showVideo && <div style={{ marginTop: 6, fontSize: 12, opacity: 0.7 }}>Video playing (floating window)</div>}
+            </div>
+          )}
+
+          {selectedSong.youtube && !embedUrl && !stageMode && (
+            <div style={{ textAlign: "center", marginTop: 6 }}>
+              <a href={selectedSong.youtube} target="_blank" rel="noopener noreferrer">
+                ▶ Open Audio/Link
+              </a>
+            </div>
+          )}
+
+          <div style={metaStyle}>
+            Key: <b>{displayKey}</b>
+            {!stageMode && (
+              <span
+                style={keyButtonStyle}
+                onClick={() => setShowKeyPicker((v) => !v)}
+                title="Select a new key (auto sharps/flats)"
+              >
+                {targetKey} <span style={{ opacity: 0.85 }}>▼</span>
+              </span>
+            )}
+
+            {showKeyPicker && !stageMode && (
+              <div style={keyPickerStyle} onClick={(e) => e.stopPropagation()}>
+                <div style={{ fontWeight: 900, marginBottom: 10, opacity: dark ? 0.95 : 0.9 }}>
+                  Select Key
+                </div>
+                <div
+                  style={{
+                    display: "grid",
+                    gridTemplateColumns: "repeat(6, minmax(0, 1fr))",
+                    gap: 8,
+                  }}
+                >
+                  {KEY_OPTIONS.map((k) => {
+                    const active = k === targetKey;
+                    return (
+                      <button
+                        key={k}
+                        onClick={() => applyTargetKey(k)}
+                        style={{
+                          padding: "10px 0",
+                          borderRadius: 12,
+                          border: active
+                            ? dark
+                              ? "1px solid #9BE7FF"
+                              : "1px solid #0B5FFF"
+                            : dark
+                            ? "1px solid rgba(255,255,255,0.22)"
+                            : "1px solid rgba(0,0,0,0.12)",
+                          background: active
+                            ? dark
+                              ? "rgba(155,231,255,0.18)"
+                              : "rgba(11,95,255,0.10)"
+                            : dark
+                            ? "rgba(255,255,255,0.06)"
+                            : "rgba(255,255,255,0.98)",
+                          color: dark ? "#fff" : "#111",
+                          fontWeight: 900,
+                          cursor: "pointer",
+                        }}
+                      >
+                        {k}
+                      </button>
+                    );
+                  })}
+                </div>
+
+
+                <div style={{ textAlign: "center", marginTop: 10 }}>
+                  <button onClick={() => setShowKeyPicker(false)} style={btnStyle(dark)}>
+                    Close
+                  </button>
+                </div>
+              </div>
+            )}
+          </div>
+
+          {!stageMode && (
+            <>
+              <div style={{ textAlign: "center", marginTop: 12, marginBottom: 6 }}>
+                <button onClick={() => setViewMode("lyrics")} style={pillStyle(viewMode === "lyrics", dark)}>
+                  Lyrics Only
+                </button>
+                <button onClick={() => setViewMode("both")} style={pillStyle(viewMode === "both", dark)}>
+                  Lyrics + Chords
+                </button>
+              </div>
+              {/* NOTE: Transpose buttons removed by request */}
+            </>
+          )}
+
+          {viewMode === "both" && isPhonePortrait() && !stageMode && (
+            <div style={{ textAlign: "center", fontSize: 12, opacity: 0.65, marginBottom: 8 }}>
+              Tip: rotate phone to landscape for better chord alignment
+            </div>
+          )}
+
+{viewMode === "both" && (
+  <ChordStrip chords={orderedChordsForStrip} dark={dark} />
+)}
+
+          {viewMode === "lyrics"
+            ? renderWithSectionStyling(selectedSong.lyrics, {
+                stageMode,
+                dark,
+                autoBoldChorus,
+                mono: false,
+              })
+            : renderWithSectionStyling(bothText, {
+                stageMode,
+                dark,
+                autoBoldChorus,
+                mono: true,
+              })}
+        </div>
+      )}
+
+      {/* Floating YouTube mini-player overlay */}
+      {showVideo && embedUrl && (
+        <div
+          style={{
+            position: "fixed",
+            bottom: 16,
+            right: 16,
+            width: 340,
+            maxWidth: "92vw",
+            paddingTop: "56.25%",
+            background: "#000",
+            borderRadius: 10,
+            boxShadow: "0 10px 30px rgba(0,0,0,0.45)",
+            zIndex: 9999,
+            overflow: "hidden",
+          }}
+        >
+          <iframe
+            src={embedUrl}
+            title="YouTube player"
+            allow="autoplay; encrypted-media; picture-in-picture"
+            allowFullScreen
+            style={{
+              position: "absolute",
+              top: 0,
+              left: 0,
+              width: "100%",
+              height: "100%",
+              border: "none",
+            }}
+          />
+          <button
+            onClick={() => setShowVideo(false)}
+            style={{
+              position: "absolute",
+              top: 6,
+              right: 6,
+              background: "rgba(0,0,0,0.65)",
+              color: "#fff",
+              border: "none",
+              borderRadius: 6,
+              cursor: "pointer",
+              padding: "2px 8px",
+              fontSize: 12,
+            }}
+            aria-label="Close video"
+          >
+            ✕
+          </button>
+        </div>
+      )}
+    </div>
+  );
+}
