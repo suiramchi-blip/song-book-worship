@@ -2450,9 +2450,6 @@ const orderedChordsForStrip = useMemo(() => {
                 {stageMode ? "Exit Stage" : "Stage Mode"}
               </button>
 
-              <button onClick={() => setShowFlag((v) => !v)} style={btnStyle(dark)} disabled={stageMode}>
-                {showFlag ? "Hide Flag" : "Show Flag"}
-              </button>
 
               <button onClick={() => setKeepAwake((v) => !v)} style={btnStyle(dark)}>
                 {keepAwake ? "Screen Awake ✓" : "Keep Screen On"}
