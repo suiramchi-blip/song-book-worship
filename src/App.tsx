@@ -47,44 +47,6 @@ Lui Dumnezeu glorie!
 Căci în slava veșnică vom intra,
 Lui Dumnezeu glorie.
 `,
-    chords: `
-1.
-         G                C    G
-Cânt Domnului că mi-a făcut bine,
-Em             A  D
-Lui Dumnezeu glorie!
-       G         C     G
-Mi se bucură inima-n mine,
-Em             D  G
-Lui Dumnezeu glorie!
-
-R:
-       G
-Cânt lui Dumnezeu glorie
-    C                   G
-Și tot pământul să-I cânte
-Em            A   D
-Lui Dumnezeu glorie!
-    G              G7
-El ne-a adus mântuire,
-     C              G
-De-aceea-i cânt pe vecie
-Em            D   G
-Lui Dumnezeu glorie.
-
-
-2.
-Cu natura-ntreagă îi cânt și eu
-Lui Dumnezeu glorie!
-Să-L slăvească munții și apele,
-Lui Dumnezeu glorie!
-
-3.
-Cu cei ce-L iubesc în veci voi cânta
-Lui Dumnezeu glorie!
-Căci în slava veșnică vom intra,
-Lui Dumnezeu glorie.
-`,
   },
   {
     id: 2,
@@ -104,29 +66,6 @@ R:
 Sus pe cruce ai murit, iertaţi să fim,
 De pe cruce în mormânt,
 Din mormânt sus la cer,
-Să fii înălţat mereu! :/                                 
-`,
-    chords: `
-1.
-G          C          D  C
-  Doamne, numele-Ţi înalţ,	
-G         C             D  C
-  Doamne laudă-Ţi cânt Ţie,
-G      C             D  C
-  Fericit sunt că Te am,
-G      C              D   C
-  Fericit de-a Ta iertare.
-
-R:
-   G          C        D       C      G
-  /: Tu ai venit pe pământ, să ne salvezi,
-         C         D       C       G
-Sus pe cruce ai murit, iertaţi să fim,
-        C          D
-De pe cruce în mormânt,
-       B7           e
-Din mormânt sus la cer,
-        a7   D    G
 Să fii înălţat mereu! :/                                 
 `,
   },
@@ -154,32 +93,6 @@ Sfântă iertare ne-ai dat;
 Tu ești vrednic să-Ți dăm slavă,
 Să fi adorat   
 `,
-    chords: `
-R:   
- A                D
-Tu ești vrednic, Tu ești vrednic
-A      F#m            E
-Slavă, cinste să-Ți dăm!
-A                D
-Tu ești vrednic de-nchinare
-A        E   A
-Și să Te adorăm!
-
-1.
-     E               A
-Căci Tu ai creat Universul și omul,
-E                  A      
-Viața din Tine primim;
-A        A7      D          B7/D#
-Tu ești vrednic să-Ți dăm slavă
-A         E    A
-Și să-Ți mulțumim!
-
-2. 
-Căci Tu ai murit la Golgota pe cruce,
-Sfântă iertare ne-ai dat;
-Tu ești vrednic să-Ți dăm slavă,  Să fi adorat   
-`,
   },
   {
     id: 4,
@@ -197,39 +110,6 @@ R:
 Tu-mi știi viitorul și ești lângă mine
 De ce să mă îngrijorez?     
 Mi-ai promis că vei sta lângă mine,
-Nicicând n-ai să mă părăsești.
-
-2. 
-/: De voi încerca să m-ascund de Tine
-Nu voi reuși
-Oriunde m-aș duce, chiar la marginea mării
-Mâna Ta mă va călăuzi. : /
-
-3.
-/: Tu mă cunoști întru totul Doamne
-Când stau jos sau mă ridic
-Îmi cunoști toate căile mele	
-Nu pot ascunde nimic. : /
-`,
-    chords: `
-1.  
-    C                  F 
-/: Când eram doar un plod fără chip
-G                C
-Ochii Tăi mă vedeau
-    C            F 
-În Cartea Ta de mult erau scrise
-    G            C
-Zilele ce m-așteptau. : /
-
-R:
-        C               F   
-Tu-mi știi viitorul și ești lângă mine
-   G                C
-De ce să mă îngrijorez?
-C                     F          
-Mi-ai promis că vei sta lângă mine,
-     G                   C
 Nicicând n-ai să mă părăsești.
 
 2. 
@@ -275,39 +155,6 @@ Când e cu mine sunt ocrotit.
 Eu știu prea bine și spun mereu:
 „Domnul e viața și e al meu!”
 `,
-    chords: `
-1.
-        C   F      C
-Ce bucurie am în Isus!
-        Am   D        Gsus G
-O viață nouă El mi-a adus.
-          C   F       C
-Pentru vecie m-a mântuit
-Am       Dm     G      C
-Și moștenire mi-a dăruit.
-
-R:
-           C        F      C
-În veci cânta-voi că-s fericit:
-        Am    D       Gsus G
-Isus pe cruce m-a mântuit!
-          C     F          C
-În veci aceasta eu voi cânta:
-  Am       Dm     G          C
-„Te-ador, Isuse, ești viața mea!”
-
-2.
-Cu bucurie inima mea
-Una cu Domnul să fie-ar vrea.
-El pace sfântă îmi dă din plin,
-Înviorat sunt prin har divin.
-
-3.
-Ce fericit sunt și liniștit,
-Când e cu mine sunt ocrotit.
-Eu știu prea bine și spun mereu:
-„Domnul e viața și e al meu!”
-`,
   },
   {
     id: 6,
@@ -325,48 +172,6 @@ R:
 Da, eu mă-ncred în Domnul
 Cetatea mea, cetatea mea, Cetatea mea...
 O, Isuse eu Ţie mă-ncredinţez,
-Cetate tare-n vreme rea.
-
-
-2.
-Scut de arşiţa soarelui,
-Cetate tare-n vreme rea!
-E ca lumina farului,
-Ce străluceşte-n noaptea grea.
-
-
-3.
-Cu-al Tău cuvânt marea alini,
-Cetate tare-n vreme rea!
-Sufletu-mi l-acest scut să vii
-Şi nici un rău nu s-a-ntâmpla.
-
-
-4.
-Tu eşti a mea mântuire,
-Cetate tare-n vreme rea!
-Tu-mi dai credinţă, iertare,
-M-aşteaptă-n cer fericirea.
-`,
-    chords: `
-1.
-    D
-Domnul îmi este adăpost,
-                     A
-Cetate tare-n vreme rea!
-  D             Bm
-Deşi e valul furios,
-                 D
-Îmi e scutită inima.
-
-R:
-    G                   
-Da, eu mă-ncred în Domnul
-   D            A            D     D7
-Cetatea mea, cetatea mea, Cetatea mea...
-   G                 D     Bm
-O, Isuse eu Ţie mă-ncredinţez,
-   D            A    D
 Cetate tare-n vreme rea.
 
 
@@ -433,50 +238,6 @@ Să primim cununa slavei.
 Vestesc a harului isprăvi,
 Tânjim și noi s-ajungem ziua când  Cu Isus vom sta în slavă.
 `,
-    chords: `
-1.
-  G/A  D           G/B    A/C#
-Ridică-te, oștirea lui Cristos, 
-      D/F#   G      A  D
-La chemarea Lui răspunde!
-      G/A       D             G/B   A/C#
-Chiar cei mai slabi să spună „Tari suntem”
-    D/F#       G    A  D
-Întăriți de-a Lui putere”.
-     D/F#    G    D/F#   A       D/F#  G     D      A
-Iar prin credință și-adevăr, Minciuna celui rău surpând,
-    G/A D          G/B    A/C#
-Vom căuta, de dragoste mânați, 
-    D/F#   G            A  D
-Din foc pe mulți să-i scoatem.
-
-2.
-De dragul sufletelor prinse-n laț,
-Noi luptăm cu-amăgitorul,
-Iar sabia ce vindecă răniți,
-Mânuim cu vrednici—e.
-Chiar în vâltoarea luptei prinși,
-Rămânem ferm încredințați:
-Cristos va lua, răsplata jertfei Lui, Neamurile moștenire.
-
-3.
-Vino și vezi iubirea, mila Lui,   
-Când Cristos e frânt pe cruce.
-Apoi dușmanii Lui ce zac zdrobiți
-Călcând din moarte EL învi—e.
-El se ivește din mormânt
-Și-ncepe-al biruinței cânt
-Ce curge-adânc și crește neoprit Până-n ziua veșnici—ei.  
-
-4.
-O, Sfinte Duh, dă har să biruim  
-Orice piedică pe cale.
-Și cu credință, alergând spre țel,
-Să primim cununa slavei.
-În timp ce-un nor de martori vii
-Vestesc a harului isprăvi,
-Tânjim și noi s-ajungem ziua când  Cu Isus vom sta în slavă.    
-`,
   },
  {
     id: 8,
@@ -517,47 +278,6 @@ Două minuni declar voios:
 Nevrednic sunt, dar valoros,
 Iar prețu-mi l-a plătit Cristos, la Calvar!
 `,
-    chords: `
-1.
-   C            F       C
-Valoarea mea nu stă-n averi,
-     C        F     C
-Sau ale trupului puteri,
-      C        G/B   Am    F      C
-Ci-n ale dragostei dureri, la Calvar.
-
-2.
-Valoare n-am că-s înzestrat,
-Nici că-s înfrânt sau înălţat,
-Ci-n sângele cel sfânt, vărsat, la Calvar.
-
-R:
- F                 G   Am
-Doar Cristos mi-e bucurie,
-     F         C     G
-Apă vie, și comoara mea!
-F            G         Am
-Mă încred în El, nu-n altul,
-          C/E     F     G  C
-Căci numai El îmi umple inima!
-
-3.
-Precum pier florile din câmp,
-Se duc și ani, și faimă-n vânt,
-Dar veșnicia stă chemând, la Calvar.
-
-4.
-Cum să mă laud cu averi,
-Cu cele omenești ce pier?
-Mă laud că-L cunosc pe El, la Calvar.
-
-REFREN  
-
-5.
-Două minuni declar voios:
-Nevrednic sunt, dar valoros,
-Iar prețu-mi l-a plătit Cristos, la Calvar! 
-`,
   },
   {
   id: 9,
@@ -579,29 +299,6 @@ Chiar de s-ar clătina pământul.
 
 Ps 46
 `,
-  chords: `
-1.
-      G             Am7
-Dumnezeu este adăpostul,   
-     D        G
-Și sprijinul nostru,
-       G              Am7
-Un ajutor care nu lipseşte,
-D               G
-Niciodata în nevoi. 
-
-R:
-     C           G
-De aceea, nu ne temem,
-       D                 G
-Chiar de s-ar clătina pământul.
-    C       G
-Și s-ar zgudui munții
-   D          G
-În inima mărilor.
-
-Ps 46
-`,
 },
   {
   id: 10,
@@ -614,20 +311,6 @@ Nu te înspăimânta și nu te-ngrozi
 Căci Domnul Dumnezeu 
 E cu tine, oriunde, oriunde, 
 Oriunde vei merge    
-Iosua, Iosua unu cu nouă.
-`,
-  chords: `
-    Dm                      A        Dm
-/: Oare nu ți-am poruncit curaj, întăreștete :/
-Gm                       Dm
-Nu te înspăimânta și nu te-ngrozi
-            Gm
-Căci Domnul Dumnezeu 
-      Dm     Gm       Dm
-E cu tine, oriunde, oriunde, 
-   A          Dm
-Oriunde vei merge    
-Dm     Gm    Dm     A  Dm
 Iosua, Iosua unu cu nouă.
 `,
 },
@@ -647,39 +330,6 @@ R:
 Aleluia! Aleluia!
 Voi cânta neîncetat
 Prin Isus am mântuire,
-Fie veșnic lăudat!
-
-2
-M-a luat cu drag pe brațe,
-De păcat m-a vindecat,
-Hrană din Cuvântul vieții
-Și putere El mi-a dat!
-
-3
-M-a spălat Mântuitorul,  
-Haină albă am primit,
-M-a sfințit prin al Său sânge,
-O, cât sunt de fericit!
-`,
-  chords: `
-1.
-       C      Am     G
-M-a aflat pe căi străine
-       F     G      C
-Bunul meu Păstor, Isus.
-G     C      Am   G
-Din adânc și întuneric,
-      F    G    C
-La lumină m-a adus.
-
-R:
-    Am   G   F C
-Aleluia! Aleluia!
-       Am    G   F
-Voi cânta neîncetat
-       C     Am   G
-Prin Isus am mântuire,
-     F      G  C
 Fie veșnic lăudat!
 
 2
@@ -732,50 +382,6 @@ Iar când zorii vor veni,
 Numele Tău voi slăvi,
 Asta-i fericirea mea: Să cânt slava Ta!
 `,
-  chords: `
-1.
- D          Em7        A            D
-Doamne, bunătatea Ta, Îmi cuprinde inima
-D          Em7       G      A     D
-Și mă face fericit, Domnul meu iubit.
-D             Em7       A           D
-De cu zori până-n apus Numai harul Tău, Isus,
-D          Em7   A         D
-Îmi inundă inima și viaţa mea.
-
-R:
- G
-N-ai în lume-asemănare, 
-D
-Nu e nimenea sub soare,
-A
-Nici în cer, nici pe pământ
-D                D7
-Cât eşti Tu de sfânt!
-G
-Dragostea-Ți mă copleşeşte,
-D
-Pacea Ta mă linişteşte,
-A
-Harul Tău îmi dă avânt, 
-G        A          D
-Tot mai mult să-Ți cânt.
-
-2.
-Norii negrii când apar Tu îmi ești un veşnic far,
-Drumul mi-l călăuzeşti Și mă ocroteşti.
-Și prin arșiță Îți cânt Numai Ție, Doamne sfânt,
-Că-n izvorul Tău ceresc Sufletu-mi sfințesc.
-
-3.
-Doamne, pune-n gura mea.  
-Totdeauna lauda Ta,
-Numai Ție să Îți cânt
-Pe acest pământ.
-Iar când zorii vor veni,
-Numele Tău voi slăvi,
-Asta-i fericirea mea: Să cânt slava Ta!
-`,
 },
 {
   id: 13,
@@ -807,39 +413,6 @@ Dorinţele ce îmi rămân nespuse
 Să le-mplineşti prin sfântul Tău Cuvânt! 
 
 `,
-  chords: `
-1.
-           D     G               D Bm
-Aş vrea, Isuse scump, să fiu ca Tine
-         A                  D
-În pribegia mea pe-acest pământ;
-           D         G          D Bm
-De-atâtea ori când grea ispită vine,
-         A                        D  D7
-S-o biruiesc prin sfântul Tău Cuvânt.
-
-R: 
-           G                   D
-Aş vrea, Isuse scump, a Ta comoară
-         G        Em             A
-De mângâieri, pe veci să-mi dăruieşti;
-             D   G                 D Bm
-Aş vrea în mine tot ce-i vechi să moară,
-           A                   D
-Iar Tu să faci din mine ce doreşti.
-
-2.
-Şi-aş vrea, Isuse scump, a Ta viaţă
-Să se-oglindească pururi în a mea,
-Şi să dispară vălul greu de ceaţă
-Ce-mpiedică să-Ți văd mărirea Ta.
-
-3.
-Şi câte n-aş mai vrea, o, scump Isuse,
-În pribegia mea pe-acest pământ!
-Dorinţele ce îmi rămân nespuse
-Să le-mplineşti prin sfântul Tău Cuvânt! 
-`,
 },
 {
   id: 14,
@@ -854,35 +427,6 @@ Când mi-e rece dragostea, sprijin mi-e Cristos.
 
 R:
 Sprijin mi-e Cristos, sprijin mi-e Cristos,
-Sunt iubit în chip nespus, sprijin mi-e Isus.
-
-2.
-Domnul se desfată-n sfinți, sprijin mi-e Cristos,
-Înaintea lui sunt scumpi, sprijin mi-e Cristos.
-Sufletu-mi va fi păzit, va-mplini ce-a spus,
-Cu preț mare m-a plătit, sprijin mi-e Cristos.
-
-3.
-Pentru mine a murit, sprijin mi-e Cristos,
-El dreptatea a-mplinit, sprijin mi-e Cristos,
-El e învierea mea, sprijin mi-e Cristos,
-Ce-am crezut voi și vedea la venirea Sa!  
-`,
-  chords: `
-1.
-  G               G/B     C            D        G
-Când credința-mi s-ar clinti, sprijin mi-e Cristos,
-  G             G/B  C            D       G
-Când cel rău ar izbuti, sprijin mi-e Cristos.
- Em    D/F#  G   C          B   Em
-Cum să pot înainta când e-ntunecos?
-  Em      D/F#  G     C             D       G
-Când mi-e rece dragostea, sprijin mi-e Cristos.
-
-R:
-  C       D      Em           D/F#      G
-Sprijin mi-e Cristos, sprijin mi-e Cristos,
- G                     C             D    G
 Sunt iubit în chip nespus, sprijin mi-e Isus.
 
 2.
@@ -933,49 +477,6 @@ Tu domnești de-a pururi!
 Tu domnești de-a pururi! 
 Tu domnești de-a pururi! 
 `,
-  chords: `
-1.
-  A          Cm#
-Cine-a dat oceanelor hotar?
- A           Cm#
-Cine-a pus nisipul pe cântar?
- D               E
-Regi și țări se tem de-al Său Cuvânt,
-Fm#        Cm#           E
-Iar natura se ridică-n cânt !
-
-R:
-      A  E  Fm#                   D
-E-al nostru Domn, stă pe tron în cer,
-            A   E
-Să ne închinăm Lui!
-      A  E  Fm#                  D
-E-al nostru Domn, nimeni nu-i ca El,
-            A   E
-Să ne închinăm Lui!
-
-2.
-Cine poate sfaturi Lui a-I da?
-Cine Legea Sa o va nega?
-Ce să-nveți pe Cel ce-i infinit?
-Poți sonda minuni de negrăit?
-
-3.
-Cine-n mâini piroane a-ndurat,  
-Vina omului când a purtat?
-Domn etern, prin moarte umilit,
-Viu e-acum, pe tron stă proslăvit!
-
-Bridge (Opțional)
- A                D
-Tu domnești de-a pururi!
- A                D
-Tu domnești de-a pururi!
-Fm#               D
-Tu domnești de-a pururi! 
-Fm#               D
-Tu domnești de-a pururi! 
-`,
 },
 {
   id: 16,
@@ -986,33 +487,6 @@ Tu domnești de-a pururi!
 Cristos, ancora cea tare, cu furtuna când mă lupt,
 Când bat vânturi de-ndoială si când pânzele-mi se rup.
 Prin dureri și-n suferință, când speranță nu mai am,
-Neclintit rămâne Domnul, Cel în care-s ancorat.
-
-2.
-Hristos, ancora cea tare, când furtuna bate greu,
-Când ispita mă învinge și e noapte-n jurul meu.
-Mai adânc mă-ncred în Domnul, deși drept sunt acuzat.
-Neclintit rămâne Domnul, Cel în care-s ancorat!
-
-3.
-Hristos, ancora cea tare, necredința când m-a-nvins.
-Disperat ești al meu suflet, dar privește la Isus.
-La calvar ai siguranță, dragostea Și-a demonstrat.
-Neclintit rămâne Domnul, Cel în care-s ancorat!
-
-C: 
-Hristos Stânca mântuirii, credincios și-adevărat.
-Neclintit rămâne veșnic, în El suntem ancorați. 
-`,
-  chords: `
-1.
-          C                      F             C
-Cristos, ancora cea tare, cu furtuna când mă lupt,
-          C            Am            G             G7
-Când bat vânturi de-ndoială si când pânzele-mi se rup.
-        F             C              F     G     Am
-Prin dureri și-n suferință, când speranță nu mai am,
-       C         Am             F      G    C C Am F
 Neclintit rămâne Domnul, Cel în care-s ancorat.
 
 2.
@@ -1058,35 +532,6 @@ Cei ce sunteți azi pierduți, să veniți la El,
 Veți primi Salvare-n dar, doar prin jertfa Lui. 
 
 `,
-  chords: `
-1.
- C   C/E    F    C    Am   G      C
-Dacă suntem însetați, să venim la El.
- C    C/E     F     C  Am   G       C
-Doar Isus ne poate da, apa vieții-n dar
- C    C/E     F       C    Am    G     C
-Toți acei ce suntem slabi, să venim la El
- C    C/E     F    C   Am    G     C
-Doar Isus ne va-ntări, ne va da puteri.
-
-R:
-C       F        C       G     C
-Domnul nostru-i bun și credincios.
-       F     C     G
-Zi și noapte e cu noi.
-        F       C   G     Am
-Stânca noastră tare e Hristos,
- F     G      C 
-Nu ne vom clinti!
-
-2.
-Dacă temeri s-or ivi, să venim la El,
-Adăpost noi vom găsi, când ne va fi greu.
-
-3.
-Cei ce sunteți azi pierduți, să veniți la El,
-Veți primi Salvare-n dar, doar prin jertfa Lui. 
-`,
 },
 {
   id: 18 ,
@@ -1104,51 +549,6 @@ Săpat eu sunt în palma Sa
 Și pe-a Lui inimă sunt scris
 Iar cât in ceruri El va sta,
 Pârâșul meu va fi învins,
-//: Pârâșul meu va fi învins ://
-
-2.
-Satan când mă va acuza
-Spunându-mi că sunt vinovat,
-Privesc la Domnul, Stânca mea
-Ce-a șters pe cruce-al meu păcat.
-Fiindcă Domnul a murit,
-Eu am ajuns neprihănit;
-Dreptatea s-a îndeplinit,
-/: Prin moartea Lui sunt mântuit, :/ X2
-
-3.
-Și iată Mielul înălțat,  
-Cel nepătat, neprihănit,
-Cuvântul viu și întrupat
-E Rege-al regilor slăvit.
-/: Unit cu El nu voi muri,
-Cu sânge m-a răscumpărat;
-Voi fi cu El în veșnicii,
-Cu Domnul meu glorificat! :/ x2
-
-Cu Domnul meu glorificat!
-`,
-  chords: `
-1.
-          D   G      D
-În fața tronului de sus
-          D       F#m
-Eu am un bun apărător,
-          G    A    Bm
-Un mare Preot, pe Isus
-        G    A   D
-La care aflu ajutor.
-
-R:
-  D/F#    G             A
-Săpat eu sunt în palma Sa
-    D/F#    G   A         Bm
-Și pe-a Lui inimă sunt scris
-    D/F#          A      Bm
-Iar cât in ceruri El va sta,
-  D/F#   G        A  Bm
-Pârâșul meu va fi învins,
-      D/F#   G        A    D
 //: Pârâșul meu va fi învins ://
 
 2.
@@ -1210,45 +610,6 @@ Gloria Ta atunci vom vedea.
 O, ce zi!
 
 `,
-  chords: `
-1.
-A            Bm      F#m
-Într-o zi va fi totul nou, Isus. 
-Bm         A        E
-Rănile ce dor vei lega
-D                E         F#m
-Toate trec doar Tu-n veci rămâi, 
-Bm  A   E
-Domnul meu.
-
-2.
-Totul voi pricepe-ntr-o zi, Isus. 
-Orice îndoieli vor muri;
-Toată teama o voi lăsa 
-în urma mea...
-
-R: 
-        A A4      A
-Când în cer vom ajunge
-      F#m     D              E
-O, ce zi glorioasă-atunci va fi
-        A/C#    D
-Când vom fi cu Isus
-A/E   E          A
-Fața Lui o vom privi.
-
-3.
-Într-o zi Îl vom întâlni pe Isus  
-Copleșiți de-al Sau mare har
-Și într-o clipă vom fi schimbați/x3
-O, ce zi!
-
-4.
-Vine o zi când liberi vom fi, Isus
-Când lupta noastră se va sfârși
-Gloria Ta atunci vom vedea.
-O, ce zi!
-`,
 },
 {
   id: 20,
@@ -1280,39 +641,6 @@ Nădejdea mea nu o să moară
 Eu voi intra-n odihna Sa!
 
 `,
-  chords: `
-1.
-            Bm
-Sunt un pribeag fără de ţară,
-      Em        F#      Bm
-Rătăcitor prin lung pustiu.
-            Bm
-Dar am în ceruri o comoară
-         Em      F#   Bm
-Şi ţara mea e-n veşnicii.
-
-R:  
-                G        A         D
-Mă-ndrept spre cer să-L văd pe Domnul
-           G      A    D F#7
-Să nu mai fiu un pelegrin!
-            F#               Bm
-Căci după ce-am  să trec Iordanul
-          Em    F#     Bm
-Se va sfârşi al meu suspin!
-
-2.
-Tu vezi ce grea mi-e ‘naintarea
-Mă lupt să biruiesc mereu
-Un dor nestins mă cheamă acasă
-E dorul după Dumnezeu.
-
-3.
-Voi lepăda a mea povară
-Eliberat sub crucea grea
-Nădejdea mea nu o să moară
-Eu voi intra-n odihna Sa!
-`,
 },
 {
   id: 21,
@@ -1323,36 +651,6 @@ Eu voi intra-n odihna Sa!
 Amazing grace how sweet the sound
 That saved a wretch like me
 I once was lost, but now I'm found
-Was blind but now I see.
-
-
-2.
-'Twas grace that taught my heart to fear
-And grace my fears relieved
-How precious did that grace appear
-The hour I first believed.
-
-3.
-Through many dangers, toils, and snares
-I have already come
-This grace that brought me safe thus far
-And grace will lead me home.
-
-4.
-When we've been here ten thousand years
-Bright, shining as the sun
-We've no less days to sing God's praise
-Than when we first begun.
-`,
-  chords: `
-1.
-  F                 Bb        F
-Amazing grace how sweet the sound
-      Dm       G         C
-That saved a wretch like me
-   F                 Bb        F
-I once was lost, but now I'm found
-      Dm       C     F
 Was blind but now I see.
 
 
@@ -1417,50 +715,6 @@ Of this old story that rescued me
 Praise to my Saviour, the King of life
 I stand in the Gospel of Jesus Christ  
 `,
-  chords: `
-1.
-       C                 F                 C        G
-There is one Gospel on which I stand, For all eternity
-   C/E              F                  C       G      C
-It is my story, my Father’s plan, The Son has rescued me
-C                      F     C
-Oh what a Gospel, Oh what a peace
-F           C          Am      G
-My highest joy and my deepest need
-C         Dm7     C/E     F
-Now and forever He is my light
-    F           C         G       C
-I stand in the Gospel of Jesus Christ
-
-2.
-There is one Gospel to which I cling, All else I count as loss
-For there, where justice and mercy meet
-He saved me on the cross
-No more I boast in what I can bring
-No more I carry the weight of sin
-For He has brought me from death to life
-I stand in the Gospel of Jesus Christ
-
-3.
-There is one Gospel where hope is found 
-The empty tomb still speaks
-For death could not keep my Saviour down  
-He lives and I am free
-Now on my Saviour, I fix my eyes
-My life is His and His hope is mine!
-For He has promised I, too, will rise
-I stand in the Gospel of Jesus Christ
-
-4.
-And in this Gospel the church is one 
-We do not walk alone
-We have His Spirit as we press on  
-To lead us safely home
-And when in glory still I will sing
-Of this old story that rescued me
-Praise to my Saviour, the King of life
-I stand in the Gospel of Jesus Christ  
-`,
 },
 {
   id: 23,
@@ -1482,58 +736,6 @@ O sing hallelujah!
 Our hope springs eternal
 O sing hallelujah!
 Now and ever we confess
-Christ our hope in life and death
-
-2.
-What truth can calm the troubled soul?
-God is good, God is good
-Where is his grace and goodness known?
-In our great Redeemer's blood
-Who holds our faith when fears arise?
-Who stands above the stormy trial?
-Who sends the waves that bring us nigh?
-Unto the shore, the rock of Christ
-
-3.
-Unto the grave, what shall we sing?
-"Christ, he lives! Christ, he lives!"
-And what reward will heaven bring?
-Everlasting life with him
-There we will rise to meet the Lord
-Then sin and death will be destroyed
-And we will feast in endless joy
-When Christ is ours forevermore. 
-
-`,
-  chords: `
-1.
-             E      Esus       E
-What is our hope in life and death?
-Esus     E      C#m7   B
-Christ alone, Christ alone
-            E     B     C#m
-What is our only confidence?
-A         E        B     E
-That our souls to Him belong
-              G#m             C#m
-Who holds our days within His hand?
-             F#m7       E      A
-What comes, apart from His command?
-               E       B     C#m
-And what will keep us to the end?
-     A         E         B       E  Esus E
-The love of Christ, in which we stand
-
-R:  
-  C#m   A    E
-O sing hallelujah!
-     B            C#m
-Our hope springs eternal
-E   A        E
-O sing hallelujah!
-A       E     B     A
-Now and ever we confess
-           C#m      B        E
 Christ our hope in life and death
 
 2.
