@@ -81,51 +81,79 @@ Of the goodness of God
   },
   {
     id: 2,
-    title: "2. Holy Forever",
+    title: "2. Gratitude",
     key: "F",
     youtube:"",
     lyrics: `
 1.
-Doamne, numele-Ţi înalţ,	
-Doamne laudă-Ţi cânt Ţie,
-Fericit sunt că Te am,
-Fericit de-a Ta iertare.
+All my words fall short
+I got nothing new
+How could I express
+All my gratitude
 
-R:
-/: Tu ai venit pe pământ, să ne salvezi,
-Sus pe cruce ai murit, iertaţi să fim,
-De pe cruce în mormânt,
-Din mormânt sus la cer,
-Să fii înălţat mereu! :/                                 
+2.
+I could sing these songs
+As I often do
+But every song must end
+And You never do
+
+Chorus 1
+So I throw up my hands
+And praise You again and again
+‘Cause all that I have
+Is a hallelujah hallelujah
+
+Chorus 2
+And I know it’s not much
+But I’ve nothing else fit for a king
+Except for a heart singing
+Hallelujah hallelujah
+
+3.
+I’ve got one response
+I’ve got just one move
+With my arms stretched wide
+I will worship You
+
+Chorus 1
+So I throw up my hands
+And praise You again and again
+‘Cause all that I have
+Is a hallelujah hallelujah
+
+Chorus 2
+And I know it’s not much
+But I’ve nothing else fit for a king
+Except for a heart singing
+Hallelujah hallelujah
+
+Bridge
+Come on my soul
+Oh don’t you get shy on me
+Lift up your song
+‘Cause you’ve got a lion
+Inside of those lungs
+Get up and praise the Lord
+
+Chorus 1
+So I throw up my hands
+And praise You again and again
+‘Cause all that I have
+Is a hallelujah hallelujah
+
+Chorus 2
+And I know it’s not much
+But I’ve nothing else fit for a king
+Except for a heart singing
+Hallelujah hallelujah                                 
 `,
-    chords: `
-1.
-G          C          D  C
-  Doamne, numele-Ţi înalţ,	
-G         C             D  C
-  Doamne laudă-Ţi cânt Ţie,
-G      C             D  C
-  Fericit sunt că Te am,
-G      C              D   C
-  Fericit de-a Ta iertare.
-
-R:
-   G          C        D       C      G
-  /: Tu ai venit pe pământ, să ne salvezi,
-         C         D       C       G
-Sus pe cruce ai murit, iertaţi să fim,
-        C          D
-De pe cruce în mormânt,
-       B7           e
-Din mormânt sus la cer,
-        a7   D    G
-Să fii înălţat mereu! :/                                 
+    chords: `                                 
 `,
   },
   {
     id: 3,
-    title: "3. Tu ești vrednic",
-    key: "A",
+    title: "3. Holy Forever",
+    key: "F",
     youtube: "",
     lyrics: `
 1.
