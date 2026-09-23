@@ -1663,10 +1663,29 @@ if (chorusMatch) {
   };
 }
 
-  // ✅ Verse numbers like "1." or "2:"
-  if (/^\d+\s*[:.]?$/.test(s)) {
-    return { isLabel: true, type: "verse", labelText: s };
-  }
+  // Verse 1, Verse 2, Verse 3
+const verseMatch = s.match(
+  /^verse(?:\s+(\d+))?\s*[:.]?$/i
+);
+
+if (verseMatch) {
+  return {
+    isLabel: true,
+    type: "verse",
+    labelText: verseMatch[1]
+      ? `Verse ${verseMatch[1]}`
+      : "Verse",
+  };
+}
+
+// Legacy format: 1. 2. 3.
+if (/^\d+\s*[:.]?$/.test(s)) {
+  return {
+    isLabel: true,
+    type: "verse",
+    labelText: `Verse ${s.replace(/[.:]/g, "")}`,
+  };
+}
 
   // Pre Chorus
 // Pre Chorus, Pre Chorus 1, Pre Chorus 2
