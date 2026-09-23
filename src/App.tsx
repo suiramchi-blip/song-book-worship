@@ -446,89 +446,77 @@ The Name of Jesus
   },
   {
     id: 7,
-    title: "7. Ridică-te, oștirea lui Cristos",
-    key: "D",
-    youtube: "https://www.youtube.com/watch?v=4QQ0-0g6v6Y",
+    title: "7. Living Hope",
+    key: "G",
+    youtube: "",
     lyrics: `
-1.
-Ridică-te, oștirea lui Cristos, 
-La chemarea Lui răspunde!
-Chiar cei mai slabi să spună „Tari suntem”
-Întăriți de-a Lui putere”.
-Iar prin credință și-adevăr, Minciuna celui rău surpând,
-Vom căuta, de dragoste mânați, 
-Din foc pe mulți să-i scoatem.
-
-2.
-De dragul sufletelor prinse-n laț,
-Noi luptăm cu-amăgitorul,
-Iar sabia ce vindecă răniți,
-Mânuim cu vrednici—e.
-Chiar în vâltoarea luptei prinși,
-Rămânem ferm încredințați:
-Cristos va lua, răsplata jertfei Lui, Neamurile moștenire.
-
-3.
-Vino și vezi iubirea, mila Lui,   
-Când Cristos e frânt pe cruce.
-Apoi dușmanii Lui ce zac zdrobiți
-Călcând din moarte EL învi—e.
-El se ivește din mormânt
-Și-ncepe-al biruinței cânt
-Ce curge-adânc și crește neoprit Până-n ziua veșnici—ei.  
-
-4.
-O, Sfinte Duh, dă har să biruim  
-Orice piedică pe cale.
-Și cu credință, alergând spre țel,
-Să primim cununa slavei.
-În timp ce-un nor de martori vii
-Vestesc a harului isprăvi,
-Tânjim și noi s-ajungem ziua când  Cu Isus vom sta în slavă.
+Verse 1
+How great the chasm
+That lay between us
+How high the mountain
+I could not climb
+In desperation I turned to Heaven
+And spoke Your name into the night
+Pre Chorus 1
+Then through the darkness
+Your loving kindness
+Tore through the shadows of my soul
+The work is finished
+The end is written
+Jesus Christ my living hope
+Verse 2
+Who could Imagine
+So great a mercy
+What heart could fathom
+Such boundless grace
+The God of ages
+Stepped down from glory
+To wear my sin
+And bear my shame
+Pre Chorus 2
+The cross has spoken I am forgiven
+The King of kings calls me His own
+Beautiful Savior I'm Yours forever
+Jesus Christ my living hope
+Chorus
+Hallelujah
+Praise the One who set me free
+Hallelujah
+Death has lost its grip on me
+You have broken every chain
+There's salvation in Your name
+Jesus Christ my living hope
+Verse 3
+Then came the morning
+That sealed the promise
+Your buried body began to breathe
+Out of the silence the Roaring Lion
+Declared the grave
+Has no claim on me
+Tag
+Jesus Yours is the victory
+Chorus
+Hallelujah
+Praise the One who set me free
+Hallelujah
+Death has lost its grip on me
+You have broken every chain
+There's salvation in Your name
+Jesus Christ my living hope
+Tag
+Jesus Christ my living hope
+Chorus
+Hallelujah
+Praise the One who set me free
+Hallelujah
+Death has lost its grip on me
+You have broken every chain
+There's salvation in Your name
+Jesus Christ my living hope
+Tag
+Jesus Christ my living hope
 `,
     chords: `
-1.
-  G/A  D           G/B    A/C#
-Ridică-te, oștirea lui Cristos, 
-      D/F#   G      A  D
-La chemarea Lui răspunde!
-      G/A       D             G/B   A/C#
-Chiar cei mai slabi să spună „Tari suntem”
-    D/F#       G    A  D
-Întăriți de-a Lui putere”.
-     D/F#    G    D/F#   A       D/F#  G     D      A
-Iar prin credință și-adevăr, Minciuna celui rău surpând,
-    G/A D          G/B    A/C#
-Vom căuta, de dragoste mânați, 
-    D/F#   G            A  D
-Din foc pe mulți să-i scoatem.
-
-2.
-De dragul sufletelor prinse-n laț,
-Noi luptăm cu-amăgitorul,
-Iar sabia ce vindecă răniți,
-Mânuim cu vrednici—e.
-Chiar în vâltoarea luptei prinși,
-Rămânem ferm încredințați:
-Cristos va lua, răsplata jertfei Lui, Neamurile moștenire.
-
-3.
-Vino și vezi iubirea, mila Lui,   
-Când Cristos e frânt pe cruce.
-Apoi dușmanii Lui ce zac zdrobiți
-Călcând din moarte EL învi—e.
-El se ivește din mormânt
-Și-ncepe-al biruinței cânt
-Ce curge-adânc și crește neoprit Până-n ziua veșnici—ei.  
-
-4.
-O, Sfinte Duh, dă har să biruim  
-Orice piedică pe cale.
-Și cu credință, alergând spre țel,
-Să primim cununa slavei.
-În timp ce-un nor de martori vii
-Vestesc a harului isprăvi,
-Tânjim și noi s-ajungem ziua când  Cu Isus vom sta în slavă.    
 `,
   },
  {
