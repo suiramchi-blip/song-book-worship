@@ -301,66 +301,68 @@ So we pour out our praise to You only
   },
   {
     id: 5,
-    title: "5. Ce bucurie am în Isus",
+    title: "5. Build My Life",
     key: "C",
-    youtube: "https://youtu.be/MENlE86ora4?si=mQeW3YrZv6-PjUff",
+    youtube: "",
     lyrics: `
-1.
-Ce bucurie am în Isus!
-O viață nouă El mi-a adus.
-Pentru vecie m-a mântuit
-Și moștenire mi-a dăruit.
-
-R:
-În veci cânta-voi că-s fericit:
-Isus pe cruce m-a mântuit!
-În veci aceasta eu voi cânta:
-„Te-ador, Isuse, ești viața mea!”
-
-2.
-Cu bucurie inima mea
-Una cu Domnul să fie-ar vrea.
-El pace sfântă îmi dă din plin,
-Înviorat sunt prin har divin.
-
-3.
-Ce fericit sunt și liniștit,
-Când e cu mine sunt ocrotit.
-Eu știu prea bine și spun mereu:
-„Domnul e viața și e al meu!”
+Verse 1
+Worthy of every song
+We could ever sing
+Worthy of all the praise
+We could ever bring
+Worthy of every breath
+We could ever breath
+We live for You
+We live for You
+Verse 2
+Jesus the Name
+Above every other name
+Jesus the only One
+Who could ever save
+Worthy of every breath
+We could ever breathe
+We live for You
+Oh we live for You
+Chorus
+Holy there is no one like You
+There is none beside You
+Open up my eyes in wonder
+And show me who You are
+And fill me with Your heart
+And lead me in Your love
+To those around me
+Verse 2
+Jesus the Name
+Above every other name
+Jesus the only One
+Who could ever save
+Worthy of every breath
+We could ever breathe
+We live for You
+Oh we live for You
+Chorus
+Holy there is no one like You
+There is none beside You
+Open up my eyes in wonder
+And show me who You are
+And fill me with Your heart
+And lead me in Your love
+To those around me
+Bridge
+And I will build my life upon Your love
+It is a firm foundation
+And I will put my trust in You alone
+And I will not be shaken
+Chorus
+Holy there is no one like You
+There is none beside You
+Open up my eyes in wonder
+And show me who You are
+And fill me with Your heart
+And lead me in Your love
+To those around me
 `,
     chords: `
-1.
-        C   F      C
-Ce bucurie am în Isus!
-        Am   D        Gsus G
-O viață nouă El mi-a adus.
-          C   F       C
-Pentru vecie m-a mântuit
-Am       Dm     G      C
-Și moștenire mi-a dăruit.
-
-R:
-           C        F      C
-În veci cânta-voi că-s fericit:
-        Am    D       Gsus G
-Isus pe cruce m-a mântuit!
-          C     F          C
-În veci aceasta eu voi cânta:
-  Am       Dm     G          C
-„Te-ador, Isuse, ești viața mea!”
-
-2.
-Cu bucurie inima mea
-Una cu Domnul să fie-ar vrea.
-El pace sfântă îmi dă din plin,
-Înviorat sunt prin har divin.
-
-3.
-Ce fericit sunt și liniștit,
-Când e cu mine sunt ocrotit.
-Eu știu prea bine și spun mereu:
-„Domnul e viața și e al meu!”
 `,
   },
   {
