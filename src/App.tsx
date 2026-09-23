@@ -367,84 +367,81 @@ To those around me
   },
   {
     id: 6,
-    title: "6. Domnul îmi este adăpost",
-    key: "D",
-    youtube: "https://youtu.be/8yQsTWsXHEw?si=XiGPyaIT-OmI2xKU",
+    title: "6. What a Beautiful Name",
+    key: "Bb",
+    youtube: "",
     lyrics: `
-1.   
-Domnul îmi este adăpost,
-Cetate tare-n vreme rea!
-Deşi e valul furios,
-Îmi e scutită inima.
-                  
-R: 
-Da, eu mă-ncred în Domnul
-Cetatea mea, cetatea mea, Cetatea mea...
-O, Isuse eu Ţie mă-ncredinţez,
-Cetate tare-n vreme rea.
-
-
-2.
-Scut de arşiţa soarelui,
-Cetate tare-n vreme rea!
-E ca lumina farului,
-Ce străluceşte-n noaptea grea.
-
-
-3.
-Cu-al Tău cuvânt marea alini,
-Cetate tare-n vreme rea!
-Sufletu-mi l-acest scut să vii
-Şi nici un rău nu s-a-ntâmpla.
-
-
-4.
-Tu eşti a mea mântuire,
-Cetate tare-n vreme rea!
-Tu-mi dai credinţă, iertare,
-M-aşteaptă-n cer fericirea.
+Verse 1
+You were the Word at the beginning
+One With God the Lord Most High
+Your hidden glory in creation
+Now revealed in You our Christ
+Chorus
+What a beautiful Name it is
+What a beautiful Name it is
+The Name of Jesus Christ my King
+What a beautiful Name it is
+Nothing compares to this
+What a beautiful Name it is
+The Name of Jesus
+Verse 2
+You didn't want Heaven without us
+So Jesus You brought Heaven down
+My sin was great
+Your love was greater
+What could separate us now
+Chorus
+What a wonderful Name it is
+What a wonderful Name it is
+The Name of Jesus Christ my King
+What a wonderful Name it is
+Nothing compares to this
+What a wonderful Name it is
+The Name of Jesus
+Tag
+What a wonderful Name it is
+The Name of Jesus
+Bridge
+Death could not hold You
+The veil tore before You
+You silence the boast of sin and grave
+Bridge
+The heavens are roaring
+The praise of Your glory
+For You are raised to life again
+Bridge
+You have no rival You have no equal
+Now and forever God You reign
+Bridge
+Yours is the kingdom Yours is the glory
+Yours is the Name above all Names
+Chorus
+What a powerful Name it is
+What a powerful Name it is
+The Name of Jesus Christ my King
+What a powerful Name it is
+Nothing can stand against
+What a powerful Name it is
+The Name of Jesus
+Bridge
+You have no rival You have no equal
+Now and forever God You reign
+Bridge
+Yours is the kingdom Yours is the glory
+Yours is the Name above all Names
+Chorus
+What a powerful Name it is
+What a powerful Name it is
+The Name of Jesus Christ my King
+What a powerful Name it is
+Nothing can stand against
+What a powerful Name it is
+The Name of Jesus
+Tag
+What a powerful Name it is
+The Name of Jesus
 `,
     chords: `
-1.
-    D
-Domnul îmi este adăpost,
-                     A
-Cetate tare-n vreme rea!
-  D             Bm
-Deşi e valul furios,
-                 D
-Îmi e scutită inima.
-
-R:
-    G                   
-Da, eu mă-ncred în Domnul
-   D            A            D     D7
-Cetatea mea, cetatea mea, Cetatea mea...
-   G                 D     Bm
-O, Isuse eu Ţie mă-ncredinţez,
-   D            A    D
-Cetate tare-n vreme rea.
-
-
-2.
-Scut de arşiţa soarelui,
-Cetate tare-n vreme rea!
-E ca lumina farului,
-Ce străluceşte-n noaptea grea.
-
-
-3.
-Cu-al Tău cuvânt marea alini,
-Cetate tare-n vreme rea!
-Sufletu-mi l-acest scut să vii
-Şi nici un rău nu s-a-ntâmpla.
-
-
-4.
-Tu eşti a mea mântuire,
-Cetate tare-n vreme rea!
-Tu-mi dai credinţă, iertare,
-M-aşteaptă-n cer fericirea.
 `,
   },
   {
