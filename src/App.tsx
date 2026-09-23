@@ -2,7 +2,13 @@ import React, { useEffect, useMemo, useRef, useState } from "react";
 import kingdomKidsLogo from "./Image.png"
 
 type ViewMode = "lyrics" | "both";
-type SectionType = "chorus" | "verse" | "bridge" | "other";
+type SectionType =
+| "chorus"
+| "prechorus"
+| "verse"
+| "bridge"
+| "tag"
+| "other";
 
 type Song = {
   id: number;
@@ -1669,9 +1675,23 @@ function detectSectionLabel(line: string): {
     return { isLabel: true, type: "verse", labelText: s };
   }
 
-  if (/^bridge\s*$/i.test(s)) {
-    return { isLabel: true, type: "bridge", labelText: "Bridge" };
-  }
+  // Pre Chorus
+if (/^pre[\s-]*chorus\s*$/i.test(s)) {
+  return {
+    isLabel: true,
+    type: "prechorus",
+    labelText: "Pre Chorus",
+  };
+}
+
+// Tag
+if (/^tag\s*$/i.test(s)) {
+  return {
+    isLabel: true,
+    type: "tag",
+    labelText: "Tag",
+  };
+}
 
   return { isLabel: false, type: "other", labelText: "" };
 }
