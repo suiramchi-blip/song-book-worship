@@ -584,138 +584,207 @@ Praise forever to the King of Kings
   },
   {
   id: 9,
-  title: "9. Dumnezeu este adăpostul",
+  title: "9. House of the Lord",
   key: "G",
-  youtube: "https://youtu.be/R4ozztUP1sg?si=x7Uiwu29Zxy3zprC",
+  youtube: "",
   lyrics: `
-1.
-Dumnezeu este adăpostul,   
-Și sprijinul nostru,
-Un ajutor care nu lipseşte,
-Niciodata în nevoi. 
-
-R:
-De aceea, nu ne temem,
-Chiar de s-ar clătina pământul.
-Și s-ar zgudui munții
-În inima mărilor.
-
-Ps 46
+Verse 1
+We worship the God who was
+We worship the God who is
+We worship the God who
+Evermore will be
+Verse 2
+He opened the prison doors
+He parted the raging sea
+My God He holds the victory
+Chorus
+There’s joy in the house of the Lord
+There’s joy in the house
+Of the Lord today
+And we won’t be quiet
+We shout out Your praise
+There’s Joy in the house of the Lord
+Our God is surely in this place
+And we won’t be quiet
+We shout out Your praise
+Turnaround
+We shout out
+Your praise
+Verse 3
+We sing to the God who heals
+We sing to the God who saves
+We sing to the God who always
+Makes a way
+Verse 4
+'Cause He hung upon that Cross
+Then He rose up from that grave
+My God’s still rolling stones away
+Chorus
+There’s joy in the house of the Lord
+There’s joy in the house
+Of the Lord today
+And we won’t be quiet
+We shout out Your praise
+There’s Joy in the house of the Lord
+Our God is surely in this place
+And we won’t be quiet
+We shout out Your praise
+Bridge
+We were the beggars
+Now we’re royalty
+We were the prisoners
+Now we’re running free
+We are forgiven accepted
+Redeemed by His grace
+Let the house of the Lord sing praise
+Chorus
+There’s joy in the house of the Lord
+There’s joy in the house of the Lord today
+And we won’t be quiet
+We shout out Your praise
+There’s Joy in the house of the Lord
+Our God is surely in this place
+And we won’t be quiet
+We shout out Your praise
+Chorus
+There’s joy in the house of the Lord
+There’s joy in the house
+Of the Lord today
+And we won’t be quiet
+We shout out Your praise
+There’s Joy in the house of the Lord
+Our God is surely in this place
+And we won’t be quiet
+We shout out Your praise
+Instrumental
+We shout out
+Your praise
+Instrumental
+We shout out
+Your praise
+We shout out Your praise
 `,
   chords: `
-1.
-      G             Am7
-Dumnezeu este adăpostul,   
-     D        G
-Și sprijinul nostru,
-       G              Am7
-Un ajutor care nu lipseşte,
-D               G
-Niciodata în nevoi. 
-
-R:
-     C           G
-De aceea, nu ne temem,
-       D                 G
-Chiar de s-ar clătina pământul.
-    C       G
-Și s-ar zgudui munții
-   D          G
-În inima mărilor.
-
-Ps 46
 `,
 },
   {
   id: 10,
-  title: "10. Oare nu ți-am poruncit",
-  key: "Dm",
-  youtube: "https://www.youtube.com/watch?v=SEzRyLV9YYE",
+  title: "10. Lord, I Need You",
+  key: "G",
+  youtube: "",
   lyrics: `
-/: Oare nu ți-am poruncit curaj, întăreștete :/
-Nu te înspăimânta și nu te-ngrozi
-Căci Domnul Dumnezeu 
-E cu tine, oriunde, oriunde, 
-Oriunde vei merge    
-Iosua, Iosua unu cu nouă.
+Verse 1
+Lord I come I confess
+Bowing here I find my rest
+Without You I fall apart
+You're the one that guides my heart
+Chorus
+Lord I need You oh I need You
+Every hour I need You
+My one defense my righteousness
+Oh God how I need You
+Verse 2
+Where sin runs deep
+Your grace is more
+Where grace is found
+Is where You are
+And where You are
+Lord I am free
+Holiness is Christ in me
+Chorus
+Lord I need You oh I need You
+Every hour I need You
+My one defense my righteousness
+Oh God how I need You
+Bridge
+Teach my song to rise to You
+When temptation comes my way
+Bridge
+When I cannot stand I'll fall on You
+Jesus You're my hope
+And stay
+Chorus
+Lord I need You oh I need You
+Every hour I need You
+My one defense my righteousness
+Oh God how I need You
+Tag
+My one defense my righteousness
+Oh God how I need You
 `,
   chords: `
-    Dm                      A        Dm
-/: Oare nu ți-am poruncit curaj, întăreștete :/
-Gm                       Dm
-Nu te înspăimânta și nu te-ngrozi
-            Gm
-Căci Domnul Dumnezeu 
-      Dm     Gm       Dm
-E cu tine, oriunde, oriunde, 
-   A          Dm
-Oriunde vei merge    
-Dm     Gm    Dm     A  Dm
-Iosua, Iosua unu cu nouă.
 `,
 },
  {
   id: 11,
-  title: "11. M-a aflat pe căi străine",
-  key: "C",
-  youtube: "https://youtu.be/aFsixV56K3o?si=2xvGz1XAe5f3_MfV ",
+  title: "11. 10,000 Reasons",
+  key: "G",
+  youtube: "",
   lyrics: `
-1.
-M-a aflat pe căi străine
-Bunul meu Păstor, Isus.
-Din adânc și întuneric,
-La lumină m-a adus.
-
-R:
-Aleluia! Aleluia!
-Voi cânta neîncetat
-Prin Isus am mântuire,
-Fie veșnic lăudat!
-
-2
-M-a luat cu drag pe brațe,
-De păcat m-a vindecat,
-Hrană din Cuvântul vieții
-Și putere El mi-a dat!
-
-3
-M-a spălat Mântuitorul,  
-Haină albă am primit,
-M-a sfințit prin al Său sânge,
-O, cât sunt de fericit!
+Chorus
+Bless the Lord O my soul
+O my soul
+Worship His Holy name
+Sing like never before
+O my soul
+I'll worship Your Holy name
+Verse 1
+The sun comes up
+It's a new day dawning
+It's time to sing Your song again
+Whatever may pass
+And whatever lies before me
+Let me be singing
+When the evening comes
+Chorus
+Bless the Lord O my soul
+O my soul
+Worship His Holy name
+Sing like never before
+O my soul
+I'll worship Your Holy name
+Verse 2
+You're rich in love
+And You're slow to anger
+Your name is great
+And Your heart is kind
+For all Your goodness
+I will keep on singing
+Ten thousand reasons
+For my heart to find
+Chorus
+Bless the Lord O my soul
+O my soul
+Worship His Holy name
+Sing like never before
+O my soul
+I'll worship Your Holy name
+Verse 3
+And on that day
+When my strength is failing
+The end draws near
+And my time has come
+Still my soul will
+Sing Your praise unending
+Ten thousand years
+And then forevermore
+Chorus
+Bless the Lord O my soul
+O my soul
+Worship His Holy name
+Sing like never before
+O my soul
+I'll worship Your Holy name
+Tag
+I'll worship Your Holy name
+Tag
+Sing like never before
+O my soul
+I'll worship Your Holy name
+Tag
+I'll worship Your Holy name
 `,
   chords: `
-1.
-       C      Am     G
-M-a aflat pe căi străine
-       F     G      C
-Bunul meu Păstor, Isus.
-G     C      Am   G
-Din adânc și întuneric,
-      F    G    C
-La lumină m-a adus.
-
-R:
-    Am   G   F C
-Aleluia! Aleluia!
-       Am    G   F
-Voi cânta neîncetat
-       C     Am   G
-Prin Isus am mântuire,
-     F      G  C
-Fie veșnic lăudat!
-
-2
-M-a luat cu drag pe brațe,
-De păcat m-a vindecat,
-Hrană din Cuvântul vieții
-Și putere El mi-a dat!
-
-3
-M-a spălat Mântuitorul,  
-Haină albă am primit,
-M-a sfințit prin al Său sânge,
-O, cât sunt de fericit!
 `,
 },
 {
