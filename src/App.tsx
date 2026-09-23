@@ -72,6 +72,7 @@ You have been so so good
 With every breath
 That I am able
 I will sing of the goodness of God
+
 Tag
 Oh I'm gonna sing
 Of the goodness of God
@@ -80,8 +81,8 @@ Of the goodness of God
   },
   {
     id: 2,
-    title: "2. Doamne, numele-Ţi înalţ",
-    key: "G",
+    title: "2. Holy Forever",
+    key: "F",
     youtube:"",
     lyrics: `
 1.
@@ -127,49 +128,95 @@ Să fii înălţat mereu! :/
     key: "A",
     youtube: "",
     lyrics: `
-R:   
-Tu ești vrednic, Tu ești vrednic
-Slavă, cinste să-Ți dăm!
-Tu ești vrednic de-nchinare
-Și să Te adorăm!
-
 1.
-Căci Tu ai creat Universul și omul,  
-Viața din Tine primim;
-Tu ești vrednic să-Ți dăm slavă
-Și să-Ți mulțumim!
+A thousand generations
+Falling down in worship
+To sing the song of
+Ages to the Lamb
+And all who've gone before us
+And all who will believe
+Will sing the song of
+Ages to the Lamb
 
-2. 
-Căci Tu ai murit la Golgota pe cruce,
-Sfântă iertare ne-ai dat;
-Tu ești vrednic să-Ți dăm slavă,
-Să fi adorat   
+Pre Chorus 1
+Your name is the highest
+Your name is the greatest
+Your name stands above them all
+
+Pre Chorus 2
+All thrones and dominions
+All powers and positions
+Your name stands above them all
+
+Chorus 1
+And the angels cry holy
+All creation cries holy
+You are lifted high holy
+Holy forever
+
+2.
+If you've been forgiven
+And if you've been redeemed
+Sing the song
+Forever to the Lamb
+If you walk in freedom
+And if you bear His name
+Sing the song
+Forever to the Lamb
+
+Tag
+We'll sing the song
+Forever and amen
+
+Chorus 1
+And the angels cry holy
+All creation cries holy
+You are lifted high holy
+Holy forever
+
+Chorus 2
+Hear your people sing holy
+To the King of Kings holy
+You will always be holy
+Holy forever
+
+Pre Chorus 1
+Your name is the highest
+Your name is the greatest
+Your name stands above them all
+
+Pre Chorus 2
+All thrones and dominions
+All powers and positions
+Your name stands above them all
+
+Pre Chorus 1
+Your name is the highest
+Your name is the greatest
+Your name stands above them all
+
+Pre Chorus 2
+All thrones and dominions
+All powers and positions
+Your name stands above them all
+
+Chorus 1
+And the angels cry holy
+All creation cries holy
+You are lifted high holy
+Holy forever
+
+Chorus 2
+Hear your people sing holy
+To the King of Kings holy
+You will always be holy
+Holy forever
+
+Tag
+You will always be Holy
+Holy forever  
 `,
-    chords: `
-R:   
- A                D
-Tu ești vrednic, Tu ești vrednic
-A      F#m            E
-Slavă, cinste să-Ți dăm!
-A                D
-Tu ești vrednic de-nchinare
-A        E   A
-Și să Te adorăm!
-
-1.
-     E               A
-Căci Tu ai creat Universul și omul,
-E                  A      
-Viața din Tine primim;
-A        A7      D          B7/D#
-Tu ești vrednic să-Ți dăm slavă
-A         E    A
-Și să-Ți mulțumim!
-
-2. 
-Căci Tu ai murit la Golgota pe cruce,
-Sfântă iertare ne-ai dat;
-Tu ești vrednic să-Ți dăm slavă,  Să fi adorat   
+    chords: `  
 `,
   },
   {
