@@ -2599,10 +2599,7 @@ const orderedChordsForStrip = useMemo(() => {
 
           <div style={metaStyle}>
             Key: <b>{displayKey}</b>
-            {!stageMode && (
-            
-            )}
-
+           
             {showKeyPicker && !stageMode && (
               <div style={keyPickerStyle} onClick={(e) => e.stopPropagation()}>
                 <div style={{ fontWeight: 900, marginBottom: 10, opacity: dark ? 0.95 : 0.9 }}>
