@@ -975,59 +975,74 @@ That is who You are
 },
 {
   id: 14,
-  title: "14. Sprijin mi-e Cristos",
+  title: "14. Praise The Lord Forever",
   key: "G",
-  youtube: "https://youtu.be/cL0L8DuG4z8?si=o8DTpO1DjApThZDU",
-  lyrics: `1.
-Când credința-mi s-ar clinti, sprijin mi-e Cristos,
-Când cel rău ar izbuti, sprijin mi-e Cristos.
-Cum să pot înainta când e-ntunecos?
-Când mi-e rece dragostea, sprijin mi-e Cristos.
-
-R:
-Sprijin mi-e Cristos, sprijin mi-e Cristos,
-Sunt iubit în chip nespus, sprijin mi-e Isus.
-
-2.
-Domnul se desfată-n sfinți, sprijin mi-e Cristos,
-Înaintea lui sunt scumpi, sprijin mi-e Cristos.
-Sufletu-mi va fi păzit, va-mplini ce-a spus,
-Cu preț mare m-a plătit, sprijin mi-e Cristos.
-
-3.
-Pentru mine a murit, sprijin mi-e Cristos,
-El dreptatea a-mplinit, sprijin mi-e Cristos,
-El e învierea mea, sprijin mi-e Cristos,
-Ce-am crezut voi și vedea la venirea Sa!  
+  youtube: "",
+  lyrics: `Verse 1
+Oh let all that is within me
+Bless His holy name
+For His love endures forever
+And His mercies new today
+We will enter with thanksgiving
+And fill His courts with praise
+Come on Church
+Lift your voice and sing
+Chorus
+Praise the Lord
+Praise the Lord
+Praise the Lord forever
+Bless His name
+Let all within me sing
+Praise the Lord forever
+Verse 2
+If your life’s been resurrected
+By the war that Jesus won
+If you wait in expectation
+For a Kingdom yet to come
+All you citizens of Heaven
+Sons and daughters of the King
+Come on church
+Lift your voice and sing
+Chorus
+Praise the Lord
+Praise the Lord
+Praise the Lord forever
+Bless His name
+Let all within me sing
+Praise the Lord forever
+Verse 3
+For the One who’s brokenhearted
+And it’s hard to sing this song
+You’ve been walking through
+The valley and your faith
+Is feeling small
+I pray peace and love surround you
+From the God who understands
+As the family all around you
+Lifts your arms up when you can’t
+Verse 4
+Join the choir of creation
+With the song of the redeemed
+Come on Church
+Lift your voice and sing
+Chorus
+Praise the Lord
+Praise the Lord
+Praise the Lord forever
+Bless His name
+Let all within me sing
+Praise the Lord forever
+Tag
+Praise the Lord forever
+Chorus
+Praise the Lord
+Praise the Lord
+Praise the Lord forever
+Bless His name
+Let all within me sing
+Praise the Lord forever
 `,
-  chords: `
-1.
-  G               G/B     C            D        G
-Când credința-mi s-ar clinti, sprijin mi-e Cristos,
-  G             G/B  C            D       G
-Când cel rău ar izbuti, sprijin mi-e Cristos.
- Em    D/F#  G   C          B   Em
-Cum să pot înainta când e-ntunecos?
-  Em      D/F#  G     C             D       G
-Când mi-e rece dragostea, sprijin mi-e Cristos.
-
-R:
-  C       D      Em           D/F#      G
-Sprijin mi-e Cristos, sprijin mi-e Cristos,
- G                     C             D    G
-Sunt iubit în chip nespus, sprijin mi-e Isus.
-
-2.
-Domnul se desfată-n sfinți, sprijin mi-e Cristos,
-Înaintea lui sunt scumpi, sprijin mi-e Cristos.
-Sufletu-mi va fi păzit, va-mplini ce-a spus,
-Cu preț mare m-a plătit, sprijin mi-e Cristos.
-
-3.
-Pentru mine a murit, sprijin mi-e Cristos,
-El dreptatea a-mplinit, sprijin mi-e Cristos,
-El e învierea mea, sprijin mi-e Cristos,
-Ce-am crezut voi și vedea la venirea Sa!  
+  chords: `  
 `,
 },
 {
