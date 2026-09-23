@@ -2,7 +2,13 @@ import React, { useEffect, useMemo, useRef, useState } from "react";
 import kingdomKidsLogo from "./Image.png"
 
 type ViewMode = "lyrics" | "both";
-type SectionType = "chorus" | "verse" | "bridge" | "other";
+type SectionType =
+| "chorus"
+| "prechorus"
+| "verse"
+| "bridge"
+| "tag"
+| "other";
 
 type Song = {
   id: number;
@@ -1651,31 +1657,118 @@ const MOLDOVA_TRICOLOR_URL =
 
 
 // ---------- Section detection + chorus bold ----------
+TypeScript
 function detectSectionLabel(line: string): {
-  isLabel: boolean;
-  type: SectionType;
-  labelText: string;
+isLabel: boolean;
+type: SectionType;
+labelText: string;
 } {
-  const s = line.trim();
-  if (!s) return { isLabel: false, type: "other", labelText: "" };
-
-  // ✅ Chorus: must be the FULL line
-  if (/^(R|R:|R\.|Ref|Ref\.|Refren|Chorus)\s*$/i.test(s)) {
-    return { isLabel: true, type: "chorus", labelText: s };
-  }
-
-  // ✅ Verse numbers like "1." or "2:"
-  if (/^\d+\s*[:.]?$/.test(s)) {
-    return { isLabel: true, type: "verse", labelText: s };
-  }
-
-  if (/^bridge\s*$/i.test(s)) {
-    return { isLabel: true, type: "bridge", labelText: "Bridge" };
-  }
-
-  return { isLabel: false, type: "other", labelText: "" };
+const s = line.trim();
+ 
+if (!s) {
+return {
+isLabel: false,
+type: "other",
+labelText: "",
+};
 }
-
+ 
+// Legacy Romanian chorus labels:
+// R, R:, R., Ref, Ref., Refren
+// Display these as "Chorus"
+if (/^(R|R:|R\.|Ref|Ref\.|Refren)\s*$/i.test(s)) {
+return {
+isLabel: true,
+type: "chorus",
+labelText: "Chorus",
+};
+}
+ 
+// Chorus, Chorus 1, Chorus 2, Chorus:, Chorus 1:
+const chorusMatch = s.match(/^chorus(?:\s*(\d+))?\s*[:.]?$/i);
+ 
+if (chorusMatch) {
+return {
+isLabel: true,
+type: "chorus",
+labelText: chorusMatch[1]
+? `Chorus ${chorusMatch[1]}`
+: "Chorus",
+};
+}
+ 
+// Pre Chorus, Pre-Chorus, PreChorus
+// Also supports Pre Chorus 1 and Pre Chorus 2
+const preChorusMatch = s.match(
+/^pre[\s-]*chorus(?:\s*(\d+))?\s*[:.]?$/i
+);
+ 
+if (preChorusMatch) {
+return {
+isLabel: true,
+type: "prechorus",
+labelText: preChorusMatch[1]
+? `Pre Chorus ${preChorusMatch[1]}`
+: "Pre Chorus",
+};
+}
+ 
+// Verse 1, Verse 2, Verse 1:, etc.
+const verseMatch = s.match(/^verse\s*(\d+)?\s*[:.]?$/i);
+ 
+if (verseMatch) {
+return {
+isLabel: true,
+type: "verse",
+labelText: verseMatch[1]
+? `Verse ${verseMatch[1]}`
+: "Verse",
+};
+}
+ 
+// Existing format: 1, 1., 1:, 2, 2., etc.
+const numberedVerseMatch = s.match(/^(\d+)\s*[:.]?$/);
+ 
+if (numberedVerseMatch) {
+return {
+isLabel: true,
+type: "verse",
+labelText: `Verse ${numberedVerseMatch[1]}`,
+};
+}
+ 
+// Bridge, Bridge 1, Bridge 2
+const bridgeMatch = s.match(/^bridge(?:\s*(\d+))?\s*[:.]?$/i);
+ 
+if (bridgeMatch) {
+return {
+isLabel: true,
+type: "bridge",
+labelText: bridgeMatch[1]
+? `Bridge ${bridgeMatch[1]}`
+: "Bridge",
+};
+}
+ 
+// Tag, Tag 1, Tag 2
+const tagMatch = s.match(/^tag(?:\s*(\d+))?\s*[:.]?$/i);
+ 
+if (tagMatch) {
+return {
+isLabel: true,
+type: "tag",
+labelText: tagMatch[1]
+? `Tag ${tagMatch[1]}`
+: "Tag",
+};
+}
+ 
+return {
+isLabel: false,
+type: "other",
+labelText: "",
+};
+}
 const isPhonePortrait = () => {
   if (typeof window === "undefined") return false;
   const w = window.innerWidth;
