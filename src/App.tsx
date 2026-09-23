@@ -1699,7 +1699,33 @@ type: "prechorus",
 labelText: s,
 };
 }
+// Bridge, Bridge 1, Bridge 2
+const bridgeMatch = s.match(
+  /^bridge(?:\s+\d+)?\s*$/i
+);
 
+if (bridgeMatch) {
+  return {
+    isLabel: true,
+    type: "bridge",
+    labelText: s,
+  };
+}
+
+// Tag, Tag 1, Tag 2
+const tagMatch = s.match(
+  /^tag(?:\s+\d+)?\s*$/i
+);
+
+if (tagMatch) {
+  return {
+    isLabel: true,
+    type: "tag",
+    labelText: s,
+  };
+}
+`
+  
 // Tag
 if (/^tag\s*$/i.test(s)) {
   return {
