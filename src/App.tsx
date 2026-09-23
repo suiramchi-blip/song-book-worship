@@ -2600,14 +2600,7 @@ const orderedChordsForStrip = useMemo(() => {
           <div style={metaStyle}>
             Key: <b>{displayKey}</b>
             {!stageMode && (
-              <span
-style={{
-marginLeft: 8,
-fontWeight: 800,
-}}
->
-{displayKey}
-</span>
+            
             )}
 
             {showKeyPicker && !stageMode && (
