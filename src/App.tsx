@@ -1838,8 +1838,24 @@ function renderWithSectionStyling(
             );
           }
 
-          const shouldBold =
-            opts.autoBoldChorus && currentSection === "chorus" && line.trim().length > 0;
+         // An empty line closes the current section.
+// The next section must begin with a recognized label.
+if (line.trim() === "") {
+currentSection = "other";
+ 
+return (
+<div key={idx} style={{ minHeight: "0.8em" }}>
+{" "}
+</div>
+);
+}
+ 
+const shouldBold =
+opts.autoBoldChorus &&
+(currentSection === "chorus" ||
+currentSection === "prechorus" ||
+currentSection === "bridge" ||
+currentSection === "tag");
 
           return (
             <div
