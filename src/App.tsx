@@ -789,148 +789,188 @@ I'll worship Your Holy name
 },
 {
   id: 12,
-  title: "12. Doamne, bunătatea Ta",
-  key: "D",
-  youtube: "https://www.youtube.com/watch?v=UPL5iFPw2pQ",
+  title: "12. This Is Amazing Grace",
+  key: "G",
+  youtube: "",
   lyrics: `
-1.
-Doamne, bunătatea Ta, Îmi cuprinde inima
-Și mă face fericit, Domnul meu iubit.
-De cu zori până-n apus Numai harul Tău, Isus,
-Îmi inundă inima și viaţa mea.
-
-R:
-N-ai în lume-asemănare, 
-Nu e nimenea sub soare,
-Nici în cer, nici pe pământ
-Cât eşti Tu de sfânt!
-Dragostea-Ți mă copleşeşte,
-Pacea Ta mă linişteşte,
-Harul Tău îmi dă avânt, 
-Tot mai mult să-Ți cânt.
-
-2.
-Norii negrii când apar Tu îmi ești un veşnic far,
-Drumul mi-l călăuzeşti Și mă ocroteşti.
-Și prin arșiță Îți cânt Numai Ție, Doamne sfânt,
-Că-n izvorul Tău ceresc Sufletu-mi sfințesc.
-
-3.
-Doamne, pune-n gura mea.  
-Totdeauna lauda Ta,
-Numai Ție să Îți cânt
-Pe acest pământ.
-Iar când zorii vor veni,
-Numele Tău voi slăvi,
-Asta-i fericirea mea: Să cânt slava Ta!
+Verse 1
+Who breaks the power
+Of sin and darkness
+Whose love is mighty
+And so much stronger
+The King of Glory
+The King above all kings
+Who shakes the whole Earth
+With holy thunder
+Who leaves us breathless
+In awe and wonder
+The King of Glory
+The King above all kings
+Chorus
+This is amazing grace
+This is unfailing love
+That You would take my place
+That You would bear my cross
+You laid down Your life
+That I would be set free
+Oh Jesus I sing for
+All that You've done for me
+Verse 2
+Who brings our chaos
+Back into order
+Who makes the orphan
+A son and daughter
+The King of Glory
+The King of Glory
+Who rules the nations
+With truth and justice
+Shines like the sun in
+All of its brilliance
+The King of Glory
+The King above all kings
+Chorus
+This is amazing grace
+This is unfailing love
+That You would take my place
+That You would bear my cross
+You laid down Your life
+That I would be set free
+Oh Jesus I sing for
+All that You've done for me
+Bridge
+Worthy is the Lamb
+Who was slain
+Worthy is the King
+Who conquered the grave
+Worthy is the Lamb
+Who was slain
+Worthy is the King
+Who conquered the grave
+Bridge
+Worthy is the Lamb
+Who was slain
+Worthy is the King
+Who conquered the grave
+Worthy is the Lamb
+Who was slain
+Worthy worthy worthy
+Chorus
+This is amazing grace
+This is unfailing love
+That You would take my place
+That You would bear my cross
+You laid down Your life
+That I would be set free
+Oh Jesus I sing for
+All that You've done for me
 `,
   chords: `
-1.
- D          Em7        A            D
-Doamne, bunătatea Ta, Îmi cuprinde inima
-D          Em7       G      A     D
-Și mă face fericit, Domnul meu iubit.
-D             Em7       A           D
-De cu zori până-n apus Numai harul Tău, Isus,
-D          Em7   A         D
-Îmi inundă inima și viaţa mea.
-
-R:
- G
-N-ai în lume-asemănare, 
-D
-Nu e nimenea sub soare,
-A
-Nici în cer, nici pe pământ
-D                D7
-Cât eşti Tu de sfânt!
-G
-Dragostea-Ți mă copleşeşte,
-D
-Pacea Ta mă linişteşte,
-A
-Harul Tău îmi dă avânt, 
-G        A          D
-Tot mai mult să-Ți cânt.
-
-2.
-Norii negrii când apar Tu îmi ești un veşnic far,
-Drumul mi-l călăuzeşti Și mă ocroteşti.
-Și prin arșiță Îți cânt Numai Ție, Doamne sfânt,
-Că-n izvorul Tău ceresc Sufletu-mi sfințesc.
-
-3.
-Doamne, pune-n gura mea.  
-Totdeauna lauda Ta,
-Numai Ție să Îți cânt
-Pe acest pământ.
-Iar când zorii vor veni,
-Numele Tău voi slăvi,
-Asta-i fericirea mea: Să cânt slava Ta!
 `,
 },
 {
   id: 13,
-  title: "13. Aş vrea, Isuse scump",
-  key: "D",
-  youtube: "https://youtu.be/kV8kytlH7NY?si=mkyYFQYJdIyf4PhX",
-  lyrics: `1.
-Aş vrea, Isuse scump, să fiu ca Tine
-În pribegia mea pe-acest pământ;
-De-atâtea ori când grea ispită vine,
-S-o biruiesc prin sfântul Tău Cuvânt.
-
-R: 
-Aş vrea, Isuse scump, a Ta comoară
-De mângâieri, pe veci să-mi dăruieşti;
-Aş vrea în mine tot ce-i vechi să moară,
-Iar Tu să faci din mine ce doreşti.
-
-2.
-Şi-aş vrea, Isuse scump, a Ta viaţă
-Să se-oglindească pururi în a mea,
-Şi să dispară vălul greu de ceaţă
-Ce-mpiedică să-Ți văd mărirea Ta.
-
-3.
-Şi câte n-aş mai vrea, o, scump Isuse,
-În pribegia mea pe-acest pământ!
-Dorinţele ce îmi rămân nespuse
-Să le-mplineşti prin sfântul Tău Cuvânt! 
-
+  title: "13. Way Maker",
+  key: "C",
+  youtube: "",
+  lyrics: `
+  Verse 1
+You are here
+Moving in our midst
+I worship You
+I worship You
+You are here
+Working in this place
+I worship You
+I worship You
+Chorus
+You are way maker miracle worker
+Promise keeper
+Light in the darkness my God
+That is who You are
+You are way maker miracle worker
+Promise keeper
+Light in the darkness my God
+That is who You are
+Verse 2
+You are here
+Touching every heart
+I worship You
+I worship You
+You are here
+Healing every heart
+I worship You
+I worship You
+Verse 3
+You are here
+Turning lives around
+I worship You
+I worship You
+You are here
+Mending every heart
+I worship You
+I worship You
+Chorus
+You are way maker miracle worker
+Promise keeper
+Light in the darkness my God
+That is who You are
+You are way maker miracle worker
+Promise keeper
+Light in the darkness my God
+That is who You are
+Refrain
+That is who You are
+That is who You are
+That is who You are
+That is who You are
+Chorus
+You are way maker miracle worker
+Promise keeper
+Light in the darkness my God
+That is who You are
+You are way maker miracle worker
+Promise keeper
+Light in the darkness my God
+That is who You are
+Bridge
+Even when I don't see it
+You're working
+Even when I don't feel it
+You're working
+You never stop
+You never stop working
+You never stop
+You never stop working
+Chorus
+You are way maker miracle worker
+Promise keeper
+Light in the darkness my God
+That is who You are
+You are way maker miracle worker
+Promise keeper
+Light in the darkness my God
+That is who You are
+Refrain
+That is who You are
+That is who You are
+That is who You are
+That is who You are
+Chorus
+You are way maker miracle worker
+Promise keeper
+Light in the darkness my God
+That is who You are
+You are way maker miracle worker
+Promise keeper
+Light in the darkness my God
+That is who You are
+Refrain
+That is who You are
+That is who You are
+That is who You are
+That is who You are
 `,
   chords: `
-1.
-           D     G               D Bm
-Aş vrea, Isuse scump, să fiu ca Tine
-         A                  D
-În pribegia mea pe-acest pământ;
-           D         G          D Bm
-De-atâtea ori când grea ispită vine,
-         A                        D  D7
-S-o biruiesc prin sfântul Tău Cuvânt.
-
-R: 
-           G                   D
-Aş vrea, Isuse scump, a Ta comoară
-         G        Em             A
-De mângâieri, pe veci să-mi dăruieşti;
-             D   G                 D Bm
-Aş vrea în mine tot ce-i vechi să moară,
-           A                   D
-Iar Tu să faci din mine ce doreşti.
-
-2.
-Şi-aş vrea, Isuse scump, a Ta viaţă
-Să se-oglindească pururi în a mea,
-Şi să dispară vălul greu de ceaţă
-Ce-mpiedică să-Ți văd mărirea Ta.
-
-3.
-Şi câte n-aş mai vrea, o, scump Isuse,
-În pribegia mea pe-acest pământ!
-Dorinţele ce îmi rămân nespuse
-Să le-mplineşti prin sfântul Tău Cuvânt! 
 `,
 },
 {
