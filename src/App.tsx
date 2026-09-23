@@ -1665,10 +1665,21 @@ function detectSectionLabel(line: string): {
   const s = line.trim();
   if (!s) return { isLabel: false, type: "other", labelText: "" };
 
-  // ✅ Chorus: must be the FULL line
-  if (/^(R|R:|R\.|Ref|Ref\.|Refren|Chorus)\s*$/i.test(s)) {
-    return { isLabel: true, type: "chorus", labelText: s };
-  }
+  // Chorus, Chorus 1, Chorus 2, R:, Refren, etc.
+const chorusMatch = s.match(
+  /^(R|R:|R\.|Ref|Ref\.|Refren|Chorus(?:\s+\d+)?)\s*$/i
+);
+
+if (chorusMatch) {
+  return {
+    isLabel: true,
+    type: "chorus",
+    labelText:
+      /^R|^Ref/i.test(s)
+        ? "Chorus"
+        : s,
+  };
+}
 
   // ✅ Verse numbers like "1." or "2:"
   if (/^\d+\s*[:.]?$/.test(s)) {
