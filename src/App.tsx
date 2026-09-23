@@ -1687,12 +1687,17 @@ if (chorusMatch) {
   }
 
   // Pre Chorus
-if (/^pre[\s-]*chorus\s*$/i.test(s)) {
-  return {
-    isLabel: true,
-    type: "prechorus",
-    labelText: "Pre Chorus",
-  };
+// Pre Chorus, Pre Chorus 1, Pre Chorus 2
+const preChorusMatch = s.match(
+/^pre[\s-]*chorus(?:\s+\d+)?\s*$/i
+);
+ 
+if (preChorusMatch) {
+return {
+isLabel: true,
+type: "prechorus",
+labelText: s,
+};
 }
 
 // Tag
