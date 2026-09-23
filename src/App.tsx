@@ -521,83 +521,65 @@ Jesus Christ my living hope
   },
  {
     id: 8,
-    title: "8. Valoarea mea nu stă-n averi",
+    title: "8. King of Kings",
     key: "C",
-    youtube: "https://youtu.be/IrnfxwkKu_E?si=sCenh4Tz8lNtBBHt",
+    youtube: "",
     lyrics: `
-1.
-Valoarea mea nu stă-n averi,
-Sau ale trupului puteri,
-Ci-n ale dragostei dureri, la Calvar.
-
-2.
-Valoare n-am că-s înzestrat,
-Nici că-s înfrânt sau înălţat,
-Ci-n sângele cel sfânt, vărsat, la Calvar.
-
-R:
-Doar Cristos mi-e bucurie,
-Apă vie, și comoara mea!
-Mă încred în El, nu-n altul,
-Căci numai El îmi umple inima!
-
-3.
-Precum pier florile din câmp,
-Se duc și ani, și faimă-n vânt,
-Dar veșnicia stă chemând, la Calvar.
-
-4.
-Cum să mă laud cu averi,
-Cu cele omenești ce pier?
-Mă laud că-L cunosc pe El, la Calvar.
-
-REFREN  
-
-5.
-Două minuni declar voios:
-Nevrednic sunt, dar valoros,
-Iar prețu-mi l-a plătit Cristos, la Calvar!
+Verse 1
+In the darkness we were waiting
+Without hope without light
+Till from Heaven You came running
+There was mercy in Your eyes
+To fulfill the law and prophets
+To a virgin came the word
+From a throne of endless glory
+To a cradle in the dirt
+Chorus
+Praise the Father praise the Son
+Praise the Spirit three in one
+God of glory majesty
+Praise forever to the King of Kings
+Verse 2
+To reveal the Kingdom coming
+And to reconcile the lost
+To redeem the whole creation
+You did not despise the Cross
+For even in Your suffering
+You saw to the other side
+Knowing this was our salvation
+Jesus for our sake You died
+Chorus
+Praise the Father praise the Son
+Praise the Spirit three in one
+God of glory majesty
+Praise forever to the King of Kings
+Verse 3
+And the morning that You rose
+All of Heaven held its breath
+Till that stone was moved for good
+For the Lamb had conquered death
+And the dead rose from their tombs
+And the angels stood in awe
+For the souls of all who'd come
+To the Father are restored
+Verse 4
+And the church of Christ was born
+Then the Spirit lit the flame
+Now this gospel truth of old
+Shall not kneel shall not faint
+By His blood and in His name
+In His freedom I am free
+For the love of Jesus Christ
+Who has resurrected me
+Chorus
+Praise the Father praise the Son
+Praise the Spirit three in one
+God of glory majesty
+Praise forever to the King of Kings
+Tag
+Praise forever to the King of Kings
 `,
-    chords: `
-1.
-   C            F       C
-Valoarea mea nu stă-n averi,
-     C        F     C
-Sau ale trupului puteri,
-      C        G/B   Am    F      C
-Ci-n ale dragostei dureri, la Calvar.
-
-2.
-Valoare n-am că-s înzestrat,
-Nici că-s înfrânt sau înălţat,
-Ci-n sângele cel sfânt, vărsat, la Calvar.
-
-R:
- F                 G   Am
-Doar Cristos mi-e bucurie,
-     F         C     G
-Apă vie, și comoara mea!
-F            G         Am
-Mă încred în El, nu-n altul,
-          C/E     F     G  C
-Căci numai El îmi umple inima!
-
-3.
-Precum pier florile din câmp,
-Se duc și ani, și faimă-n vânt,
-Dar veșnicia stă chemând, la Calvar.
-
-4.
-Cum să mă laud cu averi,
-Cu cele omenești ce pier?
-Mă laud că-L cunosc pe El, la Calvar.
-
-REFREN  
-
-5.
-Două minuni declar voios:
-Nevrednic sunt, dar valoros,
-Iar prețu-mi l-a plătit Cristos, la Calvar! 
+    chords: ` 
 `,
   },
   {
