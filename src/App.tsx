@@ -255,66 +255,48 @@ Holy forever
   },
   {
     id: 4,
-    title: "4. Când eram doar un plod",
-    key: "C",
-    youtube: "https://youtu.be/C1fBEod-8jA?si=I3_e3s7jbUSTL0jE",
+    title: "4. Great Are You Lord",
+    key: "G",
+    youtube: "",
     lyrics: `
-1.  
-/: Când eram doar un plod fără chip
-Ochii Tăi mă vedeau
-În Cartea Ta de mult erau scrise
-Zilele ce m-așteptau. : /
-
-R:
-Tu-mi știi viitorul și ești lângă mine
-De ce să mă îngrijorez?     
-Mi-ai promis că vei sta lângă mine,
-Nicicând n-ai să mă părăsești.
-
-2. 
-/: De voi încerca să m-ascund de Tine
-Nu voi reuși
-Oriunde m-aș duce, chiar la marginea mării
-Mâna Ta mă va călăuzi. : /
-
-3.
-/: Tu mă cunoști întru totul Doamne
-Când stau jos sau mă ridic
-Îmi cunoști toate căile mele	
-Nu pot ascunde nimic. : /
+Verse 1
+You give life You are love
+You bring light to the darkness
+You give hope You restore
+Every heart that is broken
+Pre Chorus
+Great are You Lord
+Chorus
+It's Your breath in our lungs
+So we pour out our praise
+We pour out our praise
+It's Your breath in our lungs
+So we pour out our praise to You only
+Verse 2
+You give life You are love
+You bring light to the darkness
+You give hope You restore
+Every heart that is broken
+Pre Chorus
+Great are You Lord
+Chorus
+It's Your breath in our lungs
+So we pour out our praise
+We pour out our praise
+It's Your breath in our lungs
+So we pour out our praise to You only
+Bridge
+All the earth will shout Your praise
+Our hearts will cry these bones will sing
+Great are You Lord
+Chorus
+It's Your breath in our lungs
+So we pour out our praise
+We pour out our praise
+It's Your breath in our lungs
+So we pour out our praise to You only
 `,
     chords: `
-1.  
-    C                  F 
-/: Când eram doar un plod fără chip
-G                C
-Ochii Tăi mă vedeau
-    C            F 
-În Cartea Ta de mult erau scrise
-    G            C
-Zilele ce m-așteptau. : /
-
-R:
-        C               F   
-Tu-mi știi viitorul și ești lângă mine
-   G                C
-De ce să mă îngrijorez?
-C                     F          
-Mi-ai promis că vei sta lângă mine,
-     G                   C
-Nicicând n-ai să mă părăsești.
-
-2. 
-/: De voi încerca să m-ascund de Tine
-Nu voi reuși
-Oriunde m-aș duce, chiar la marginea mării
-Mâna Ta mă va călăuzi. : /
-
-3.
-/: Tu mă cunoști întru totul Doamne
-Când stau jos sau mă ridic
-Îmi cunoști toate căile mele	
-Nu pot ascunde nimic. : /
 `,
   },
   {
