@@ -13,7 +13,6 @@ type Song = {
   youtube?: string;
 };
 
-
 const songsData: Song[] = [
   {
     id: 1,
@@ -21,7 +20,7 @@ const songsData: Song[] = [
     key: "F",
     youtube:"",
     lyrics: `
-Verse 1
+1.
 I love You Lord
 Oh Your mercy never fails me
 All my days
@@ -38,7 +37,7 @@ With every breath
 That I am able
 I will sing of the goodness of God
 
-Verse 2
+2.
 I love Your voice
 You have led me through the fire
 In darkest nights
@@ -83,8 +82,7 @@ Of the goodness of God
     id: 2,
     title: "2. Doamne, numele-Ţi înalţ",
     key: "G",
-    youtube:
-      "https://www.youtube.com/watch?v=WSYW6SyqioA&list=RDWSYW6SyqioA&start_radio=1",
+    youtube:"",
     lyrics: `
 1.
 Doamne, numele-Ţi înalţ,	
