@@ -1047,81 +1047,80 @@ Praise the Lord forever
 },
 {
   id: 15,
-  title: "15. Cine-a dat oceanelor hotar?",
-  key: "A",
-  youtube: "https://youtu.be/0R7NacfLQNs?si=SmMHtuUo8AHWqLHV",
-  lyrics: `1.
-Cine-a dat oceanelor hotar?
-Cine-a pus nisipul pe cântar?
-Regi și țări se tem de-al Său Cuvânt,
-Iar natura se ridică-n cânt !
-
-R:
-E-al nostru Domn, stă pe tron în cer,
-Să ne închinăm Lui!
-E-al nostru Domn, nimeni nu-i ca El,
-Să ne închinăm Lui!
-
-2.
-Cine poate sfaturi Lui a-I da?
-Cine Legea Sa o va nega?
-Ce să-nveți pe Cel ce-i infinit?
-Poți sonda minuni de negrăit?
-
-3.
-Cine-n mâini piroane a-ndurat,  
-Vina omului când a purtat?
-Domn etern, prin moarte umilit,
-Viu e-acum, pe tron stă proslăvit!
-
-Bridge (Opțional)
-Tu domnești de-a pururi!
-Tu domnești de-a pururi!
-Tu domnești de-a pururi! 
-Tu domnești de-a pururi! 
+  title: "15. Center",
+  key: "G",
+  youtube: "",
+  lyrics: `Verse 1
+Maybe we’ve made this complicated
+More than it was ever meant to be
+Hasn’t it always been about the same thing
+Lord bring us back to simple things
+Chorus
+You be the center of it all
+My heart belongs to You
+My Savior all in all
+You’re the One I hold onto
+For the beauty of Your name
+My soul will live to say
+Jesus I love You
+Verse 2
+Teach us to discern the moment
+When to serve and when to sit here at Your feet
+Keep us awake to what’s important
+Just like Mary chose the better thing
+Chorus
+You are the center of it all
+My heart belongs to You
+My Savior all in all
+You’re the One I hold onto
+For the beauty of Your name
+My soul will live to say
+Jesus I love You
+Refrain
+Oh how I love You
+Oh how I love You
+Jesus I love You
+Bridge
+And my whole life for Your glory
+My whole world for You only
+Everything for the honor of Your name
+And if my days tell a story
+Let it be of You only
+Everything for the honor of Your name
+Refrain
+Oh how I love You
+Oh how I love You
+Jesus I love You
+Refrain
+Oh how I love You
+Oh how I love You
+Bridge
+And my whole life for Your glory
+My whole world for You only
+Everything for the honor of Your name
+And if my days tell a story
+Let it be of You only
+Everything for the honor of Your name
+Refrain
+Oh how I love You
+Oh how I love You
+Jesus I love You
+Chorus
+You are the center of it all
+My heart belongs to You
+My Savior all in all
+You’re the One I hold onto
+For the beauty of Your name
+My soul will live to say
+Jesus I love You
+Tag
+My soul will choose to say
+Jesus I love You
+Tag
+My soul will live to say
+Jesus I love You
 `,
   chords: `
-1.
-  A          Cm#
-Cine-a dat oceanelor hotar?
- A           Cm#
-Cine-a pus nisipul pe cântar?
- D               E
-Regi și țări se tem de-al Său Cuvânt,
-Fm#        Cm#           E
-Iar natura se ridică-n cânt !
-
-R:
-      A  E  Fm#                   D
-E-al nostru Domn, stă pe tron în cer,
-            A   E
-Să ne închinăm Lui!
-      A  E  Fm#                  D
-E-al nostru Domn, nimeni nu-i ca El,
-            A   E
-Să ne închinăm Lui!
-
-2.
-Cine poate sfaturi Lui a-I da?
-Cine Legea Sa o va nega?
-Ce să-nveți pe Cel ce-i infinit?
-Poți sonda minuni de negrăit?
-
-3.
-Cine-n mâini piroane a-ndurat,  
-Vina omului când a purtat?
-Domn etern, prin moarte umilit,
-Viu e-acum, pe tron stă proslăvit!
-
-Bridge (Opțional)
- A                D
-Tu domnești de-a pururi!
- A                D
-Tu domnești de-a pururi!
-Fm#               D
-Tu domnești de-a pururi! 
-Fm#               D
-Tu domnești de-a pururi! 
 `,
 },
 {
