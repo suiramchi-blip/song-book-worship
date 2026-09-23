@@ -1724,15 +1724,7 @@ if (tagMatch) {
     labelText: s,
   };
 }
-`
-  
-// Tag
-if (/^tag\s*$/i.test(s)) {
-  return {
-    isLabel: true,
-    type: "tag",
-    labelText: "Tag",
-  };
+
 }
 
   return { isLabel: false, type: "other", labelText: "" };
