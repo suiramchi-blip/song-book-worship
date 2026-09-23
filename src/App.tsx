@@ -2601,12 +2601,13 @@ const orderedChordsForStrip = useMemo(() => {
             Key: <b>{displayKey}</b>
             {!stageMode && (
               <span
-                style={keyButtonStyle}
-                onClick={() => setShowKeyPicker((v) => !v)}
-                title="Select a new key (auto sharps/flats)"
-              >
-                {targetKey} <span style={{ opacity: 0.85 }}>▼</span>
-              </span>
+style={{
+marginLeft: 8,
+fontWeight: 800,
+}}
+>
+{displayKey}
+</span>
             )}
 
             {showKeyPicker && !stageMode && (
