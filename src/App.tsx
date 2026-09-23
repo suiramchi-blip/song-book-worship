@@ -1725,8 +1725,6 @@ if (tagMatch) {
   };
 }
 
-}
-
   return { isLabel: false, type: "other", labelText: "" };
 }
 
