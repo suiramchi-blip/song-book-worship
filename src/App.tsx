@@ -1781,8 +1781,13 @@ function renderWithSectionStyling(
             );
           }
 
-          const shouldBold =
-            opts.autoBoldChorus && currentSection === "chorus" && line.trim().length > 0;
+         const shouldBold =
+opts.autoBoldChorus &&
+(
+currentSection === "chorus" ||
+currentSection === "prechorus"
+) &&
+line.trim().length > 0;
 
           return (
             <div
