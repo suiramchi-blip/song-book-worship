@@ -3874,7 +3874,7 @@ const orderedChordsForStrip = useMemo(() => {
           <h1 className="moldovaTitle">Worship Songs</h1>
 
           <div style={{ display: "flex", flexDirection: "column", gap: 14, textAlign: "center" }}>
-            {songsData.map((song) => (
+            {filteredSongs.map((song) => (
               <div
                 key={`${song.id}-${song.title}`}
                 onClick={() => {
