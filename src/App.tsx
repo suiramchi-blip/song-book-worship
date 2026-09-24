@@ -1932,7 +1932,14 @@ function renderWithSectionStyling(
             currentSection = type;
             return (
               <div key={idx}>
-                <span style={labelStyle(type)}>{labelText}</span>
+                <span
+  style={{
+    ...labelStyle(type),
+    cursor: "pointer",
+  }}
+>
+  {labelText}
+</span>
               </div>
             );
           }
