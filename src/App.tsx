@@ -3865,6 +3865,35 @@ const orderedChordsForStrip = useMemo(() => {
     </button>
   ))}
 </div>
+          <div
+  style={{
+    display: "flex",
+    flexWrap: "wrap",
+    gap: 8,
+    justifyContent: "center",
+    marginBottom: 16,
+  }}
+>
+  {categories.map((cat) => (
+    <button
+      key={cat}
+      onClick={() => setSelectedCategory(cat)}
+      style={{
+        padding: "6px 12px",
+        borderRadius: 999,
+        border: "1px solid rgba(0,0,0,0.15)",
+        background:
+          selectedCategory === cat
+            ? "rgba(11,95,255,0.10)"
+            : "#fff",
+        fontWeight: selectedCategory === cat ? 800 : 500,
+        cursor: "pointer",
+      }}
+    >
+      {cat}
+    </button>
+  ))}
+</div>
           <h1 className="moldovaTitle">Worship Songs</h1>
 
           <div style={{ display: "flex", flexDirection: "column", gap: 14, textAlign: "center" }}>
