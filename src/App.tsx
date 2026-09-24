@@ -3592,18 +3592,11 @@ export default function App() {
 "Hope, Faith & Encouragement",
 ];
 const filteredSongs =
-  selectedCategory === "All Songs"
-    ? songsData
-    : songsData.filter((song) => {
-        if (selectedCategory === "Praise & Celebration") {
-          return (
-            song.title === "1. Goodness of God" ||
-            song.title === "2. Gratitude"
-          );
-        }
-
-        return true;
-      });
+selectedCategory === "All Songs"
+? songsData
+: songsData.filter(
+(song) => song.category === selectedCategory
+);
 function getCategoryCount(category: string) {
   if (category === "All Songs") {
     return songsData.length;
