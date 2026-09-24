@@ -3848,7 +3848,40 @@ const orderedChordsForStrip = useMemo(() => {
           .moldovaTitle { font-size: 30px; }
         }
       `}</style>
+      {showCategories && (
+  <div style={{ maxWidth: 720, margin: "0 auto", textAlign: "center" }}>
+    <h1 className="moldovaTitle">Worship Songs</h1>
 
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        gap: 14,
+      }}
+    >
+      {categories.map((cat) => (
+        <div
+          key={cat}
+          onClick={() => {
+            setSelectedCategory(cat);
+            setShowCategories(false);
+          }}
+          style={{
+            cursor: "pointer",
+            padding: "14px",
+            borderRadius: 12,
+            background: "rgba(255,255,255,0.95)",
+            border: "1px solid rgba(0,0,0,0.10)",
+            fontWeight: 800,
+            fontSize: 18,
+          }}
+        >
+          {cat}
+        </div>
+      ))}
+    </div>
+  </div>
+)}
       {!selectedSong && !showCategories ? (
         <div style={{ maxWidth: 720, margin: "0 auto", position: "relative", zIndex: 1 }}>
         
