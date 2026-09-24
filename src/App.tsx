@@ -3836,35 +3836,7 @@ const orderedChordsForStrip = useMemo(() => {
 
       {!selectedSong ? (
         <div style={{ maxWidth: 720, margin: "0 auto", position: "relative", zIndex: 1 }}>
-          <div
-  style={{
-    display: "flex",
-    flexWrap: "wrap",
-    gap: 10,
-    justifyContent: "center",
-    marginBottom: 20,
-  }}
->
-  {categories.map((cat) => (
-    <button
-      key={cat}
-      onClick={() => setSelectedCategory(cat)}
-      style={{
-        padding: "8px 14px",
-        borderRadius: 999,
-        border: "1px solid rgba(0,0,0,0.15)",
-        background:
-          selectedCategory === cat
-            ? "rgba(11,95,255,0.10)"
-            : "#fff",
-        fontWeight: selectedCategory === cat ? 800 : 500,
-        cursor: "pointer",
-      }}
-    >
-      {cat}
-    </button>
-  ))}
-</div>
+        
           <div
   style={{
     display: "flex",
