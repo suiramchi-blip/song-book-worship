@@ -3588,10 +3588,19 @@ export default function App() {
 "Hymns & Timeless Classics",
 "Hope, Faith & Encouragement",
 ];
-  const filteredSongs =
+const filteredSongs =
   selectedCategory === "All Songs"
     ? songsData
-    : songsData;
+    : songsData.filter((song) => {
+        if (selectedCategory === "Praise & Celebration") {
+          return (
+            song.title === "1. Goodness of God" ||
+            song.title === "2. Gratitude"
+          );
+        }
+
+        return true;
+      });
 
   const [stageMode, setStageMode] = useState(false);
   const [showFlag, setShowFlag] = useState(false);
