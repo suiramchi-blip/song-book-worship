@@ -1509,322 +1509,379 @@ Altogether wonderful to me
 },
 {
   id: 23,
-  title: "23. Here I Am to Worship",
+  title: "23. The Heart of Worship",
   key: "D",
   youtube: "",
   lyrics: `Verse 1
-Light of the world
-You stepped down into darkness
-Opened my eyes let me see
-Beauty that made this heart adore You
-Hope of a life spent with You
+When the music fades
+All is stripped away
+And I simply come
+Longin' just to bring
+Something that's of worth
+That will bless Your heart
+Pre Chorus
+I'll bring You more than a song
+For a song in itself
+Is not what You have required
+You search much deeper within
+Through the ways things appear
+You're looking into my heart
 Chorus
-Here I am to worship
-Here I am to bow down
-Here I am to say that You're my God
-You're altogether lovely
-Altogether worthy
-Altogether wonderful to me
+I'm comin' back to the heart of worship
+And it's all about You
+It's all about You Jesus
+I'm sorry Lord
+For the thing I've made it
+When it's all about You
+It's all about You Jesus
 Verse 2
-King of all days
-Oh so highly exalted
-Glorious in Heaven above
-Humbly You came
-To the Earth You created
-All for love's sake became poor
+King of endless worth
+No one could express
+How much You deserve
+Though I'm weak and poor
+All I have is Yours
+Every single breath
+Pre Chorus
+I'll bring You more than a song
+For a song in itself
+Is not what You have required
+You search much deeper within
+Through the ways things appear
+You're looking into my heart
 Chorus
-Here I am to worship
-Here I am to bow down
-Here I am to say that You're my God
-You're altogether lovely
-Altogether worthy
-Altogether wonderful to me
-Bridge
-I'll never know how much it cost
-To see my sin upon that cross
+I'm comin' back to the heart of worship
+And it's all about You
+It's all about You Jesus
+I'm sorry Lord
+For the thing I've made it
+When it's all about You
+It's all about You Jesus
+Refrain
+I'm comin' back to the heart
+I'm comin' back to Your heart
+Pre Chorus
+I'll bring You more than a song
+For a song in itself
+Is not what You have required
+You search much deeper within
+Through the ways things appear
+You're looking into my heart
 Chorus
-Here I am to worship
-Here I am to bow down
-Here I am to say that You're my God
-You're altogether lovely
-Altogether worthy
-Altogether wonderful to me
+I'm comin' back to the heart of worship
+And it's all about You
+It's all about You Jesus
+I'm sorry Lord
+For the thing I've made it
+When it's all about You
+It's all about You
+Tag
+When it's all about You
+It's all about You Jesus
 `,
   chords: `
 `,
 },  
 {
   id: 24,
-  title: "24. Here I Am to Worship",
+  title: "24. Open the Eyes of My Heart",
   key: "D",
   youtube: "",
-  lyrics: `Verse 1
-Light of the world
-You stepped down into darkness
-Opened my eyes let me see
-Beauty that made this heart adore You
-Hope of a life spent with You
+  lyrics: `Verse
+Open the eyes of my heart Lord
+Open the eyes of my heart
+I want to see You
+I want to see You
+Open the eyes of my heart Lord
+Open the eyes of my heart
+I want to see You
+I want to see You
 Chorus
-Here I am to worship
-Here I am to bow down
-Here I am to say that You're my God
-You're altogether lovely
-Altogether worthy
-Altogether wonderful to me
-Verse 2
-King of all days
-Oh so highly exalted
-Glorious in Heaven above
-Humbly You came
-To the Earth You created
-All for love's sake became poor
+To see You high and lifted up
+Shining in the light of Your glory
+Pour out Your power and love
+As we sing holy holy holy
+Verse
+Open the eyes of my heart Lord
+Open the eyes of my heart
+I want to see You
+I want to see You
+Open the eyes of my heart Lord
+Open the eyes of my heart
+I want to see You
+I want to see You
 Chorus
-Here I am to worship
-Here I am to bow down
-Here I am to say that You're my God
-You're altogether lovely
-Altogether worthy
-Altogether wonderful to me
-Bridge
-I'll never know how much it cost
-To see my sin upon that cross
-Chorus
-Here I am to worship
-Here I am to bow down
-Here I am to say that You're my God
-You're altogether lovely
-Altogether worthy
-Altogether wonderful to me
+To see You high and lifted up
+Shining in the light of Your glory
+Pour out Your power and love
+As we sing holy holy holy
+Bridge 1
+Holy holy holy
+Holy holy holy
+Holy holy holy
+I want to see You
+Bridge 2
+Worthy worthy worthy
+Worthy worthy worthy
+Worthy worthy worthy
+I want to see You
+Bridge 1
+Holy holy holy
+Holy holy holy
+Holy holy holy
+I want to see You
+Tag
+I want to see You
+I want to see You
 `,
   chords: `
 `,
 },
 {
   id: 25,
-  title: "25. Here I Am to Worship",
-  key: "D",
+  title: "25. Lord, I Lift Your Name on High",
+  key: "G",
   youtube: "",
-  lyrics: `Verse 1
-Light of the world
-You stepped down into darkness
-Opened my eyes let me see
-Beauty that made this heart adore You
-Hope of a life spent with You
+  lyrics: `Verse
+Lord I lift Your name on high
+Lord I love to sing Your praises
+I'm so glad You're in my life
+I'm so glad You came to save us
 Chorus
-Here I am to worship
-Here I am to bow down
-Here I am to say that You're my God
-You're altogether lovely
-Altogether worthy
-Altogether wonderful to me
-Verse 2
-King of all days
-Oh so highly exalted
-Glorious in Heaven above
-Humbly You came
-To the Earth You created
-All for love's sake became poor
+You came from Heaven to Earth
+To show the way
+From the Earth to the cross
+My debt You payed
+From the cross to the grave
+From the grave to the sky
+Lord I lift Your name on high
+Verse
+Lord I lift Your name on high
+Lord I love to sing Your praises
+I'm so glad You're in my life
+I'm so glad You came to save us
 Chorus
-Here I am to worship
-Here I am to bow down
-Here I am to say that You're my God
-You're altogether lovely
-Altogether worthy
-Altogether wonderful to me
-Bridge
-I'll never know how much it cost
-To see my sin upon that cross
+You came from Heaven to Earth
+To show the way
+From the Earth to the cross
+My debt You payed
+From the cross to the grave
+From the grave to the sky
+Lord I lift Your name on high
+Tag
+Lord I lift Your name on high
+Verse
+Lord I lift Your name on high
+Lord I love to sing Your praises
+I'm so glad You're in my life
+I'm so glad You came to save us
 Chorus
-Here I am to worship
-Here I am to bow down
-Here I am to say that You're my God
-You're altogether lovely
-Altogether worthy
-Altogether wonderful to me
+You came from Heaven to Earth
+To show the way
+From the Earth to the cross
+My debt You payed
+From the cross to the grave
+From the grave to the sky
+Lord I lift Your name on high
+Refrain
+Lord I lift Your name on high
+Refrain
+Lord I lift Your name on high
+Lord I lift Your name on high
+Chorus
+You came from Heaven to Earth
+To show the way
+From the Earth to the cross
+My debt You payed
+From the cross to the grave
+From the grave to the sky
+Lord I lift Your name on high
+Outro
+Lord I lift Your name on high
+Lord I lift Your name on high
 `,
   chords: `
 `,
 },
 {
   id: 26,
-  title: "26. Here I Am to Worship",
-  key: "D",
+  title: "26. Above All",
+  key: "C",
   youtube: "",
   lyrics: `Verse 1
-Light of the world
-You stepped down into darkness
-Opened my eyes let me see
-Beauty that made this heart adore You
-Hope of a life spent with You
-Chorus
-Here I am to worship
-Here I am to bow down
-Here I am to say that You're my God
-You're altogether lovely
-Altogether worthy
-Altogether wonderful to me
+Above all powers above all kings
+Above all nature and all created things
+Above all wisdom and all the ways of man
+You were here before the world began
 Verse 2
-King of all days
-Oh so highly exalted
-Glorious in Heaven above
-Humbly You came
-To the Earth You created
-All for love's sake became poor
+Above all kingdoms above all thrones
+Above all wonders the world has ever known
+Above all wealth and treasures of the Earth
+There's no way to measure what You're worth
 Chorus
-Here I am to worship
-Here I am to bow down
-Here I am to say that You're my God
-You're altogether lovely
-Altogether worthy
-Altogether wonderful to me
-Bridge
-I'll never know how much it cost
-To see my sin upon that cross
+Crucified laid behind a stone
+You lived to die rejected and alone
+Like a rose trampled on the ground
+You took the fall and thought of me
+Above all
+Verse 1
+Above all powers above all kings
+Above all nature and all created things
+Above all wisdom and all the ways of man
+You were here before the world began
+Verse 2
+Above all kingdoms above all thrones
+Above all wonders the world has ever known
+Above all wealth and treasures of the Earth
+There's no way to measure what You're worth
 Chorus
-Here I am to worship
-Here I am to bow down
-Here I am to say that You're my God
-You're altogether lovely
-Altogether worthy
-Altogether wonderful to me
+Crucified laid behind a stone
+You lived to die rejected and alone
+Like a rose trampled on the ground
+You took the fall and thought of me
+Above all
+Tag
+Like a rose trampled on the ground
+You took the fall and thought of me
+Breakdown
+Above all
 `,
   chords: `
 `,
 },
 {
   id: 27,
-  title: "27. Here I Am to Worship",
+  title: "27. As The Deer",
   key: "D",
   youtube: "",
   lyrics: `Verse 1
-Light of the world
-You stepped down into darkness
-Opened my eyes let me see
-Beauty that made this heart adore You
-Hope of a life spent with You
+As the deer panteth for the water
+So my soul longeth after Thee
+You alone are my heart's desire
+And I long to worship Thee
 Chorus
-Here I am to worship
-Here I am to bow down
-Here I am to say that You're my God
-You're altogether lovely
-Altogether worthy
-Altogether wonderful to me
+You alone are my strength my shield
+To You alone may my spirit yield
+You alone are my heart's desire
+And I long to worship You
 Verse 2
-King of all days
-Oh so highly exalted
-Glorious in Heaven above
-Humbly You came
-To the Earth You created
-All for love's sake became poor
+You're my friend
+And You are my brother
+Even though
+You are a King
+I love You more than any other
+So much more than anything
 Chorus
-Here I am to worship
-Here I am to bow down
-Here I am to say that You're my God
-You're altogether lovely
-Altogether worthy
-Altogether wonderful to me
-Bridge
-I'll never know how much it cost
-To see my sin upon that cross
-Chorus
-Here I am to worship
-Here I am to bow down
-Here I am to say that You're my God
-You're altogether lovely
-Altogether worthy
-Altogether wonderful to me
+You alone are my strength my shield
+To You alone may my spirit yield
+You alone are my heart's desire
+And I long to worship You
+Tag
+Oh I long to worship You
 `,
   chords: `
 `,
 },  
 {
   id: 28,
-  title: "28. Here I Am to Worship",
+  title: "28. Draw Me Close",
   key: "D",
   youtube: "",
   lyrics: `Verse 1
-Light of the world
-You stepped down into darkness
-Opened my eyes let me see
-Beauty that made this heart adore You
-Hope of a life spent with You
-Chorus
-Here I am to worship
-Here I am to bow down
-Here I am to say that You're my God
-You're altogether lovely
-Altogether worthy
-Altogether wonderful to me
+Draw me close to You
+Never let me go
+I lay it all down again
+To hear You say that I’m Your friend
 Verse 2
-King of all days
-Oh so highly exalted
-Glorious in Heaven above
-Humbly You came
-To the Earth You created
-All for love's sake became poor
+You are my desire
+No one else will do
+Cause nothing else could take Your place
+To feel the warmth of Your embrace
+Pre Chorus
+Help me find the way
+Bring me back to You
 Chorus
-Here I am to worship
-Here I am to bow down
-Here I am to say that You're my God
-You're altogether lovely
-Altogether worthy
-Altogether wonderful to me
-Bridge
-I'll never know how much it cost
-To see my sin upon that cross
+You’re all I want
+You’re all I’ve ever needed
+You’re all I want
+Help me know You are here
+Verse 3
+Draw me close to You
+Never let me go
+Cause nothing else could take Your place
+To feel the warmth of Your embrace
+Pre Chorus
+Help me find the way
+Bring me back to You
 Chorus
-Here I am to worship
-Here I am to bow down
-Here I am to say that You're my God
-You're altogether lovely
-Altogether worthy
-Altogether wonderful to me
+You’re all I want
+You’re all I’ve ever needed
+You’re all I want
+Help me know You are here
+Refrain
+You're all that I want
+You're all that I need
+You are everything to me
+Chorus
+You’re all I want
+You’re all I’ve ever needed
+You’re all I want
+Help me know You are near
 `,
   chords: `
 `,
 },
 {
   id: 29,
-  title: "29. Here I Am to Worship",
-  key: "D",
+  title: "29. God of Wonders",
+  key: "C",
   youtube: "",
   lyrics: `Verse 1
-Light of the world
-You stepped down into darkness
-Opened my eyes let me see
-Beauty that made this heart adore You
-Hope of a life spent with You
-Chorus
-Here I am to worship
-Here I am to bow down
-Here I am to say that You're my God
-You're altogether lovely
-Altogether worthy
-Altogether wonderful to me
+Lord of all creation
+Of water Earth and sky
+The heavens are Your tabernacle
+Glory to the Lord on high
+Chorus 1
+God of wonders beyond our galaxy
+You are holy holy
+The universe declares Your majesty
+You are holy holy
+Lord of Heaven and Earth
+Lord of Heaven and Earth
 Verse 2
-King of all days
-Oh so highly exalted
-Glorious in Heaven above
-Humbly You came
-To the Earth You created
-All for love's sake became poor
-Chorus
-Here I am to worship
-Here I am to bow down
-Here I am to say that You're my God
-You're altogether lovely
-Altogether worthy
-Altogether wonderful to me
-Bridge
-I'll never know how much it cost
-To see my sin upon that cross
-Chorus
-Here I am to worship
-Here I am to bow down
-Here I am to say that You're my God
-You're altogether lovely
-Altogether worthy
-Altogether wonderful to me
+Early in the morning
+I will celebrate the light
+When I stumble in the darkness
+I will call Your name by night
+Chorus 1
+God of wonders beyond our galaxy
+You are holy holy
+The universe declares Your majesty
+You are holy holy
+Lord of Heaven and Earth
+Lord of Heaven and Earth
+Refrain
+Hallelujah
+To the Lord of Heaven and Earth
+Hallelujah
+To the Lord of Heaven and Earth
+Hallelujah
+To the Lord of Heaven and Earth
+Chorus 2
+God of wonders beyond our galaxy
+You are holy holy
+Precious Lord reveal Yourself to me
+Father holy holy
+The universe declares Your majesty
+You are holy holy
+Tag
+Holy holy
+Refrain
+Hallelujah
+To the Lord of Heaven and Earth
+Hallelujah
+To the Lord of Heaven and Earth
+Hallelujah
+To the Lord of Heaven and Earth
 `,
   chords: `
 `,
