@@ -3588,6 +3588,11 @@ export default function App() {
 "Hymns & Timeless Classics",
 "Hope, Faith & Encouragement",
 ];
+  const filteredSongs =
+  selectedCategory === "All Songs"
+    ? songsData
+    : songsData;
+
   const [stageMode, setStageMode] = useState(false);
   const [showFlag, setShowFlag] = useState(false);
   const [keepAwake, setKeepAwake] = useState(false);
