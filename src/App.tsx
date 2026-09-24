@@ -1937,9 +1937,11 @@ function renderWithSectionStyling(
     ...labelStyle(type),
     cursor: "pointer",
   }}
-  onClick={() => {
-    console.log(labelText);
-  }}
+onClick={(e) => {
+  e.currentTarget.scrollIntoView({
+    behavior: "smooth",
+  });
+}}
 >
   {labelText}
 </span>
