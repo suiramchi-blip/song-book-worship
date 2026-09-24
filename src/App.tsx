@@ -1460,6 +1460,52 @@ Hosanna in the highest
 `,
   chords: `
 `,
+},
+{
+  id: 22,
+  title: "22. Here I Am to Worship",
+  key: "D",
+  youtube: "",
+  lyrics: `Verse 1
+Light of the world
+You stepped down into darkness
+Opened my eyes let me see
+Beauty that made this heart adore You
+Hope of a life spent with You
+Chorus
+Here I am to worship
+Here I am to bow down
+Here I am to say that You're my God
+You're altogether lovely
+Altogether worthy
+Altogether wonderful to me
+Verse 2
+King of all days
+Oh so highly exalted
+Glorious in Heaven above
+Humbly You came
+To the Earth You created
+All for love's sake became poor
+Chorus
+Here I am to worship
+Here I am to bow down
+Here I am to say that You're my God
+You're altogether lovely
+Altogether worthy
+Altogether wonderful to me
+Bridge
+I'll never know how much it cost
+To see my sin upon that cross
+Chorus
+Here I am to worship
+Here I am to bow down
+Here I am to say that You're my God
+You're altogether lovely
+Altogether worthy
+Altogether wonderful to me
+`,
+  chords: `
+`,
 },  
 {
   id: 30,
