@@ -3890,7 +3890,20 @@ const orderedChordsForStrip = useMemo(() => {
             fontSize: 18,
           }}
         >
-          {cat}
+          <>
+  <div>{cat}</div>
+
+  <div
+    style={{
+      fontSize: 12,
+      opacity: 0.7,
+      marginTop: 4,
+      fontWeight: 400,
+    }}
+  >
+    {getCategoryCount(cat)} songs
+  </div>
+</>
         </div>
       ))}
     </div>
