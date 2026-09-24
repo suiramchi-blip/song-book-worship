@@ -3884,7 +3884,20 @@ const orderedChordsForStrip = useMemo(() => {
 )}
       {!selectedSong ? (
         <div style={{ maxWidth: 720, margin: "0 auto", position: "relative", zIndex: 1 }}>
-        
+        <button
+  onClick={() => setShowCategories(true)}
+  style={{
+    background: "none",
+    border: "none",
+    color: "#0033A0",
+    cursor: "pointer",
+    fontSize: 20,
+    fontWeight: 800,
+    marginBottom: 12,
+  }}
+>
+  ← Categories
+</button>
           <div
   style={{
     display: "flex",
