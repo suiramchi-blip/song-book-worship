@@ -14,6 +14,7 @@ type Song = {
   id: number;
   title: string;
   key: string;
+  category: string;
   lyrics: string;
   chords: string;
   youtube?: string;
@@ -24,6 +25,7 @@ const songsData: Song[] = [
     id: 1,
     title: "1. Goodness of God",
     key: "F",
+    category: "Worship & Adoration",
     youtube:"",
     lyrics: `
 1.
