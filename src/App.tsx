@@ -3577,6 +3577,7 @@ export default function App() {
   const [selectedSong, setSelectedSong] = useState<Song | null>(null);
   const [viewMode, setViewMode] = useState<ViewMode>("lyrics");
   const [selectedCategory, setSelectedCategory] = useState("All Songs");
+  const [showCategories, setShowCategories] = useState(true);
   const categories = [
 "All Songs",
 "Praise & Celebration",
@@ -3863,7 +3864,10 @@ const orderedChordsForStrip = useMemo(() => {
   {categories.map((cat) => (
     <button
       key={cat}
-      onClick={() => setSelectedCategory(cat)}
+      onClick={() => {
+  setSelectedCategory(cat);
+  setShowCategories(false);
+}}
       style={{
         padding: "6px 12px",
         borderRadius: 999,
@@ -3921,6 +3925,10 @@ const orderedChordsForStrip = useMemo(() => {
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: 10 }}>
             <button
               onClick={() => {
+                if (!selectedSong) {
+  setShowCategories(true);
+  return;
+}
                 setSelectedSong(null);
                 setStageMode(false);
                 setShowFlag(false);
