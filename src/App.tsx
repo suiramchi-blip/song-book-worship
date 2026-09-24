@@ -3602,7 +3602,21 @@ const filteredSongs =
 
         return true;
       });
+function getCategoryCount(category: string) {
+  if (category === "All Songs") {
+    return songsData.length;
+  }
 
+  if (category === "Praise & Celebration") {
+    return songsData.filter(
+      (song) =>
+        song.title === "1. Goodness of God" ||
+        song.title === "2. Gratitude"
+    ).length;
+  }
+
+  return songsData.length;
+}
   const [stageMode, setStageMode] = useState(false);
   const [showFlag, setShowFlag] = useState(false);
   const [keepAwake, setKeepAwake] = useState(false);
