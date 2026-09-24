@@ -3892,7 +3892,7 @@ zIndex: 1,
 display: showCategories ? "none" : "block",
 }}
 >
-          {!showCategories && (
+         
         <button
   onClick={() => setShowCategories(true)}
   style={{
