@@ -2189,252 +2189,736 @@ Here in the power of Christ I'll stand
   },
 {
     id: 34,
-    title: "34. Great Are You Lord",
+    title: "34. Yet Not I But Through Christ In Me",
     key: "G",
     youtube: "",
     lyrics: `
 Verse 1
-You give life You are love
-You bring light to the darkness
-You give hope You restore
-Every heart that is broken
-Pre Chorus
-Great are You Lord
-
+What gift of grace
+Is Jesus my redeemer
+There is no more
+For Heaven now to give
+He is my joy
+My righteousness and freedom
+My steadfast love
+My deep and boundless peace
+Chorus 1
+To this I hold
+My hope is only Jesus
+For my life
+Is wholly bound to His
+Oh how strange and divine
+I can sing all is mine
+Yet not I but through Christ in me
+Verse 2
+The night is dark
+But I am not forsaken
+For by my side
+The Saviour He will stay
+I labour on
+In weakness and rejoicing
+For in my need
+His power is displayed
+Chorus 2
+To this I hold my Shepherd
+Will defend me
+Through the deepest valley
+He will lead
+Oh the night has been won
+And I shall overcome
+Yet not I but through Christ in me
+Verse 3
+No fate I dread
+I know I am forgiven
+The future sure
+The price it has been paid
+For Jesus bled
+And suffered for my pardon
+And He was raised
+To overthrow the grave
+Chorus 3
+To this I hold
+My sin has been defeated
+Jesus now
+And ever is my plea
+Oh the chains are released
+I can sing I am free
+Yet not I but through Christ in me
+Verse 4
+With every breath
+I long to follow Jesus
+For He has said that
+He will bring me home
+And day by day I know
+He will renew me
+Until I stand with
+Joy before the throne
+Chorus 4
+To this I hold
+My hope is only Jesus
+All the glory
+Evermore to Him
+When the race is complete
+Still my lips shall repeat
+Yet not I but through Christ in me
+Tag
+When the race is complete
+Still my lips shall repeat
+Yet not I but through Christ in me
+Tag
+Yet not I but through Christ in me
 `,
     chords: `
 `,
   },
 {
     id: 35,
-    title: "35. Great Are You Lord",
-    key: "G",
+    title: "35. Be Thou My Vision",
+    key: "D",
     youtube: "",
     lyrics: `
 Verse 1
-You give life You are love
-You bring light to the darkness
-You give hope You restore
-Every heart that is broken
-Pre Chorus
-Great are You Lord
-
+Be Thou my vision
+O Lord of my heart
+Naught be all else to me
+Save that Thou art
+Thou my best thought
+By day and by night
+Waking or sleeping
+Thy presence my light
+Verse 2
+Be Thou my wisdom
+And Thou my true word
+I ever with Thee
+Qnd Thou with me Lord
+Thou my great Father
+I Thy true Son
+Thou in me dwelling
+And I with Thee one
+Verse 3
+Be Thou my battle
+Shield sword for the fight
+Be Thou my Dignity
+Thou my Delight
+Thou my soul's shelter
+Thou my high tower
+Raise Thou me heavenward
+O power of my power
+Verse 4
+Riches I heed not
+Nor man's empty praise
+Thou mine inheritance
+now and always
+Thou and Thou only
+first in my heart
+High King of Heaven
+My treasure Thou art
+Verse 5
+High King of Heaven
+My victory won
+May I reach Heaven's joys
+O bright Heaven's Sun
+Heart of my own heart
+Whatever befall
+Still be my Vision
+O Ruler of all
+Tag
+Still be my Vision
+O Ruler of all
 `,
     chords: `
 `,
   },
 {
     id: 36,
-    title: "36. Great Are You Lord",
-    key: "G",
+    title: "36. Turn Your Eyes Upon Jesus",
+    key: "D",
     youtube: "",
     lyrics: `
 Verse 1
-You give life You are love
-You bring light to the darkness
-You give hope You restore
-Every heart that is broken
-Pre Chorus
-Great are You Lord
-
+O soul are you weary
+And troubled
+No light in the darkness you see
+There's light for a look
+At the Savior
+And life more abundant and free
+Verse 2
+Through death into life everlasting
+He passed
+And we follow Him there
+O'er us sin no more hath dominion
+For more than conquerors we are
+Chorus
+Turn your eyes upon Jesus
+Look full in His wonderful face
+And the things of earth
+Will grow strangely dim
+In the light of His glory and grace
+Verse 3
+His Word shall not fail you He promised
+Believe Him and all will be well
+Then go to a world that is dying
+His perfect salvation to tell
+Chorus
+Turn your eyes upon Jesus
+Look full in His wonderful face
+And the things of earth
+Will grow strangely dim
+In the light of His glory
+Bridge
+Amazing grace
+How sweet the sound
+That saved a wretch like me
+I once was lost
+But now I'm found
+Was blind but now I see
 `,
     chords: `
 `,
   },
 {
     id: 37,
-    title: "37. Great Are You Lord",
+    title: "37. How Great Thou Art",
     key: "G",
     youtube: "",
     lyrics: `
 Verse 1
-You give life You are love
-You bring light to the darkness
-You give hope You restore
-Every heart that is broken
-Pre Chorus
-Great are You Lord
-
+O Lord my God
+When I in awesome wonder
+Consider all the worlds
+Thy Hands have made
+I see the stars
+I hear the rolling thunder
+Thy power throughout
+The universe displayed
+Chorus
+Then sings my soul
+My Savior God to Thee
+How great Thou art
+How great Thou art
+Then sings my soul
+My Savior God to Thee
+How great Thou art
+How great Thou art
+Verse 2
+And when I think
+That God His Son not sparing
+Sent Him to die
+I scarce can take it in
+That on the Cross
+My burden gladly bearing
+He bled and died to take away my sin
+Chorus
+Then sings my soul
+My Savior God to Thee
+How great Thou art
+How great Thou art
+Then sings my soul
+My Savior God to Thee
+How great Thou art
+How great Thou art
+Verse 3
+When Christ shall come
+With shout of acclamation
+And lead me home
+What joy shall fill my heart
+Then I shall bow with humble adoration
+And then proclaim
+My God how great Thou art
+Chorus
+Then sings my soul
+My Savior God to Thee
+How great Thou art
+How great Thou art
+Then sings my soul
+My Savior God to Thee
+How great Thou art
+How great Thou art
+Tag
+How great Thou art
+How great Thou art
 `,
     chords: `
 `,
   },
 {
     id: 38,
-    title: "38. Great Are You Lord",
+    title: "38. Blessed Be Your Name",
     key: "G",
     youtube: "",
     lyrics: `
 Verse 1
-You give life You are love
-You bring light to the darkness
-You give hope You restore
-Every heart that is broken
+Blessed be Your name
+In the land that is plentiful
+Where Your streams
+Of abundance flow
+Blessed be Your name
+Blessed be Your name
+When I'm found in the desert place
+Though I walk
+Through the wilderness
+Blessed be Your name
 Pre Chorus
-Great are You Lord
-
+Every blessing You pour out
+I'll turn back to praise
+When the darkness closes in Lord
+Still I will say
+Chorus
+Blessed be the name of the Lord
+Blessed be Your name
+Blessed be the name of the Lord
+Blessed be Your glorious name
+Verse 2
+Blessed be Your name
+When the sun's shining down on me
+When the world's
+All as it should be
+Blessed be Your name
+Blessed be Your name
+On the road marked with suffering
+Though there's pain
+In the offering
+Blessed be Your name
+Pre Chorus
+Every blessing You pour out
+I'll turn back to praise
+When the darkness closes in Lord
+Still I will say
+Chorus
+Blessed be the name of the Lord
+Blessed be Your name
+Blessed be the name of the Lord
+Blessed be Your glorious name
+Bridge
+You give and take away
+You give and take away
+My heart will choose to say
+Lord blessed be Your name
+Chorus
+Blessed be the name of the Lord
+Blessed be Your name
+Blessed be the name of the Lord
+Blessed be Your glorious name
 `,
     chords: `
 `,
   },
 {
     id: 39,
-    title: "39. Great Are You Lord",
-    key: "G",
+    title: "39. Change My Heart, O God",
+    key: "D",
     youtube: "",
     lyrics: `
-Verse 1
-You give life You are love
-You bring light to the darkness
-You give hope You restore
-Every heart that is broken
-Pre Chorus
-Great are You Lord
-
+Chorus
+Change my heart, oh God
+Make it ever true
+Change my heart, oh God
+May I be like You
+Change my heart, oh God
+Make it ever true
+Change my heart, oh God
+May I be like You
+Verse
+You are the potter
+I am the clay
+Mold me and make me
+This is what I pray
+Chorus
+Change my heart oh God
+Make it ever true
+Change my heart oh God
+Make it ever true
+Verse
+You are the potter
+I am the clay
+Mold me and make me
+This is what I pray
+Chorus
+Change my heart oh God
+Make it ever true
+Change my heart oh God
+Make it ever true
 `,
     chords: `
 `,
   },
 {
     id: 40,
-    title: "40. Great Are You Lord",
-    key: "G",
+    title: "40. Breathe",
+    key: "D",
     youtube: "",
     lyrics: `
 Verse 1
-You give life You are love
-You bring light to the darkness
-You give hope You restore
-Every heart that is broken
-Pre Chorus
-Great are You Lord
-
+This is the air I breathe
+This is the air I breathe
+Your holy presence
+Living in me
+Verse 2
+This is my daily bread
+This is my daily bread
+Your very word
+Spoken to me
+Chorus
+And I
+I'm desperate for You
+And I
+I'm lost without You
+Verse 1
+This is the air I breathe
+This is the air I breathe
+Your holy presence
+Living in me
+Verse 2
+This is my daily bread
+This is my daily bread
+Your very word
+Spoken to me
+Chorus
+And I
+I'm desperate for You
+And I
+I'm lost without You
+Tag
+I'm lost without You
+I'm lost without You
 `,
     chords: `
 `,
   },
 {
     id: 41,
-    title: "41. Great Are You Lord",
+    title: "41. You Are My All in All",
     key: "G",
     youtube: "",
     lyrics: `
 Verse 1
-You give life You are love
-You bring light to the darkness
-You give hope You restore
-Every heart that is broken
-Pre Chorus
-Great are You Lord
-
+You are my strength
+When I am weak
+You are the treasure
+That I seek
+You are my all in all
+Seeking You as a precious jewel
+Lord to give up I'd be a fool
+You are my all in all
+Chorus
+Jesus Lamb of God
+Worthy is Your name
+Jesus Lamb of God
+Worthy is Your name
+Verse 1
+Taking my sin
+My cross my shame
+Rising again I bless Your name
+You are my all in all
+When I fall down You pick me up
+When I am dry You fill my cup
+You are my all in all
+Chorus
+Jesus Lamb of God
+Worthy is Your name
+Jesus Lamb of God
+Worthy is Your name
+Verse 1
+You are my strength
+When I am weak
+You are the treasure
+That I seek
+You are my all in all
+Seeking You as a precious jewel
+Lord to give up I'd be a fool
+You are my all in all
+Chorus
+Jesus Lamb of God
+Worthy is Your name
+Jesus Lamb of God
+Worthy is Your name
+Tag
+Worthy is Your name
 `,
     chords: `
 `,
   },
 {
     id: 42,
-    title: "42. Great Are You Lord",
-    key: "G",
+    title: "42. Give Me Jesus (Upperoom)",
+    key: "D",
     youtube: "",
     lyrics: `
 Verse 1
-You give life You are love
-You bring light to the darkness
-You give hope You restore
-Every heart that is broken
-Pre Chorus
-Great are You Lord
-
+I don’t want anything but You
+You’re more than every dream come true
+All of the things I thought I wanted
+Don’t come close to knowing You
+Verse 2
+Now that I’m Yours and You are mine
+Our love is the secret that I find
+I’ll spend forever in the pleasure
+I’ve found looking in Your eyes
+Chorus
+Give me Jesus
+Give me Jesus
+You can have all this world
+You can have all this world
+Verse 3
+More than silver more than gold
+You are the treasure that I hold
+Now that I’ve tasted of Your goodness
+Nothing else will satisfy
+Chorus
+Give me Jesus
+Give me Jesus
+You can have all this world
+You can have all this world
+Bridge 1
+I don’t want anyone else
+I don’t need anything else
+You are my one thing
+You are my one thing
+Refrain
+You are my one thing
+You are my one thing
+You are my one thing
+Chorus
+Give me Jesus
+Give me Jesus
+You can have all this world
+You can have all this world
+Bridge 1
+I don’t want anyone else
+I don’t need anything else
+You are my one thing
+You are my one thing
+Refrain
+You are my one thing
+You are my one thing
+You are my one thing
+Bridge 2
+I don't care if they call me crazy
+I don't care if they call me crazy
+You are my one thing
+You are my one thing
 `,
     chords: `
 `,
   },
 {
     id: 43,
-    title: "43. Great Are You Lord",
+    title: "43. Give Me Jesus",
     key: "G",
     youtube: "",
     lyrics: `
 Verse 1
-You give life You are love
-You bring light to the darkness
-You give hope You restore
-Every heart that is broken
-Pre Chorus
-Great are You Lord
-
+In the morning, when I rise
+In the morning, when I rise
+In the morning, when I rise, give me Jesus
+Chorus
+Give me Jesus
+Give me Jesus
+You can have all this world
+But give me Jesus
+Verse 2
+When I am alone
+When I am alone
+When I am alone, give me Jesus
+Chorus
+Give me Jesus
+Give me Jesus
+You can have all this world
+But give me Jesus
+Verse 3
+When I come to die
+When I come to die
+When I come to die, give me Jesus
+Chorus 1
+Give me Jesus
+Give me Jesus
+You can have all this world
+You can have all this world
+You can have all this world
+But give me Jesus
 `,
     chords: `
 `,
   },
 {
     id: 44,
-    title: "44. Great Are You Lord",
+    title: "44. I Love You Lord",
     key: "G",
     youtube: "",
     lyrics: `
-Verse 1
-You give life You are love
-You bring light to the darkness
-You give hope You restore
-Every heart that is broken
-Pre Chorus
-Great are You Lord
-
+Chorus 1
+I love You Lord
+And I lift my voice
+To worship You
+Oh my soul rejoice
+Chorus 2
+Take joy my King
+In what You hear
+May it be a sweet sweet sound
+In Your ear
+Chorus 1
+I love You Lord
+And I lift my voice
+To worship You
+Oh my soul rejoice
+Chorus 2
+Take joy my King
+In what You hear
+May it be a sweet
+Sweet sound
+In Your ear
+Tag
+May it be a sweet
+Sweet sound
+May it be a sweet
+Sweet sound
+In Your ear
 `,
     chords: `
 `,
   },
 {
     id: 45,
-    title: "45. Great Are You Lord",
+    title: "45. In Moments Like These",
     key: "G",
     youtube: "",
     lyrics: `
-Verse 1
-You give life You are love
-You bring light to the darkness
-You give hope You restore
-Every heart that is broken
-Pre Chorus
-Great are You Lord
-
+Verse
+In moments like these, I sing out a song
+I sing out a love song to Jesus
+In moments like these, I lift up my hands
+I lift up my hands to the Lord
+Chorus
+Singing, I love You, Lord
+Singing, I love You, Lord
+Singing, I love You, Lord
+I love You
+Verse
+In moments like these, I sing out a song
+I sing out a love song to Jesus
+In moments like these, I lift up my hands
+I lift up my hands to the Lord
+Chorus
+Singing, I love You, Lord
+Singing, I love You, Lord
+Singing, I love You, Lord
+I love You
+Chorus
+Singing, I love You, Lord
+Singing, I love You, Lord
+Singing, I love You, Lord
+I love You
 `,
     chords: `
 `,
   },
 {
     id: 46,
-    title: "46. Great Are You Lord",
-    key: "G",
+    title: "46. His Mercy Is More",
+    key: "C",
     youtube: "",
     lyrics: `
+Chorus
+Praise the Lord
+His mercy is more
+Stronger than darkness 
+new every morn
+Our sins they are many
+His mercy is more
 Verse 1
-You give life You are love
-You bring light to the darkness
-You give hope You restore
-Every heart that is broken
-Pre Chorus
-Great are You Lord
-
+What love could remember 
+no wrongs we have done
+Omniscient all knowing
+He counts not their sum
+Thrown into a sea 
+without bottom or shore
+Our sins they are many
+His mercy is more
+Chorus
+Praise the Lord
+His mercy is more
+Stronger than darkness 
+new every morn
+Our sins they are many
+His mercy is more
+Verse 2
+What patience would wait 
+as we constantly roam
+What Father so tender 
+is calling us home
+He welcomes the weakest 
+the vilest the poor
+Our sins they are many
+His mercy is more
+Chorus
+Praise the Lord
+His mercy is more
+Stronger than darkness 
+new every morn
+Our sins they are many
+His mercy is more
+Verse 3
+What riches of kindness 
+He lavished on us
+His blood was the payment 
+His life was the cost
+We stood 'neath a debt 
+we could never afford
+Our sins they are many
+His mercy is more
+Chorus
+Praise the Lord
+His mercy is more
+Stronger than darkness 
+new every morn
+Our sins they are many
+His mercy is more
+Tag
+Our sins they are many
+His mercy is more
 `,
     chords: `
 `,
   },
 {
     id: 47,
-    title: "47. Great Are You Lord",
+    title: "47. Come Thou Fount",
     key: "G",
     youtube: "",
     lyrics: `
 Verse 1
-You give life You are love
-You bring light to the darkness
-You give hope You restore
-Every heart that is broken
-Pre Chorus
-Great are You Lord
-
+Come Thou Fount of every blessing
+Tune my heart to sing Thy grace
+Streams of mercy never ceasing
+Call for songs of loudest praise
+Verse 2
+Teach me some melodious sonnet
+Sung by flaming tongues above
+Praise the mount I’m fixed upon it
+Mount of God’s redeeming love
+Verse 3
+Here I raise my Ebenezer
+Here there by Thy help I've come
+And I hope by Thy good pleasure
+Safely to arrive at home
+Verse 4
+Jesus sought me when a stranger
+Wandering from the fold of God
+He to rescue me from danger
+Interposed His precious blood
+Verse 5
+O to grace how great a debtor
+Daily I'm constrained to be
+Let that goodness now like a fetter
+Bind my wandering heart to Thee
+Verse 6
+Prone to wander Lord I feel it
+Prone to leave the God I love
+Here's my heart O take and seal it
+Seal it for Thy courts above
+Tag
+Here's my heart O take and seal it
+Seal it for Thy courts above
 `,
     chords: `
 `,
