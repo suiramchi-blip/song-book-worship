@@ -1408,7 +1408,62 @@ Oh Lord oh Lord our God
 },
 {
   id: 21,
-  title: "21. Amazing grace",
+  title: "21. Hosanna",
+  key: "G",
+  youtube: "",
+  lyrics: `Verse 1
+I see the King of Glory
+Coming on the clouds with fire
+The whole Earth shakes
+The whole Earth shakes
+Verse 2
+I see His love and mercy
+Washing over all our sin
+The people sing
+The people sing
+Chorus
+Hosanna Hosanna
+Hosanna in the highest
+Hosanna Hosanna
+Hosanna in the highest
+Verse 3
+I see a generation
+Rising up to take their place
+With selfless faith
+With selfless faith
+Verse 4
+I see a near revival
+Stirring as we pray and seek
+We're on our knees
+We're on our knees
+Chorus
+Hosanna Hosanna
+Hosanna in the highest
+Hosanna Hosanna
+Hosanna in the highest
+Bridge
+Heal my heart and make it clean
+Open up my eyes to the things unseen
+Show me how to love
+Like You have loved me
+Bridge
+Break my heart for what breaks Yours
+Everything I am for Your Kingdom's cause
+As I walk from Earth into eternity
+Chorus
+Hosanna Hosanna
+Hosanna in the highest
+Hosanna Hosanna
+Hosanna in the highest
+Tag
+Hosanna in the highest
+`,
+  chords: `
+`,
+},  
+{
+  id: 30,
+  title: "30. Amazing grace",
   key: "F",
   youtube: "https://youtu.be/Tvt6E9N7AQw?si=H6m4kXWUBkUJZ7g4",
   lyrics: `1.
@@ -1468,8 +1523,8 @@ Than when we first begun.
 `,
 },
 {
-  id: 22,
-  title: "22. There is one Gospel",
+  id: 31,
+  title: "31. There is one Gospel",
   key: "C",
   youtube: "https://youtu.be/nmBcTrDu4O4?si=5TJ8Q8J1kvSr4ajI",
   lyrics: `1.
@@ -1555,8 +1610,8 @@ I stand in the Gospel of Jesus Christ
 `,
 },
 {
-  id: 23,
-  title: "23. Christ our hope in life and death",
+  id: 32,
+  title: "32. Christ our hope in life and death",
   key: "E",
   youtube: "https://youtu.be/FvwlwL1FUEg?si=t7zvlLIV6KHf2TFj",
   lyrics: `1.
