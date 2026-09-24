@@ -2656,10 +2656,9 @@ const orderedChordsForStrip = useMemo(() => {
   setTargetKey(song.key);
   setShowVideo(false);
 
-  window.scrollTo({
-    top: 0,
-    behavior: "instant",
-  });
+  setTimeout(() => {
+  window.scrollTo(0, 0);
+}, 0);
 }}
                 style={{
                   cursor: "pointer",
