@@ -2647,15 +2647,20 @@ const orderedChordsForStrip = useMemo(() => {
               <div
                 key={`${song.id}-${song.title}`}
                 onClick={() => {
-                  setSelectedSong(song);
-                  setViewMode("lyrics");
-                  setStageMode(false);
-                  setShowFlag(false);
-                  setTransposeSemis(0);
-                  setPreferFlats(keyPrefersFlats(song.key));
-                  setTargetKey(song.key);
-                  setShowVideo(false);
-                }}
+  setSelectedSong(song);
+  setViewMode("lyrics");
+  setStageMode(false);
+  setShowFlag(false);
+  setTransposeSemis(0);
+  setPreferFlats(keyPrefersFlats(song.key));
+  setTargetKey(song.key);
+  setShowVideo(false);
+
+  window.scrollTo({
+    top: 0,
+    behavior: "instant",
+  });
+}}
                 style={{
                   cursor: "pointer",
                   padding: "10px 8px",
