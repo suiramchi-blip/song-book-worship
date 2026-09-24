@@ -3576,6 +3576,7 @@ function pillStyle(active: boolean, dark: boolean): React.CSSProperties {
 export default function App() {
   const [selectedSong, setSelectedSong] = useState<Song | null>(null);
   const [viewMode, setViewMode] = useState<ViewMode>("lyrics");
+  const [selectedCategory, setSelectedCategory] = useState("All Songs");
 
   const [stageMode, setStageMode] = useState(false);
   const [showFlag, setShowFlag] = useState(false);
