@@ -1125,339 +1125,285 @@ Jesus I love You
 },
 {
   id: 16,
-  title: "16. Cristos, ancora cea tare",
-  key: "C",
-  youtube: "https://youtu.be/kllNj-cLOW8?si=6ty5hPTUaDpFvKmG",
-  lyrics: `1.
-Cristos, ancora cea tare, cu furtuna când mă lupt,
-Când bat vânturi de-ndoială si când pânzele-mi se rup.
-Prin dureri și-n suferință, când speranță nu mai am,
-Neclintit rămâne Domnul, Cel în care-s ancorat.
-
-2.
-Hristos, ancora cea tare, când furtuna bate greu,
-Când ispita mă învinge și e noapte-n jurul meu.
-Mai adânc mă-ncred în Domnul, deși drept sunt acuzat.
-Neclintit rămâne Domnul, Cel în care-s ancorat!
-
-3.
-Hristos, ancora cea tare, necredința când m-a-nvins.
-Disperat ești al meu suflet, dar privește la Isus.
-La calvar ai siguranță, dragostea Și-a demonstrat.
-Neclintit rămâne Domnul, Cel în care-s ancorat!
-
-C: 
-Hristos Stânca mântuirii, credincios și-adevărat.
-Neclintit rămâne veșnic, în El suntem ancorați. 
+  title: "16. Shout to the Lord",
+  key: "G",
+  youtube: "",
+  lyrics: `Verse 1
+My Jesus my Savior
+Lord there is none like You
+All of my days I want to praise
+The wonders of Your mighty love
+Verse 2
+My comfort my shelter
+Tower of refuge and strength
+Let every breath all that I am
+Never cease to worship You
+Chorus 1
+Shout to the Lord all the Earth
+Let us sing
+Power and majesty praise
+To the King
+Mountains bow down
+And the seas will roar
+At the sound of Your name
+Chorus 2
+I sing for joy at the work
+Of Your hands
+Forever I'll love You
+Forever I'll stand
+Nothing compares to the
+Promise I have in You
+Verse 1
+My Jesus my Savior
+Lord there is none like You
+All of my days I want to praise
+The wonders of Your mighty love
+Verse 2
+My comfort my shelter
+Tower of refuge and strength
+Let every breath all that I am
+Never cease to worship You
+Chorus 1
+Shout to the Lord all the Earth
+Let us sing
+Power and majesty praise
+To the King
+Mountains bow down
+And the seas will roar
+At the sound of Your name
+Chorus 2
+I sing for joy at the work
+Of Your hands
+Forever I'll love You
+Forever I'll stand
+Nothing compares to the
+Promise I have in You
+Tag
+Nothing compares to the
+Promise I have
+Tag
+Nothing compares to the
+Promise I have in You 
 `,
   chords: `
-1.
-          C                      F             C
-Cristos, ancora cea tare, cu furtuna când mă lupt,
-          C            Am            G             G7
-Când bat vânturi de-ndoială si când pânzele-mi se rup.
-        F             C              F     G     Am
-Prin dureri și-n suferință, când speranță nu mai am,
-       C         Am             F      G    C C Am F
-Neclintit rămâne Domnul, Cel în care-s ancorat.
-
-2.
-Hristos, ancora cea tare, când furtuna bate greu,
-Când ispita mă învinge și e noapte-n jurul meu.
-Mai adânc mă-ncred în Domnul, deși drept sunt acuzat.
-Neclintit rămâne Domnul, Cel în care-s ancorat!
-
-3.
-Hristos, ancora cea tare, necredința când m-a-nvins.
-Disperat ești al meu suflet, dar privește la Isus.
-La calvar ai siguranță, dragostea Și-a demonstrat.
-Neclintit rămâne Domnul, Cel în care-s ancorat!
-
-C: 
-Hristos Stânca mântuirii, credincios și-adevărat.
-Neclintit rămâne veșnic, în El suntem ancorați. 
 `,
 },
 {
   id: 17,
-  title: "17. Stânca tare e Hristos",
+  title: "17. Cornerstone",
   key: "C",
-  youtube: "https://youtu.be/cFMXmhOkp8M?si=PA5obpdjzp6uOW2Y",
-  lyrics: `1.
-Dacă suntem însetați, să venim la El.
-Doar Isus ne poate da, apa vieții-n dar
-Toți acei ce suntem slabi, să venim la El
-Doar Isus ne va-ntări, ne va da puteri.
-
-R:
-Domnul nostru-i bun și credincios.
-Zi și noapte e cu noi.
-Stânca noastră tare e Hristos,
-Nu ne vom clinti!
-
-2.
-Dacă temeri s-or ivi, să venim la El,
-Adăpost noi vom găsi, când ne va fi greu.
-
-3.
-Cei ce sunteți azi pierduți, să veniți la El,
-Veți primi Salvare-n dar, doar prin jertfa Lui. 
-
+  youtube: "",
+  lyrics: `Verse 1
+My hope is built on nothing less
+Than Jesus' blood and righteousness
+I dare not trust the sweetest frame
+But wholly trust in Jesus' name
+Chorus
+Christ alone Cornerstone
+Weak made strong in the Savior's love
+Through the storm He is Lord
+Lord of all
+Verse 3
+When darkness seems to hide His face
+I rest on His unchanging grace
+In every high and stormy gale
+My anchor holds within the veil
+My anchor holds within the veil
+Chorus
+Christ alone Cornerstone
+Weak made strong in the Savior's love
+Through the storm He is Lord
+Lord of all
+Refrain
+He is Lord
+Lord of all
+Chorus
+Christ alone Cornerstone
+Weak made strong in the Savior's love
+Through the storm He is Lord
+Lord of all
+Verse 4
+When he shall come with trumpet sound
+Oh may I then in Him be found
+Dressed in His righteousness alone
+Faultless stand before the throne
+Chorus
+Christ alone Cornerstone
+Weak made strong in the Savior's love
+Through the storm He is Lord
+Lord of all
 `,
-  chords: `
-1.
- C   C/E    F    C    Am   G      C
-Dacă suntem însetați, să venim la El.
- C    C/E     F     C  Am   G       C
-Doar Isus ne poate da, apa vieții-n dar
- C    C/E     F       C    Am    G     C
-Toți acei ce suntem slabi, să venim la El
- C    C/E     F    C   Am    G     C
-Doar Isus ne va-ntări, ne va da puteri.
-
-R:
-C       F        C       G     C
-Domnul nostru-i bun și credincios.
-       F     C     G
-Zi și noapte e cu noi.
-        F       C   G     Am
-Stânca noastră tare e Hristos,
- F     G      C 
-Nu ne vom clinti!
-
-2.
-Dacă temeri s-or ivi, să venim la El,
-Adăpost noi vom găsi, când ne va fi greu.
-
-3.
-Cei ce sunteți azi pierduți, să veniți la El,
-Veți primi Salvare-n dar, doar prin jertfa Lui. 
+  chords: ` 
 `,
 },
 {
   id: 18 ,
-  title: "18. În fața tronului de sus",
-  key: "D",
-  youtube: "https://youtu.be/wm8k1WN7jkk?si=oUNWaOIBEO9_hxeb",
-  lyrics: `1.
-În fața tronului de sus
-Eu am un bun apărător,
-Un mare Preot, pe Isus
-La care aflu ajutor.
-
-R:
-Săpat eu sunt în palma Sa
-Și pe-a Lui inimă sunt scris
-Iar cât in ceruri El va sta,
-Pârâșul meu va fi învins,
-//: Pârâșul meu va fi învins ://
-
-2.
-Satan când mă va acuza
-Spunându-mi că sunt vinovat,
-Privesc la Domnul, Stânca mea
-Ce-a șters pe cruce-al meu păcat.
-Fiindcă Domnul a murit,
-Eu am ajuns neprihănit;
-Dreptatea s-a îndeplinit,
-/: Prin moartea Lui sunt mântuit, :/ X2
-
-3.
-Și iată Mielul înălțat,  
-Cel nepătat, neprihănit,
-Cuvântul viu și întrupat
-E Rege-al regilor slăvit.
-/: Unit cu El nu voi muri,
-Cu sânge m-a răscumpărat;
-Voi fi cu El în veșnicii,
-Cu Domnul meu glorificat! :/ x2
-
-Cu Domnul meu glorificat!
+  title: "18. Oceans",
+  key: "C",
+  youtube: "",
+  lyrics: `Verse 1
+You call me out upon the waters
+The great unknown where feet may fail
+And there I find You in the mystery
+In oceans deep my faith will stand
+Chorus
+I will call upon Your Name
+And keep my eyes above the waves
+When oceans rise
+My soul will rest in Your embrace
+For I am Yours and You are mine
+Verse 2
+Your grace abounds in deepest waters
+Your sovereign hand will be my guide
+Where feet may fail
+And fear surrounds me
+You've never failed
+And You won't start now
+Chorus
+I will call upon Your Name
+And keep my eyes above the waves
+When oceans rise
+My soul will rest in Your embrace
+For I am Yours and You are mine
+Bridge
+Spirit lead me
+Where my trust is without borders
+Let me walk upon the waters
+Wherever You would call me
+Take me deeper
+Than my feet could ever wander
+And my faith will be made stronger
+In the presence of my Savior
+Chorus
+I will call upon Your Name
+And keep my eyes above the waves
+My soul will rest in Your embrace
+For I am Yours and You are mine
 `,
   chords: `
-1.
-          D   G      D
-În fața tronului de sus
-          D       F#m
-Eu am un bun apărător,
-          G    A    Bm
-Un mare Preot, pe Isus
-        G    A   D
-La care aflu ajutor.
-
-R:
-  D/F#    G             A
-Săpat eu sunt în palma Sa
-    D/F#    G   A         Bm
-Și pe-a Lui inimă sunt scris
-    D/F#          A      Bm
-Iar cât in ceruri El va sta,
-  D/F#   G        A  Bm
-Pârâșul meu va fi învins,
-      D/F#   G        A    D
-//: Pârâșul meu va fi învins ://
-
-2.
-Satan când mă va acuza
-Spunându-mi că sunt vinovat,
-Privesc la Domnul, Stânca mea
-Ce-a șters pe cruce-al meu păcat.
-Fiindcă Domnul a murit,
-Eu am ajuns neprihănit;
-Dreptatea s-a îndeplinit,
-/: Prin moartea Lui sunt mântuit, :/ X2
-
-3.
-Și iată Mielul înălțat,  
-Cel nepătat, neprihănit,
-Cuvântul viu și întrupat
-E Rege-al regilor slăvit.
-/: Unit cu El nu voi muri,
-Cu sânge m-a răscumpărat;
-Voi fi cu El în veșnicii,
-Cu Domnul meu glorificat! :/ x2
-
-Cu Domnul meu glorificat!
 `,
 },
 {
   id: 19,
-  title: "19. Vine-o zi",
-  key: "A",
-  youtube: "https://youtu.be/DPd49tI0n9s?si=OGxlTJQzXITJlQhi",
-  lyrics: `1.
-Într-o zi va fi totul nou, Isus. 
-Rănile ce dor vei lega
-Toate trec doar Tu-n veci rămâi, 
-Domnul meu.
-
-2.
-Totul voi pricepe-ntr-o zi, Isus. 
-Orice îndoieli vor muri;
-Toată teama o voi lăsa 
-în urma mea...
-
-R: 
-Când în cer vom ajunge
-O, ce zi glorioasă-atunci va fi
-Când vom fi cu Isus
-Fața Lui o vom privi.
-
-3.
-Într-o zi Îl vom întâlni pe Isus  
-Copleșiți de-al Sau mare har
-Și într-o clipă vom fi schimbați/x3
-O, ce zi!
-
-4.
-Vine o zi când liberi vom fi, Isus
-Când lupta noastră se va sfârși
-Gloria Ta atunci vom vedea.
-O, ce zi!
-
+  title: "19. Mighty to Save",
+  key: "G",
+  youtube: "",
+  lyrics: `Verse 1
+Everyone needs compassion
+A love that's never failing
+Let mercy fall on me
+Everyone needs forgiveness
+The kindness of a Savior
+The hope of nations
+Chorus
+Savior He can move the mountains
+My God is mighty to save
+He is mighty to save
+Forever Author of salvation
+He rose and conquered the grave
+Jesus conquered the grave
+Verse 2
+So take me as You find me
+All my fears and failures
+Fill my life again
+I give my life to follow
+Everything I believe in
+And now I surrender
+Chorus
+Savior He can move the mountains
+My God is mighty to save
+He is mighty to save
+Forever Author of salvation
+He rose and conquered the grave
+Jesus conquered the grave
+Bridge
+Shine your light and
+Let the whole world see
+We're singin'
+For the glory of the risen King
+Jesus
+Bridge
+Shine your light and
+Let the whole world see
+We're singin'
+For the glory of the risen King
+Chorus
+Savior He can move the mountains
+My God is mighty to save
+He is mighty to save
+Forever Author of salvation
+He rose and conquered the grave
+Jesus conquered the grave
+Bridge
+Shine your light and
+Let the whole world see
+We're singin'
+For the glory of the risen King
+Jesus
+Bridge
+Shine your light and
+Let the whole world see
+We're singin'
+For the glory of the risen King Jesus
+Bridge
+Shine your light and
+Let the whole world see
+We're singin'
+For the glory of the risen King
+Jesus
+Bridge
+Shine your light and
+Let the whole world see
+We're singin'
+For the glory of the risen King
 `,
   chords: `
-1.
-A            Bm      F#m
-Într-o zi va fi totul nou, Isus. 
-Bm         A        E
-Rănile ce dor vei lega
-D                E         F#m
-Toate trec doar Tu-n veci rămâi, 
-Bm  A   E
-Domnul meu.
-
-2.
-Totul voi pricepe-ntr-o zi, Isus. 
-Orice îndoieli vor muri;
-Toată teama o voi lăsa 
-în urma mea...
-
-R: 
-        A A4      A
-Când în cer vom ajunge
-      F#m     D              E
-O, ce zi glorioasă-atunci va fi
-        A/C#    D
-Când vom fi cu Isus
-A/E   E          A
-Fața Lui o vom privi.
-
-3.
-Într-o zi Îl vom întâlni pe Isus  
-Copleșiți de-al Sau mare har
-Și într-o clipă vom fi schimbați/x3
-O, ce zi!
-
-4.
-Vine o zi când liberi vom fi, Isus
-Când lupta noastră se va sfârși
-Gloria Ta atunci vom vedea.
-O, ce zi!
 `,
 },
 {
   id: 20,
-  title: "20. Sunt un pribeag",
-  key: "Bm",
-  youtube: "https://youtu.be/Ki-9V3QNGhE?si=LIzo5dQA70W4_rbG",
-  lyrics: `1.
-Sunt un pribeag fără de ţară,
-Rătăcitor prin lung pustiu.
-Dar am în ceruri o comoară
-Şi ţara mea e-n veşnicii.
-
-R:  
-Mă-ndrept spre cer să-L văd pe Domnul
-Să nu mai fiu un pelegrin!
-Căci după ce-am  să trec Iordanul
-Se va sfârşi al meu suspin!
-
-2.
-Tu vezi ce grea mi-e ‘naintarea
-Mă lupt să biruiesc mereu
-Un dor nestins mă cheamă acasă
-E dorul după Dumnezeu.
-
-3.
-Voi lepăda a mea povară
-Eliberat sub crucea grea
-Nădejdea mea nu o să moară
-Eu voi intra-n odihna Sa!
-
+  title: "20. O Praise the Name",
+  key: "C",
+  youtube: "",
+  lyrics: `Verse 1
+I cast my mind to Calvary
+Where Jesus bled and died for me
+I see His wounds His hands His feet
+My Savior on that cursed tree
+Verse 2
+His body bound and drenched in tears
+They laid Him down in Joseph's tomb
+The entrance sealed by heavy stone
+Messiah still and all alone
+Chorus
+O praise the Name of the Lord our God
+O praise His Name forevermore
+For endless days we will sing Your praise
+Oh Lord oh Lord our God
+Verse 3
+Then on the third at break of dawn
+The Son of Heaven rose again
+O trampled death where is your sting
+The angels roar for Christ the King
+Chorus
+O praise the Name of the Lord our God
+O praise His Name forevermore
+For endless days we will sing Your praise
+Oh Lord oh Lord our God
+Verse 4
+He shall return in robes of white
+The blazing sun shall pierce the night
+And I will rise among the saints
+My gaze transfixed on Jesus' face
+Chorus
+O praise the Name of the Lord our God
+O praise His Name forevermore
+For endless days we will sing Your praise
+Oh Lord oh Lord our God
+Tag
+Oh Lord oh Lord our God
 `,
   chords: `
-1.
-            Bm
-Sunt un pribeag fără de ţară,
-      Em        F#      Bm
-Rătăcitor prin lung pustiu.
-            Bm
-Dar am în ceruri o comoară
-         Em      F#   Bm
-Şi ţara mea e-n veşnicii.
-
-R:  
-                G        A         D
-Mă-ndrept spre cer să-L văd pe Domnul
-           G      A    D F#7
-Să nu mai fiu un pelegrin!
-            F#               Bm
-Căci după ce-am  să trec Iordanul
-          Em    F#     Bm
-Se va sfârşi al meu suspin!
-
-2.
-Tu vezi ce grea mi-e ‘naintarea
-Mă lupt să biruiesc mereu
-Un dor nestins mă cheamă acasă
-E dorul după Dumnezeu.
-
-3.
-Voi lepăda a mea povară
-Eliberat sub crucea grea
-Nădejdea mea nu o să moară
-Eu voi intra-n odihna Sa!
 `,
 },
 {
