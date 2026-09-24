@@ -2129,6 +2129,316 @@ And we will feast in endless joy
 When Christ is ours forevermore. 
 `,
 },
+{
+    id: 33,
+    title: "33. In Christ Alone",
+    key: "G",
+    youtube: "",
+    lyrics: `
+Verse 1
+In Christ alone my hope is found
+He is my light my strength my song
+This cornerstone
+This solid ground
+Firm through the fiercest
+Drought and storm
+Chorus
+What heights of love
+What depths of peace
+When fears are stilled
+When strivings cease
+My comforter my All in All
+Here in the love of Christ I stand
+Verse 2
+In Christ alone who took on flesh
+Fullness of God in helpless babe
+This gift of love
+And righteousness
+Scorned by the ones
+He came to save
+Chorus
+'Til on that cross
+As Jesus died
+The wrath of God was satisfied
+For every sin on Him was laid
+Here in the death of Christ I live
+Verse 3
+There in the ground His body lay
+Light of the world by darkness slain
+Then bursting forth in glorious Day
+Up from the grave He rose again
+Chorus
+And as He stands in victory
+Sin's curse has lost its grip on me
+For I am His and He is mine
+Bought with the precious blood of Christ
+Verse 4
+No guilt in life no fear in death
+This is the power of Christ in me
+From life's first cry to final breath
+Jesus commands my destiny
+Chorus
+No power of hell
+No scheme of man
+Can ever pluck me from His hand
+Till He returns or calls me home
+Here in the power of Christ I'll stand
+`,
+    chords: `
+`,
+  },
+{
+    id: 34,
+    title: "34. Great Are You Lord",
+    key: "G",
+    youtube: "",
+    lyrics: `
+Verse 1
+You give life You are love
+You bring light to the darkness
+You give hope You restore
+Every heart that is broken
+Pre Chorus
+Great are You Lord
+
+`,
+    chords: `
+`,
+  },
+{
+    id: 35,
+    title: "35. Great Are You Lord",
+    key: "G",
+    youtube: "",
+    lyrics: `
+Verse 1
+You give life You are love
+You bring light to the darkness
+You give hope You restore
+Every heart that is broken
+Pre Chorus
+Great are You Lord
+
+`,
+    chords: `
+`,
+  },
+{
+    id: 36,
+    title: "36. Great Are You Lord",
+    key: "G",
+    youtube: "",
+    lyrics: `
+Verse 1
+You give life You are love
+You bring light to the darkness
+You give hope You restore
+Every heart that is broken
+Pre Chorus
+Great are You Lord
+
+`,
+    chords: `
+`,
+  },
+{
+    id: 37,
+    title: "37. Great Are You Lord",
+    key: "G",
+    youtube: "",
+    lyrics: `
+Verse 1
+You give life You are love
+You bring light to the darkness
+You give hope You restore
+Every heart that is broken
+Pre Chorus
+Great are You Lord
+
+`,
+    chords: `
+`,
+  },
+{
+    id: 38,
+    title: "38. Great Are You Lord",
+    key: "G",
+    youtube: "",
+    lyrics: `
+Verse 1
+You give life You are love
+You bring light to the darkness
+You give hope You restore
+Every heart that is broken
+Pre Chorus
+Great are You Lord
+
+`,
+    chords: `
+`,
+  },
+{
+    id: 39,
+    title: "39. Great Are You Lord",
+    key: "G",
+    youtube: "",
+    lyrics: `
+Verse 1
+You give life You are love
+You bring light to the darkness
+You give hope You restore
+Every heart that is broken
+Pre Chorus
+Great are You Lord
+
+`,
+    chords: `
+`,
+  },
+{
+    id: 40,
+    title: "40. Great Are You Lord",
+    key: "G",
+    youtube: "",
+    lyrics: `
+Verse 1
+You give life You are love
+You bring light to the darkness
+You give hope You restore
+Every heart that is broken
+Pre Chorus
+Great are You Lord
+
+`,
+    chords: `
+`,
+  },
+{
+    id: 41,
+    title: "41. Great Are You Lord",
+    key: "G",
+    youtube: "",
+    lyrics: `
+Verse 1
+You give life You are love
+You bring light to the darkness
+You give hope You restore
+Every heart that is broken
+Pre Chorus
+Great are You Lord
+
+`,
+    chords: `
+`,
+  },
+{
+    id: 42,
+    title: "42. Great Are You Lord",
+    key: "G",
+    youtube: "",
+    lyrics: `
+Verse 1
+You give life You are love
+You bring light to the darkness
+You give hope You restore
+Every heart that is broken
+Pre Chorus
+Great are You Lord
+
+`,
+    chords: `
+`,
+  },
+{
+    id: 43,
+    title: "43. Great Are You Lord",
+    key: "G",
+    youtube: "",
+    lyrics: `
+Verse 1
+You give life You are love
+You bring light to the darkness
+You give hope You restore
+Every heart that is broken
+Pre Chorus
+Great are You Lord
+
+`,
+    chords: `
+`,
+  },
+{
+    id: 44,
+    title: "44. Great Are You Lord",
+    key: "G",
+    youtube: "",
+    lyrics: `
+Verse 1
+You give life You are love
+You bring light to the darkness
+You give hope You restore
+Every heart that is broken
+Pre Chorus
+Great are You Lord
+
+`,
+    chords: `
+`,
+  },
+{
+    id: 45,
+    title: "45. Great Are You Lord",
+    key: "G",
+    youtube: "",
+    lyrics: `
+Verse 1
+You give life You are love
+You bring light to the darkness
+You give hope You restore
+Every heart that is broken
+Pre Chorus
+Great are You Lord
+
+`,
+    chords: `
+`,
+  },
+{
+    id: 46,
+    title: "46. Great Are You Lord",
+    key: "G",
+    youtube: "",
+    lyrics: `
+Verse 1
+You give life You are love
+You bring light to the darkness
+You give hope You restore
+Every heart that is broken
+Pre Chorus
+Great are You Lord
+
+`,
+    chords: `
+`,
+  },
+{
+    id: 47,
+    title: "47. Great Are You Lord",
+    key: "G",
+    youtube: "",
+    lyrics: `
+Verse 1
+You give life You are love
+You bring light to the darkness
+You give hope You restore
+Every heart that is broken
+Pre Chorus
+Great are You Lord
+
+`,
+    chords: `
+`,
+  },
 ];
 
 // ---------- YouTube helpers ----------
