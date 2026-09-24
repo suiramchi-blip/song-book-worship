@@ -3882,7 +3882,7 @@ const orderedChordsForStrip = useMemo(() => {
     </div>
   </div>
 )}
-      {!selectedSong ? (
+      {!selectedSong && !showCategories ? (
         <div style={{ maxWidth: 720, margin: "0 auto", position: "relative", zIndex: 1 }}>
         <button
   onClick={() => setShowCategories(true)}
