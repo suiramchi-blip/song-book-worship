@@ -3577,7 +3577,17 @@ export default function App() {
   const [selectedSong, setSelectedSong] = useState<Song | null>(null);
   const [viewMode, setViewMode] = useState<ViewMode>("lyrics");
   const [selectedCategory, setSelectedCategory] = useState("All Songs");
-
+  const categories = [
+"All Songs",
+"Praise & Celebration",
+"Worship & Adoration",
+"Gratitude & Thanksgiving",
+"Gospel & Christ-Centered",
+"Surrender & Discipleship",
+"Prayer, Intimacy & Devotion",
+"Hymns & Timeless Classics",
+"Hope, Faith & Encouragement",
+];
   const [stageMode, setStageMode] = useState(false);
   const [showFlag, setShowFlag] = useState(false);
   const [keepAwake, setKeepAwake] = useState(false);
