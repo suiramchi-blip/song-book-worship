@@ -91,6 +91,7 @@ Of the goodness of God
     id: 2,
     title: "2. Gratitude",
     key: "F",
+    category: "Gratitude & Thanksgiving",
     youtube:"",
     lyrics: `
 1.
@@ -162,6 +163,7 @@ Hallelujah hallelujah
     id: 3,
     title: "3. Holy Forever",
     key: "F",
+    category: "Worship & Adoration",
     youtube: "",
     lyrics: `
 1.
@@ -259,6 +261,7 @@ Holy forever
     id: 4,
     title: "4. Great Are You Lord",
     key: "G",
+    category: "Praise & Celebration",
     youtube: "",
     lyrics: `
 Verse 1
@@ -305,6 +308,7 @@ So we pour out our praise to You only
     id: 5,
     title: "5. Build My Life",
     key: "C",
+    category: "Surrender & Discipleship",
     youtube: "",
     lyrics: `
 Verse 1
@@ -371,6 +375,7 @@ To those around me
     id: 6,
     title: "6. What a Beautiful Name",
     key: "Bb",
+    category: "Worship & Adoration",
     youtube: "",
     lyrics: `
 Verse 1
@@ -450,6 +455,7 @@ The Name of Jesus
     id: 7,
     title: "7. Living Hope",
     key: "G",
+    category: "Gospel & Christ-Centered",
     youtube: "",
     lyrics: `
 Verse 1
@@ -525,6 +531,7 @@ Jesus Christ my living hope
     id: 8,
     title: "8. King of Kings",
     key: "C",
+    category: "Gospel & Christ-Centered",
     youtube: "",
     lyrics: `
 Verse 1
@@ -588,6 +595,7 @@ Praise forever to the King of Kings
   id: 9,
   title: "9. House of the Lord",
   key: "G",
+  category: "Praise & Celebration",
   youtube: "",
   lyrics: `
 Verse 1
@@ -673,6 +681,7 @@ We shout out Your praise
   id: 10,
   title: "10. Lord, I Need You",
   key: "G",
+  category: "Surrender & Discipleship",
   youtube: "",
   lyrics: `
 Verse 1
@@ -721,6 +730,7 @@ Oh God how I need You
   id: 11,
   title: "11. 10,000 Reasons",
   key: "G",
+  category: "Gratitude & Thanksgiving",
   youtube: "",
   lyrics: `
 Chorus
@@ -793,6 +803,7 @@ I'll worship Your Holy name
   id: 12,
   title: "12. This Is Amazing Grace",
   key: "G",
+  category: "Praise & Celebration",
   youtube: "",
   lyrics: `
 Verse 1
@@ -873,6 +884,7 @@ All that You've done for me
   id: 13,
   title: "13. Way Maker",
   key: "C",
+  category: "Surrender & Discipleship",
   youtube: "",
   lyrics: `
   Verse 1
@@ -979,6 +991,7 @@ That is who You are
   id: 14,
   title: "14. Praise The Lord Forever",
   key: "G",
+  category: "Praise & Celebration",
   youtube: "",
   lyrics: `Verse 1
 Oh let all that is within me
@@ -1051,6 +1064,7 @@ Praise the Lord forever
   id: 15,
   title: "15. Center",
   key: "G",
+  category: "Worship & Adoration",
   youtube: "",
   lyrics: `Verse 1
 Maybe we’ve made this complicated
@@ -1129,6 +1143,7 @@ Jesus I love You
   id: 16,
   title: "16. Shout to the Lord",
   key: "G",
+  category: "Praise & Celebration",
   youtube: "",
   lyrics: `Verse 1
 My Jesus my Savior
@@ -1194,6 +1209,7 @@ Promise I have in You
   id: 17,
   title: "17. Cornerstone",
   key: "C",
+  category: "Gospel & Christ-Centered",
   youtube: "",
   lyrics: `Verse 1
 My hope is built on nothing less
@@ -1242,6 +1258,7 @@ Lord of all
   id: 18 ,
   title: "18. Oceans",
   key: "C",
+  category: "Surrender & Discipleship",
   youtube: "",
   lyrics: `Verse 1
 You call me out upon the waters
@@ -1289,6 +1306,7 @@ For I am Yours and You are mine
   id: 19,
   title: "19. Mighty to Save",
   key: "G",
+  category: "Surrender & Discipleship",
   youtube: "",
   lyrics: `Verse 1
 Everyone needs compassion
@@ -1366,6 +1384,7 @@ For the glory of the risen King
   id: 20,
   title: "20. O Praise the Name",
   key: "C",
+  category: "Worship & Adoration",
   youtube: "",
   lyrics: `Verse 1
 I cast my mind to Calvary
@@ -1412,6 +1431,7 @@ Oh Lord oh Lord our God
   id: 21,
   title: "21. Hosanna",
   key: "G",
+  category: "Surrender & Discipleship",
   youtube: "",
   lyrics: `Verse 1
 I see the King of Glory
@@ -1467,6 +1487,7 @@ Hosanna in the highest
   id: 22,
   title: "22. Here I Am to Worship",
   key: "D",
+  category: "Worship & Adoration",
   youtube: "",
   lyrics: `Verse 1
 Light of the world
@@ -1513,6 +1534,7 @@ Altogether wonderful to me
   id: 23,
   title: "23. The Heart of Worship",
   key: "D",
+  category: "Prayer, Intimacy & Devotion",
   youtube: "",
   lyrics: `Verse 1
 When the music fades
@@ -1587,6 +1609,7 @@ It's all about You Jesus
   id: 24,
   title: "24. Open the Eyes of My Heart",
   key: "D",
+  category: "Praise & Celebration",
   youtube: "",
   lyrics: `Verse
 Open the eyes of my heart Lord
@@ -1642,6 +1665,7 @@ I want to see You
   id: 25,
   title: "25. Lord, I Lift Your Name on High",
   key: "G",
+  category: "Praise & Celebration",
   youtube: "",
   lyrics: `Verse
 Lord I lift Your name on high
@@ -1708,6 +1732,7 @@ Lord I lift Your name on high
   id: 26,
   title: "26. Above All",
   key: "C",
+  category: "Surrender & Discipleship",
   youtube: "",
   lyrics: `Verse 1
 Above all powers above all kings
@@ -1754,6 +1779,7 @@ Above all
   id: 27,
   title: "27. As The Deer",
   key: "D",
+  category: "Hymns & Timeless Classics",
   youtube: "",
   lyrics: `Verse 1
 As the deer panteth for the water
@@ -1787,6 +1813,7 @@ Oh I long to worship You
   id: 28,
   title: "28. Draw Me Close",
   key: "D",
+  category: "Prayer, Intimacy & Devotion",
   youtube: "",
   lyrics: `Verse 1
 Draw me close to You
@@ -1836,6 +1863,7 @@ Help me know You are near
   id: 29,
   title: "29. God of Wonders",
   key: "C",
+  category: "Worship & Adoration",
   youtube: "",
   lyrics: `Verse 1
 Lord of all creation
@@ -1892,13 +1920,13 @@ To the Lord of Heaven and Earth
   id: 30,
   title: "30. Amazing grace",
   key: "F",
-  youtube: "https://youtu.be/Tvt6E9N7AQw?si=H6m4kXWUBkUJZ7g4",
+  category: "Hymns & Timeless Classics",
+  youtube: "",
   lyrics: `1.
 Amazing grace how sweet the sound
 That saved a wretch like me
 I once was lost, but now I'm found
 Was blind but now I see.
-
 
 2.
 'Twas grace that taught my heart to fear
@@ -1919,41 +1947,14 @@ We've no less days to sing God's praise
 Than when we first begun.
 `,
   chords: `
-1.
-  F                 Bb        F
-Amazing grace how sweet the sound
-      Dm       G         C
-That saved a wretch like me
-   F                 Bb        F
-I once was lost, but now I'm found
-      Dm       C     F
-Was blind but now I see.
-
-
-2.
-'Twas grace that taught my heart to fear
-And grace my fears relieved
-How precious did that grace appear
-The hour I first believed.
-
-3.
-Through many dangers, toils, and snares
-I have already come
-This grace that brought me safe thus far
-And grace will lead me home.
-
-4.
-When we've been here ten thousand years
-Bright, shining as the sun
-We've no less days to sing God's praise
-Than when we first begun.
 `,
 },
 {
   id: 31,
   title: "31. There is one Gospel",
   key: "C",
-  youtube: "https://youtu.be/nmBcTrDu4O4?si=5TJ8Q8J1kvSr4ajI",
+  category: "Gospel & Christ-Centered",
+  youtube: "",
   lyrics: `1.
 There is one Gospel on which I stand, For all eternity
 It is my story, my Father’s plan, The Son has rescued me
@@ -1992,55 +1993,14 @@ Praise to my Saviour, the King of life
 I stand in the Gospel of Jesus Christ  
 `,
   chords: `
-1.
-       C                 F                 C        G
-There is one Gospel on which I stand, For all eternity
-   C/E              F                  C       G      C
-It is my story, my Father’s plan, The Son has rescued me
-C                      F     C
-Oh what a Gospel, Oh what a peace
-F           C          Am      G
-My highest joy and my deepest need
-C         Dm7     C/E     F
-Now and forever He is my light
-    F           C         G       C
-I stand in the Gospel of Jesus Christ
-
-2.
-There is one Gospel to which I cling, All else I count as loss
-For there, where justice and mercy meet
-He saved me on the cross
-No more I boast in what I can bring
-No more I carry the weight of sin
-For He has brought me from death to life
-I stand in the Gospel of Jesus Christ
-
-3.
-There is one Gospel where hope is found 
-The empty tomb still speaks
-For death could not keep my Saviour down  
-He lives and I am free
-Now on my Saviour, I fix my eyes
-My life is His and His hope is mine!
-For He has promised I, too, will rise
-I stand in the Gospel of Jesus Christ
-
-4.
-And in this Gospel the church is one 
-We do not walk alone
-We have His Spirit as we press on  
-To lead us safely home
-And when in glory still I will sing
-Of this old story that rescued me
-Praise to my Saviour, the King of life
-I stand in the Gospel of Jesus Christ  
 `,
 },
 {
   id: 32,
   title: "32. Christ our hope in life and death",
   key: "E",
-  youtube: "https://youtu.be/FvwlwL1FUEg?si=t7zvlLIV6KHf2TFj",
+  category: "Gospel & Christ-Centered",
+  youtube: "",
   lyrics: `1.
 What is our hope in life and death?
 Christ alone, Christ alone
@@ -2080,61 +2040,13 @@ When Christ is ours forevermore.
 
 `,
   chords: `
-1.
-             E      Esus       E
-What is our hope in life and death?
-Esus     E      C#m7   B
-Christ alone, Christ alone
-            E     B     C#m
-What is our only confidence?
-A         E        B     E
-That our souls to Him belong
-              G#m             C#m
-Who holds our days within His hand?
-             F#m7       E      A
-What comes, apart from His command?
-               E       B     C#m
-And what will keep us to the end?
-     A         E         B       E  Esus E
-The love of Christ, in which we stand
-
-R:  
-  C#m   A    E
-O sing hallelujah!
-     B            C#m
-Our hope springs eternal
-E   A        E
-O sing hallelujah!
-A       E     B     A
-Now and ever we confess
-           C#m      B        E
-Christ our hope in life and death
-
-2.
-What truth can calm the troubled soul?
-God is good, God is good
-Where is his grace and goodness known?
-In our great Redeemer's blood
-Who holds our faith when fears arise?
-Who stands above the stormy trial?
-Who sends the waves that bring us nigh?
-Unto the shore, the rock of Christ
-
-3.
-Unto the grave, what shall we sing?
-"Christ, he lives! Christ, he lives!"
-And what reward will heaven bring?
-Everlasting life with him
-There we will rise to meet the Lord
-Then sin and death will be destroyed
-And we will feast in endless joy
-When Christ is ours forevermore. 
 `,
 },
 {
     id: 33,
     title: "33. In Christ Alone",
     key: "G",
+    category: "Gospel & Christ-Centered",
     youtube: "",
     lyrics: `
 Verse 1
@@ -2193,6 +2105,7 @@ Here in the power of Christ I'll stand
     id: 34,
     title: "34. Yet Not I But Through Christ In Me",
     key: "G",
+    category: "Gospel & Christ-Centered",
     youtube: "",
     lyrics: `
 Verse 1
@@ -2277,6 +2190,7 @@ Yet not I but through Christ in me
     id: 35,
     title: "35. Be Thou My Vision",
     key: "D",
+    category: "Hymns & Timeless Classics",
     youtube: "",
     lyrics: `
 Verse 1
@@ -2335,6 +2249,7 @@ O Ruler of all
     id: 36,
     title: "36. Turn Your Eyes Upon Jesus",
     key: "D",
+    category: "Hymns & Timeless Classics",
     youtube: "",
     lyrics: `
 Verse 1
@@ -2382,6 +2297,7 @@ Was blind but now I see
     id: 37,
     title: "37. How Great Thou Art",
     key: "G",
+    category: "Hymns & Timeless Classics",
     youtube: "",
     lyrics: `
 Verse 1
@@ -2447,6 +2363,7 @@ How great Thou art
     id: 38,
     title: "38. Blessed Be Your Name",
     key: "G",
+    category: "Praise & Celebration",
     youtube: "",
     lyrics: `
 Verse 1
@@ -2509,6 +2426,7 @@ Blessed be Your glorious name
     id: 39,
     title: "39. Change My Heart, O God",
     key: "D",
+    category: "Prayer, Intimacy & Devotion",
     youtube: "",
     lyrics: `
 Chorus
@@ -2548,6 +2466,7 @@ Make it ever true
     id: 40,
     title: "40. Breathe",
     key: "D",
+    category: "Prayer, Intimacy & Devotion",
     youtube: "",
     lyrics: `
 Verse 1
@@ -2591,6 +2510,7 @@ I'm lost without You
     id: 41,
     title: "41. You Are My All in All",
     key: "G",
+    category: "Prayer, Intimacy & Devotion",
     youtube: "",
     lyrics: `
 Verse 1
@@ -2644,6 +2564,7 @@ Worthy is Your name
     id: 42,
     title: "42. Give Me Jesus (Upperoom)",
     key: "D",
+    category: "Prayer, Intimacy & Devotion",
     youtube: "",
     lyrics: `
 Verse 1
@@ -2707,6 +2628,7 @@ You are my one thing
     id: 43,
     title: "43. Give Me Jesus",
     key: "G",
+    category: "Prayer, Intimacy & Devotion",
     youtube: "",
     lyrics: `
 Verse 1
@@ -2746,6 +2668,7 @@ But give me Jesus
     id: 44,
     title: "44. I Love You Lord",
     key: "G",
+    category: "Prayer, Intimacy & Devotion",
     youtube: "",
     lyrics: `
 Chorus 1
@@ -2783,6 +2706,7 @@ In Your ear
     id: 45,
     title: "45. In Moments Like These",
     key: "G",
+    category: "Prayer, Intimacy & Devotion",
     youtube: "",
     lyrics: `
 Verse
@@ -2818,6 +2742,7 @@ I love You
     id: 46,
     title: "46. His Mercy Is More",
     key: "C",
+    category: "Gospel & Christ-Centered",
     youtube: "",
     lyrics: `
 Chorus
@@ -2886,6 +2811,7 @@ His mercy is more
     id: 47,
     title: "47. Come Thou Fount",
     key: "G",
+    category: "Hymns & Timeless Classics",
     youtube: "",
     lyrics: `
 Verse 1
