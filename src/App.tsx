@@ -2888,7 +2888,7 @@ return `https://www.youtube.com/embed/${watchMatch[1]}`;
  
 return "";
 }
-}
+
 
 const MOLDOVA_TRICOLOR_URL =
   "https://upload.wikimedia.org/wikipedia/commons/7/73/Flag_of_Romania.svg";
