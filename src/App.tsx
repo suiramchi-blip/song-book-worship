@@ -2860,18 +2860,34 @@ function isYouTubeUrl(url?: string) {
 }
 
 function toYouTubeEmbedUrl(url: string) {
-  const trimmed = url.trim();
-
-  const embedMatch = trimmed.match(/youtube\.com\/embed\/([^?&/]+)/i);
-  if (embedMatch?.[1]) return `https://www.youtube.com/embed/${embedMatch[1]}`;
-
-  const shortMatch = trimmed.match(/youtu\.be\/([^?&/]+)/i);
-  if (shortMatch?.[1]) return `https://www.youtube.com/embed/${shortMatch[1]}`;
-
-  const watchMatch = trimmed.match(/[?&]v=([^?&/]+)/i);
-  if (watchMatch?.[1]) return `https://www.youtube.com/embed/${watchMatch[1]}`;
-
-  return "";
+const trimmed = url.trim();
+ 
+const embedMatch = trimmed.match(
+/youtube\.com\/embed\/([^?&/]+)/i
+);
+ 
+if (embedMatch?.[1]) {
+return `https://www.youtube.com/embed/${embedMatch[1]}`;
+}
+ 
+const shortMatch = trimmed.match(
+/youtu\.be\/([^?&/]+)/i
+);
+ 
+if (shortMatch?.[1]) {
+return `https://www.youtube.com/embed/${shortMatch[1]}`;
+}
+ 
+const watchMatch = trimmed.match(
+/[?&]v=([^?&/]+)/i
+);
+ 
+if (watchMatch?.[1]) {
+return `https://www.youtube.com/embed/${watchMatch[1]}`;
+}
+ 
+return "";
+}
 }
 
 const MOLDOVA_TRICOLOR_URL =
