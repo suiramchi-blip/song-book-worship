@@ -3515,7 +3515,6 @@ export default function App() {
 "Surrender & Discipleship",
 "Prayer, Intimacy & Devotion",
 "Hymns & Timeless Classics",
-"Hope, Faith & Encouragement",
 ];
 const filteredSongs =
 selectedCategory === "All Songs"
