@@ -262,7 +262,7 @@ Holy forever
     title: "4. Great Are You Lord",
     key: "E",
     category: "Praise & Celebration",
-    youtube: "",
+    youtube: "https://www.youtube.com/watch?v=uHz0w-HG4iU",
     lyrics: `
 Verse 1
 You give life You are love
@@ -309,7 +309,7 @@ So we pour out our praise to You only
     title: "5. Build My Life",
     key: "E",
     category: "Surrender & Discipleship",
-    youtube: "",
+    youtube: "https://www.youtube.com/watch?v=FYMjO9mL0Tw",
     lyrics: `
 Verse 1
 Worthy of every song
@@ -376,7 +376,7 @@ To those around me
     title: "6. What a Beautiful Name",
     key: "F",
     category: "Worship & Adoration",
-    youtube: "",
+    youtube: "https://www.youtube.com/watch?v=nQWFzMvCfLE",
     lyrics: `
 Verse 1
 You were the Word at the beginning
@@ -456,7 +456,7 @@ The Name of Jesus
     title: "7. Living Hope",
     key: "Bb",
     category: "Gospel & Christ-Centered",
-    youtube: "",
+    youtube: "https://www.youtube.com/watch?v=u-1fwZtKJSM",
     lyrics: `
 Verse 1
 How great the chasm
@@ -532,7 +532,7 @@ Jesus Christ my living hope
     title: "8. King of Kings",
     key: "D",
     category: "Gospel & Christ-Centered",
-    youtube: "",
+    youtube: "https://youtu.be/dQl4izxPeNU?si=FtXiD9beVNXc5KYU",
     lyrics: `
 Verse 1
 In the darkness we were waiting
@@ -596,7 +596,7 @@ Praise forever to the King of Kings
   title: "9. House of the Lord",
   key: "E",
   category: "Praise & Celebration",
-  youtube: "",
+  youtube: "https://youtu.be/h8uKldEUrPE?si=nKeKroHASSHsGNGb",
   lyrics: `
 Verse 1
 We worship the God who was
@@ -682,7 +682,7 @@ We shout out Your praise
   title: "10. Lord, I Need You",
   key: "E",
   category: "Surrender & Discipleship",
-  youtube: "",
+  youtube: "https://youtu.be/LuvfMDhTyMA?si=EkxpOOrMsBJj3YbE",
   lyrics: `
 Verse 1
 Lord I come I confess
@@ -731,7 +731,7 @@ Oh God how I need You
   title: "11. 10,000 Reasons",
   key: "G",
   category: "Gratitude & Thanksgiving",
-  youtube: "",
+  youtube: "https://youtu.be/XtwIT8JjddM?si=YhXQL2IyyZJXNqyt",
   lyrics: `
 Chorus
 Bless the Lord O my soul
@@ -804,7 +804,7 @@ I'll worship Your Holy name
   title: "12. This Is Amazing Grace",
   key: "G",
   category: "Praise & Celebration",
-  youtube: "",
+  youtube: "https://youtu.be/XFRjr_x-yxU?si=dM0E1AkUQzBPk2hM",
   lyrics: `
 Verse 1
 Who breaks the power
@@ -885,7 +885,7 @@ All that You've done for me
   title: "13. Way Maker",
   key: "C",
   category: "Surrender & Discipleship",
-  youtube: "",
+  youtube: "https://youtu.be/iJCV_2H9xD0?si=78a-rIFQ2GkqpzHb",
   lyrics: `
   Verse 1
 You are here
@@ -992,7 +992,7 @@ That is who You are
   title: "14. Praise The Lord Forever",
   key: "G",
   category: "Praise & Celebration",
-  youtube: "",
+  youtube: "https://youtu.be/kF-7DlzE8JA?si=mwQ8SeefmKeuJpGn",
   lyrics: `Verse 1
 Oh let all that is within me
 Bless His holy name
@@ -1065,7 +1065,7 @@ Praise the Lord forever
   title: "15. Center",
   key: "G",
   category: "Worship & Adoration",
-  youtube: "",
+  youtube: "https://youtu.be/ZKSXhpAi3RE?si=39fo6v7PXlUScI2b",
   lyrics: `Verse 1
 Maybe we’ve made this complicated
 More than it was ever meant to be
@@ -1144,7 +1144,7 @@ Jesus I love You
   title: "16. Shout to the Lord",
   key: "G",
   category: "Praise & Celebration",
-  youtube: "",
+  youtube: "https://youtu.be/SkTJ9jklOSE?si=MRtCeOUGtRA5w7mF",
   lyrics: `Verse 1
 My Jesus my Savior
 Lord there is none like You
@@ -1210,7 +1210,7 @@ Promise I have in You
   title: "17. Cornerstone",
   key: "C",
   category: "Gospel & Christ-Centered",
-  youtube: "",
+  youtube: "https://youtu.be/izrk-erhDdk?si=uxk5Em1V5niQLvQ2",
   lyrics: `Verse 1
 My hope is built on nothing less
 Than Jesus' blood and righteousness
@@ -1259,7 +1259,7 @@ Lord of all
   title: "18. Oceans",
   key: "Bb",
   category: "Surrender & Discipleship",
-  youtube: "",
+  youtube: "https://youtu.be/1m_sWJQm2fs?si=qwZ0eg1LuH7wB320",
   lyrics: `Verse 1
 You call me out upon the waters
 The great unknown where feet may fail
@@ -1307,7 +1307,7 @@ For I am Yours and You are mine
   title: "19. Mighty to Save",
   key: "G",
   category: "Surrender & Discipleship",
-  youtube: "",
+  youtube: "https://youtu.be/5Le0txbJCxk?si=ueBUSBVQ-0jIXLE4",
   lyrics: `Verse 1
 Everyone needs compassion
 A love that's never failing
@@ -1385,7 +1385,7 @@ For the glory of the risen King
   title: "20. O Praise the Name",
   key: "Bb",
   category: "Worship & Adoration",
-  youtube: "",
+  youtube: "https://youtu.be/sBrO7AQJ0nc?si=he_SOR2T3r6QMEHX",
   lyrics: `Verse 1
 I cast my mind to Calvary
 Where Jesus bled and died for me
@@ -1432,7 +1432,7 @@ Oh Lord oh Lord our God
   title: "21. Hosanna",
   key: "G",
   category: "Surrender & Discipleship",
-  youtube: "",
+  youtube: "https://youtu.be/hnMevXQutyE?si=uPAkF-EZs749WyDL",
   lyrics: `Verse 1
 I see the King of Glory
 Coming on the clouds with fire
@@ -1488,7 +1488,7 @@ Hosanna in the highest
   title: "22. Here I Am to Worship",
   key: "D",
   category: "Worship & Adoration",
-  youtube: "",
+  youtube: "https://youtu.be/CvXepIbZggE?si=d1jIqHH_DAwNwW0Q",
   lyrics: `Verse 1
 Light of the world
 You stepped down into darkness
@@ -1535,7 +1535,7 @@ Altogether wonderful to me
   title: "23. The Heart of Worship",
   key: "D",
   category: "Prayer, Intimacy & Devotion",
-  youtube: "",
+  youtube: "https://youtu.be/1YUPJUJLUkg?si=jZH2PcranlQNqrX3",
   lyrics: `Verse 1
 When the music fades
 All is stripped away
@@ -1610,7 +1610,7 @@ It's all about You Jesus
   title: "24. Open the Eyes of My Heart",
   key: "D",
   category: "Praise & Celebration",
-  youtube: "",
+  youtube: "https://youtu.be/SikVUI89IWM?si=KGu352IQVLUr9rS8",
   lyrics: `Verse
 Open the eyes of my heart Lord
 Open the eyes of my heart
@@ -1666,7 +1666,7 @@ I want to see You
   title: "25. Lord, I Lift Your Name on High",
   key: "G",
   category: "Praise & Celebration",
-  youtube: "",
+  youtube: "https://youtu.be/7F95KN4-keQ?si=ULLSwC8Z-mTM-lDq",
   lyrics: `Verse
 Lord I lift Your name on high
 Lord I love to sing Your praises
@@ -1733,7 +1733,7 @@ Lord I lift Your name on high
   title: "26. Above All",
   key: "C",
   category: "Surrender & Discipleship",
-  youtube: "",
+  youtube: "https://youtu.be/o-UkkiHR7v8?si=2jCqB4h6WABEdQO1",
   lyrics: `Verse 1
 Above all powers above all kings
 Above all nature and all created things
@@ -1780,7 +1780,7 @@ Above all
   title: "27. As The Deer",
   key: "D",
   category: "Hymns & Timeless Classics",
-  youtube: "",
+  youtube: "https://youtu.be/p_TbkEK7b5U?si=eHAtITxxkKgRnCuD",
   lyrics: `Verse 1
 As the deer panteth for the water
 So my soul longeth after Thee
@@ -1814,7 +1814,7 @@ Oh I long to worship You
   title: "28. Draw Me Close",
   key: "D",
   category: "Prayer, Intimacy & Devotion",
-  youtube: "",
+  youtube: "https://youtu.be/a5jcuMP_O4Y?si=MKKxKoVrmD_m0Fil",
   lyrics: `Verse 1
 Draw me close to You
 Never let me go
@@ -1864,7 +1864,7 @@ Help me know You are near
   title: "29. God of Wonders",
   key: "Bb",
   category: "Worship & Adoration",
-  youtube: "",
+  youtube: "https://youtu.be/r9orlWiaDfM?si=R1yf7sO_PE3iBRyH",
   lyrics: `Verse 1
 Lord of all creation
 Of water Earth and sky
@@ -1921,7 +1921,7 @@ To the Lord of Heaven and Earth
   title: "30. Amazing grace",
   key: "F",
   category: "Hymns & Timeless Classics",
-  youtube: "",
+  youtube: "https://youtu.be/Ke3KT63_S-o?si=535BEIyPoF3YjEjw",
   lyrics: `1.
 Amazing grace how sweet the sound
 That saved a wretch like me
@@ -1954,7 +1954,7 @@ Than when we first begun.
   title: "31. There is one Gospel",
   key: "Bb",
   category: "Gospel & Christ-Centered",
-  youtube: "",
+  youtube: "https://youtu.be/KnqcSY-P7JI?si=QzTYrVXv5Itahljo",
   lyrics: `1.
 There is one Gospel on which I stand, For all eternity
 It is my story, my Father’s plan, The Son has rescued me
@@ -2000,7 +2000,7 @@ I stand in the Gospel of Jesus Christ
   title: "32. Christ our hope in life and death",
   key: "D",
   category: "Gospel & Christ-Centered",
-  youtube: "",
+  youtube: "https://youtu.be/FvwlwL1FUEg?si=6mJtBH0rkVei_QXI",
   lyrics: `1.
 What is our hope in life and death?
 Christ alone, Christ alone
@@ -2047,7 +2047,7 @@ When Christ is ours forevermore.
     title: "33. In Christ Alone",
     key: "G",
     category: "Gospel & Christ-Centered",
-    youtube: "",
+    youtube: "https://youtu.be/hpe110ZiUik?si=zctmV_wJf2jEdUCT",
     lyrics: `
 Verse 1
 In Christ alone my hope is found
@@ -2106,7 +2106,7 @@ Here in the power of Christ I'll stand
     title: "34. Yet Not I But Through Christ In Me",
     key: "G",
     category: "Gospel & Christ-Centered",
-    youtube: "",
+    youtube: "https://youtu.be/hwc2d1Xt8gM?si=gEG4Q-eEB8Ne_lmj",
     lyrics: `
 Verse 1
 What gift of grace
@@ -2191,7 +2191,7 @@ Yet not I but through Christ in me
     title: "35. Be Thou My Vision",
     key: "D",
     category: "Hymns & Timeless Classics",
-    youtube: "",
+    youtube: "https://youtu.be/mDGqYr2ZX2A?si=Gy9SUYbNkLhwAckf",
     lyrics: `
 Verse 1
 Be Thou my vision
@@ -2250,7 +2250,7 @@ O Ruler of all
     title: "36. Turn Your Eyes Upon Jesus",
     key: "D",
     category: "Hymns & Timeless Classics",
-    youtube: "",
+    youtube: "https://youtu.be/PV6Ae8PZmX4?si=WB2u9McELyUZS8kf",
     lyrics: `
 Verse 1
 O soul are you weary
@@ -2298,7 +2298,7 @@ Was blind but now I see
     title: "37. How Great Thou Art",
     key: "G",
     category: "Hymns & Timeless Classics",
-    youtube: "",
+    youtube: "https://youtu.be/kSfTnv9NvV8?si=WI86vpagmcn2Ulx2",
     lyrics: `
 Verse 1
 O Lord my God
@@ -2364,7 +2364,7 @@ How great Thou art
     title: "38. Blessed Be Your Name",
     key: "G",
     category: "Praise & Celebration",
-    youtube: "",
+    youtube: "https://youtu.be/0fudMFN9M8s?si=gcpH-7wF_NS5LEJJ",
     lyrics: `
 Verse 1
 Blessed be Your name
@@ -2427,7 +2427,7 @@ Blessed be Your glorious name
     title: "39. Change My Heart, O God",
     key: "D",
     category: "Prayer, Intimacy & Devotion",
-    youtube: "",
+    youtube: "https://youtu.be/1p8X4kfcL8M?si=GopHuMAgS4rTHxhj",
     lyrics: `
 Chorus
 Change my heart, oh God
@@ -2467,7 +2467,7 @@ Make it ever true
     title: "40. Breathe",
     key: "D",
     category: "Prayer, Intimacy & Devotion",
-    youtube: "",
+    youtube: "https://youtu.be/bj5dQcUG-Nw?si=Oes7jUcE1Lll62V7",
     lyrics: `
 Verse 1
 This is the air I breathe
@@ -2511,7 +2511,7 @@ I'm lost without You
     title: "41. You Are My All in All",
     key: "G",
     category: "Prayer, Intimacy & Devotion",
-    youtube: "",
+    youtube: "https://youtu.be/lie1L61Qnos?si=zIzimKciqfae2E5C",
     lyrics: `
 Verse 1
 You are my strength
@@ -2565,7 +2565,7 @@ Worthy is Your name
     title: "42. Give Me Jesus (Upperoom)",
     key: "D",
     category: "Prayer, Intimacy & Devotion",
-    youtube: "",
+    youtube: "https://youtu.be/CyRzfVYWTNQ?si=pbeR6ERWSitSpADF",
     lyrics: `
 Verse 1
 I don’t want anything but You
@@ -2629,7 +2629,7 @@ You are my one thing
     title: "43. Give Me Jesus",
     key: "G",
     category: "Prayer, Intimacy & Devotion",
-    youtube: "",
+    youtube: "https://youtu.be/9rZ8k9m2hwo?si=ENMlFzE4iyAU9FaR",
     lyrics: `
 Verse 1
 In the morning, when I rise
@@ -2669,7 +2669,7 @@ But give me Jesus
     title: "44. I Love You Lord",
     key: "G",
     category: "Prayer, Intimacy & Devotion",
-    youtube: "",
+    youtube: "https://youtu.be/8hyBJwTKmQ8?si=7cGGf8PGMPcX1JKh",
     lyrics: `
 Chorus 1
 I love You Lord
@@ -2707,7 +2707,7 @@ In Your ear
     title: "45. In Moments Like These",
     key: "G",
     category: "Prayer, Intimacy & Devotion",
-    youtube: "",
+    youtube: "https://youtu.be/r7eKopaLuAw?si=9EDRKVCf8wUyAV1P",
     lyrics: `
 Verse
 In moments like these, I sing out a song
@@ -2743,7 +2743,7 @@ I love You
     title: "46. His Mercy Is More",
     key: "Bb",
     category: "Gospel & Christ-Centered",
-    youtube: "",
+    youtube: "https://youtu.be/obtMO0X5Hp4?si=Rj5kaQcc_UMkkVFv",
     lyrics: `
 Chorus
 Praise the Lord
@@ -2812,7 +2812,7 @@ His mercy is more
     title: "47. Come Thou Fount",
     key: "G",
     category: "Hymns & Timeless Classics",
-    youtube: "",
+    youtube: "https://youtu.be/4i5UYXP0GqI?si=eUL5EJfQBxtBqbMH",
     lyrics: `
 Verse 1
 Come Thou Fount of every blessing
@@ -2847,6 +2847,152 @@ Seal it for Thy courts above
 Tag
 Here's my heart O take and seal it
 Seal it for Thy courts above
+`,
+    chords: `
+`,
+  },
+  {
+    id: 48,
+    title: "48. The Lord Is With Me",
+    key: "G",
+    category: "Surrender & Discipleship",
+    youtube: "https://youtu.be/xWc_2VbaL90?si=Nf22mB-l06DnB43f",
+    lyrics: `
+Verse 1
+I felt the flame
+And wrestled in the dark
+But I never knew
+'Til I had the scars
+How good Your grace could be
+How You would be my strength
+Verse 2
+No matter what I have resolved
+On my lowest day
+You're still in control
+I will not be afraid
+I'll get back up and say
+Chorus
+The Lord is with me
+The Lord is with me
+Ever present in my hour of need
+The Lord is with me
+Verse 3
+You never said
+It wouldn't be a fight
+You promised
+That You'd be right by my side
+No matter how it seems
+My confidence shall be
+Chorus
+The Lord is with me
+The Lord is with me
+Ever present in my hour of need
+The Lord is with me
+Bridge 1
+Though fear may tell me to tremble
+I'm not gonna bow
+I may be thrown in the fire
+But I'm gonna walk out
+Bridge 2
+The heat of the flame
+Won't consume me
+It's nothing but smoke
+It may look like I'm surrounded
+But I'm not alone
+Bridge 1
+Though fear may tell me to tremble
+I'm not gonna bow
+I may be thrown in the fire
+But I'm gonna walk out
+Bridge 2
+The heat of the flame
+Won't consume me
+It's nothing but smoke
+It may look like I'm surrounded
+But I'm not alone
+Chorus
+The Lord is with me
+The Lord is with me
+The Lord is with me
+Ever present in my hour of need
+Bridge 1
+Though fear may tell me to tremble
+I'm not gonna bow
+I may be thrown in the fire
+But I'm gonna walk out
+Bridge 2
+The heat of the flame
+Won't consume me
+It's nothing but smoke
+It may look like I'm surrounded
+But I'm not alone
+Chorus
+The Lord is with me
+The Lord is with me
+The Lord is with me
+Ever present in my hour of need
+Chorus
+The Lord is with me
+The Lord is with me
+The Lord is with me
+Ever present in my hour of need
+The Lord is with me
+`,
+    chords: `
+`,
+  },
+  {
+    id: 49,
+    title: "49. Untitled Hymn (Come to Jesus)",
+    key: "G",
+    category: "Prayer, Intimacy & Devotion",
+    youtube: "https://youtu.be/TQoWoX8mtws?si=3UWUfzVtGqpaX0-O",
+    lyrics: `
+Verse 1
+Weak and wounded sinner
+Lost and left to die
+O raise Your head for
+Love is passing by
+Come to Jesus Come to Jesus
+Come to Jesus and live
+Verse 2
+Now Your burden's lifted
+And carried far away
+And precious blood has washed
+Away the stain so
+Sing to Jesus Sing to Jesus
+Sing to Jesus and live
+Verse 3
+Like a newborn baby
+Don't be afraid to crawl
+Remember when we walk
+Sometimes we fall so
+Follow Jesus Follow Jesus
+Follow Jesus and live
+Verse 4
+Sometimes the way is lonely
+And steep and filled with pain
+So if Your sky is dark and
+Pours like rain then
+Cry to Jesus Cry to Jesus
+Cry to Jesus and live
+Verse 5
+And when the love spills over
+And music fills the night
+And when You can't contain
+Your joy inside then
+Dance for Jesus Dance for Jesus
+Dance for Jesus and live
+Verse 6
+And with Your final heartbeat
+Kiss the world goodbye
+Then go in peace and laugh
+On Glory's side and
+Fly to Jesus Fly to Jesus
+Fly to Jesus and live
+Tag
+Fly to Jesus Fly to Jesus
+Fly to Jesus and live
 `,
     chords: `
 `,
