@@ -164,7 +164,7 @@ Hallelujah hallelujah
     title: "3. Holy Forever",
     key: "A",
     category: "Worship & Adoration",
-    youtube: "",
+    youtube: "https://www.youtube.com/watch?v=m-ZZRp88ew8&list=RDm-ZZRp88ew8&start_radio=1",
     lyrics: `
 1.
 A thousand generations
