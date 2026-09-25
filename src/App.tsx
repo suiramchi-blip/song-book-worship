@@ -24,7 +24,7 @@ const songsData: Song[] = [
   {
     id: 1,
     title: "1. Goodness of God",
-    key: "F",
+    key: "Bb",
     category: "Worship & Adoration",
     youtube:"",
     lyrics: `
@@ -90,7 +90,7 @@ Of the goodness of God
   {
     id: 2,
     title: "2. Gratitude",
-    key: "F",
+    key: "G",
     category: "Gratitude & Thanksgiving",
     youtube:"",
     lyrics: `
@@ -162,7 +162,7 @@ Hallelujah hallelujah
   {
     id: 3,
     title: "3. Holy Forever",
-    key: "F",
+    key: "A",
     category: "Worship & Adoration",
     youtube: "",
     lyrics: `
@@ -260,7 +260,7 @@ Holy forever
   {
     id: 4,
     title: "4. Great Are You Lord",
-    key: "G",
+    key: "E",
     category: "Praise & Celebration",
     youtube: "",
     lyrics: `
@@ -307,7 +307,7 @@ So we pour out our praise to You only
   {
     id: 5,
     title: "5. Build My Life",
-    key: "C",
+    key: "E",
     category: "Surrender & Discipleship",
     youtube: "",
     lyrics: `
@@ -374,7 +374,7 @@ To those around me
   {
     id: 6,
     title: "6. What a Beautiful Name",
-    key: "Bb",
+    key: "F",
     category: "Worship & Adoration",
     youtube: "",
     lyrics: `
@@ -454,7 +454,7 @@ The Name of Jesus
   {
     id: 7,
     title: "7. Living Hope",
-    key: "G",
+    key: "Bb",
     category: "Gospel & Christ-Centered",
     youtube: "",
     lyrics: `
@@ -530,7 +530,7 @@ Jesus Christ my living hope
  {
     id: 8,
     title: "8. King of Kings",
-    key: "C",
+    key: "D",
     category: "Gospel & Christ-Centered",
     youtube: "",
     lyrics: `
@@ -594,7 +594,7 @@ Praise forever to the King of Kings
   {
   id: 9,
   title: "9. House of the Lord",
-  key: "G",
+  key: "E",
   category: "Praise & Celebration",
   youtube: "",
   lyrics: `
@@ -680,7 +680,7 @@ We shout out Your praise
   {
   id: 10,
   title: "10. Lord, I Need You",
-  key: "G",
+  key: "E",
   category: "Surrender & Discipleship",
   youtube: "",
   lyrics: `
