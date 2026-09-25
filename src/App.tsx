@@ -1257,7 +1257,7 @@ Lord of all
 {
   id: 18 ,
   title: "18. Oceans",
-  key: "C",
+  key: "Bb",
   category: "Surrender & Discipleship",
   youtube: "",
   lyrics: `Verse 1
@@ -1383,7 +1383,7 @@ For the glory of the risen King
 {
   id: 20,
   title: "20. O Praise the Name",
-  key: "C",
+  key: "Bb",
   category: "Worship & Adoration",
   youtube: "",
   lyrics: `Verse 1
@@ -1862,7 +1862,7 @@ Help me know You are near
 {
   id: 29,
   title: "29. God of Wonders",
-  key: "C",
+  key: "Bb",
   category: "Worship & Adoration",
   youtube: "",
   lyrics: `Verse 1
@@ -1952,7 +1952,7 @@ Than when we first begun.
 {
   id: 31,
   title: "31. There is one Gospel",
-  key: "C",
+  key: "Bb",
   category: "Gospel & Christ-Centered",
   youtube: "",
   lyrics: `1.
@@ -1998,7 +1998,7 @@ I stand in the Gospel of Jesus Christ
 {
   id: 32,
   title: "32. Christ our hope in life and death",
-  key: "E",
+  key: "D",
   category: "Gospel & Christ-Centered",
   youtube: "",
   lyrics: `1.
@@ -2741,7 +2741,7 @@ I love You
 {
     id: 46,
     title: "46. His Mercy Is More",
-    key: "C",
+    key: "Bb",
     category: "Gospel & Christ-Centered",
     youtube: "",
     lyrics: `
