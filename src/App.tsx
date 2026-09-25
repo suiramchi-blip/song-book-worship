@@ -3960,7 +3960,31 @@ display: showCategories ? "none" : "block",
           <h2 style={{ textAlign: "center", fontWeight: 900, fontSize: stageMode ? 38 : 22, marginTop: 14 }}>
             {selectedSong.title}
           </h2>
-
+          {embedUrl && !stageMode && (
+<div
+style={{
+textAlign: "center",
+marginTop: 10,
+marginBottom: 6,
+}}
+>
+<button
+onClick={() => setShowVideo((v) => !v)}
+style={{
+padding: "8px 18px",
+borderRadius: 999,
+border: "1px solid #b00000",
+background: "#ff4d4d",
+color: "#000",
+fontWeight: 800,
+cursor: "pointer",
+fontSize: 14,
+}}
+>
+{showVideo ? "Hide Video" : "▶ Play Video"}
+</button>
+</div>
+)}
 
           {selectedSong.youtube && !embedUrl && !stageMode && (
             <div style={{ textAlign: "center", marginTop: 6 }}>
