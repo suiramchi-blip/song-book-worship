@@ -92,7 +92,7 @@ Of the goodness of God
     title: "2. Gratitude",
     key: "G",
     category: "Gratitude & Thanksgiving",
-    youtube:"",
+    youtube:"https://www.youtube.com/watch?v=dQdfs5S6jyA&list=RDdQdfs5S6jyA&start_radio=1",
     lyrics: `
 1.
 All my words fall short
