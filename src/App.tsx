@@ -26,7 +26,7 @@ const songsData: Song[] = [
     title: "1. Goodness of God",
     key: "Bb",
     category: "Worship & Adoration",
-    youtube:"",
+    youtube:"https://www.youtube.com/watch?v=_YjmqdjCQ-g&list=RD_YjmqdjCQ-g&start_radio=1",
     lyrics: `
 1.
 I love You Lord
