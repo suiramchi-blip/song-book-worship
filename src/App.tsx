@@ -2997,6 +2997,733 @@ Fly to Jesus and live
     chords: `
 `,
   },
+ {
+    id: 50,
+    title: "50. How Great Is Our God",
+    key: "A",
+    category: "Worship & Adoration",
+    youtube: "https://youtu.be/XV4nOVmWW2A?si=Gy_WRu2rZwcnl_yO",
+    lyrics: `
+Verse 1
+The splendor of a King
+Clothed in majesty
+Let all the earth rejoice
+Let all the earth rejoice
+He wraps Himself in light
+And darkness tries to hide
+Trembles at His voice
+Trembles at His voice
+Chorus
+How great is our God sing with me
+How great is our God and all will see
+How great how great
+Is our God
+Verse 2
+Age to age He stands
+And time is in His hands
+Beginning and the end
+Beginning and the end
+The Godhead three in one
+Father Spirit Son
+The Lion and the Lamb
+Chorus
+How great is our God sing with me
+How great is our God and all will see
+How great how great
+Is our God
+Bridge
+Name above all names
+Worthy of all praise
+My heart will sing
+How great is our God
+Chorus
+How great is our God sing with me
+How great is our God and all will see
+How great how great
+Is our God
+`,
+    chords: `
+`,
+  },
+{
+    id: 51,
+    title: "51. Jesus Paid It All",
+    key: "A",
+    category: "Hymns & Timeless Classics",
+    youtube: "https://youtu.be/5PmVym2fIgE?si=uM-2_VAs592Nn7mP",
+    lyrics: `
+Verse 1
+I hear the Savior say
+Thy strength indeed is small
+Child of weakness watch and pray
+Find in me thine all in all
+Chorus
+Jesus paid it all
+All to Him I owe
+Sin had left a crimson stain
+He washed it white as snow
+Verse 2
+Lord now indeed I find
+Thy power and thine alone
+Can change the leper's spots
+And melt the heart of stone
+Chorus
+Jesus paid it all
+All to Him I owe
+Sin had left a crimson stain
+He washed it white as snow
+Verse 3
+And when before the throne
+I stand in Him complete
+Jesus died my soul to save
+My lips shall still repeat
+Chorus
+Jesus paid it all
+All to Him I owe
+Sin had left a crimson stain
+He washed it white as snow
+Tag
+He washed it white as snow
+Bridge
+O praise the One who paid my debt
+And raised this life up from the dead
+Bridge
+O praise the One
+Who paid my debt
+And raised this life
+Up from the dead
+Refrain
+Oh praise Him
+Oh praise Him
+Refrain
+Oh praise Him
+Bridge
+O praise the One
+Who paid my debt
+And raised this life
+Up from the dead
+Chorus
+Jesus paid it all
+All to Him I owe
+Sin had left a crimson stain
+He washed it white as snow
+Chorus
+Jesus paid it all
+All to Him I owe
+Sin had left a crimson stain
+He washed me white as snow
+`,
+    chords: `
+`,
+  },
+{
+    id: 52,
+    title: "52. Ancient of Days",
+    key: "C",
+    category: "Hymns & Timeless Classics",
+    youtube: "https://youtu.be/PPpGphzScjA?si=1BxUQFfszStGpNAT",
+    lyrics: `
+Verse 1
+Though the nations rage
+Kingdoms rise and fall
+There is still one King
+Reigning over all
+So I will not fear
+For this truth remains
+That my God
+Is the Ancient of days
+Chorus
+None above Him
+None before Him
+All of time in His hands
+For His throne it shall remain
+And ever stand
+All the power
+All the glory
+I will trust in His name
+For my God
+Is the Ancient of days
+Verse 2
+Though the dread of night
+Overwhelms my soul
+He is here with me
+I am not alone
+O His love is sure
+And He knows my name
+For my God
+Is the Ancient of Days
+Chorus
+None above Him
+None before Him
+All of time in His hands
+For His throne it shall remain
+And ever stand
+All the power
+All the glory
+I will trust in His name
+For my God
+Is the Ancient of days
+Verse 3
+Though I may not see
+What the future brings
+I will watch and wait
+For the Saviour King
+Then my joy complete
+Standing face to face
+In the presence of
+The Ancient of days
+Chorus
+None above Him
+None before Him
+All of time in His hands
+For His throne it shall remain
+And ever stand
+All the power
+All the glory
+I will trust in His name
+For my God
+Is the Ancient of days
+Tag
+For my God
+Is the Ancient of days
+`,
+    chords: `
+`,
+  },
+{
+    id: 53,
+    title: "53. Worthy Of It All",
+    key: "A",
+    category: "Worship & Adoration",
+    youtube: "https://youtu.be/JzZSrOPeolc?si=xENvpwzwsCsH1Pqv",
+    lyrics: `
+Verse 1
+All the saints and angels
+Bow before Your throne
+All the elders cast their crowns
+Before the Lamb of God and sing
+Chorus
+You're worthy of it all
+You're worthy of it all
+For from You are all things
+And to You are all things
+You deserve the glory
+Verse 1
+All the saints and angels
+Bow before Your throne
+All the elders cast their crowns
+Before the Lamb of God and sing
+Chorus
+You're worthy of it all
+You're worthy of it all
+For from You are all things
+And to You are all things
+You deserve the glory
+Bridge
+Day and night night and day
+Let incense arise
+Day and night night and day
+Let incense arise
+Day and night night and day
+Let incense arise
+Day and night night and day
+Let incense arise
+Bridge
+Day and night night and day
+Let incense arise
+Day and night night and day
+Let incense arise
+Day and night night and day
+Let incense arise
+Day and night night and day
+Chorus
+You're worthy of it all
+You're worthy of it all
+For from You are all things
+And to You are all things
+You deserve the glory
+`,
+    chords: `
+`,
+  },
+{
+    id: 54,
+    title: "54. Blessed Assurance",
+    key: "C",
+    category: "Hymns & Timeless Classics",
+    youtube: "https://youtu.be/rDeiy9-t2GE?si=fDFMYRDPFy_d-6iF",
+    lyrics: `
+Verse 1
+Blessed assurance
+Jesus is mine
+O what a foretaste
+Of glory divine
+Heir of salvation
+Purchase of God
+Born of His Spirit
+Washed in His blood
+Verse 2
+Perfect submission
+All is at rest
+I in my Savior
+Am happy and blessed
+Watching and waiting
+Looking above
+Filled with His goodness
+Lost in His love
+Chorus
+This is my story
+This is my song
+Praising my Savior
+All the day long
+This is my story
+This is my song
+Praising my Savior
+All the day long
+Bridge 1
+Oh what a Savior
+Wonderful Jesus
+Oh what a Savior
+Wonderful Jesus
+Bridge 2
+Death could not hold You
+You are victorious
+Praise to the risen King
+Chorus
+This is my story
+This is my song
+Praising my Savior
+All the day long
+`,
+    chords: `
+`,
+  },
+{
+    id: 55,
+    title: "55. Give Thanks",
+    key: "G",
+    category: "Gratitude & Thanksgiving",
+    youtube: "https://youtu.be/J2xOuxCtSD0?si=7Hjd8dDMyEzsjMUL",
+    lyrics: `
+Verse
+Give thanks with a grateful heart
+Give thanks to the Holy One
+Give thanks because He's given
+Jesus Christ His Son
+Chorus
+And now let the weak
+Say I am strong
+Let the poor say I am rich
+Because of what
+The Lord has done for us
+Give thanks
+Verse
+Give thanks with a grateful heart
+Give thanks to the Holy One
+Give thanks because He's given
+Jesus Christ His Son
+Chorus
+And now let the weak
+Say I am strong
+Let the poor say I am rich
+Because of what
+The Lord has done for us
+Chorus
+And now let the weak
+Say I am strong
+Let the poor say I am rich
+Because of what
+The Lord has done for us
+Give thanks
+`,
+    chords: `
+`,
+  },
+{
+    id: 56,
+    title: "56. Doxology (God Be Praised)",
+    key: "G",
+    category: "Gratitude & Thanksgiving",
+    youtube: "https://youtu.be/xLPZAkUTle4?si=ayvMkdA073CjgdYV",
+    lyrics: `
+Verse 1
+Praise God
+From Whom all blessings flow
+Praise Him
+All creatures here below
+Praise Him above
+Ye heav'nly host
+Praise Father
+Son and Holy Ghost
+Chorus
+Praise the Father
+Praise the Son
+Praise the Spirit
+Now with us
+Every moment all our days
+God be praised
+Oh God be praised
+Verse 2
+Praise God
+With morning's breaking light
+Praise Him
+Through darkness of the night
+Praise Him
+With every breath of life
+Praise Him my soul
+With all your might
+Chorus
+Praise the Father
+Praise the Son
+Praise the Spirit
+Now in us
+Every moment all our days
+God be praised
+Oh God be praised
+Verse 3
+Praise God
+In face to face we see
+The One who died
+To set us free
+The One
+Who rose in victory
+Praise now forever
+Christ our King
+Chorus
+Praise the Father
+Praise the Son
+Praise the Spirit
+Now in us
+Every moment all our days
+God be praised
+Oh God be praised
+Chorus
+Praise You Father
+We praise You Son
+Praise You Spirit
+Now in us
+Every moment all our days
+God be praised
+Oh God be praised
+Tag
+God be praised
+Oh God be praised
+Verse 1
+Praise God
+From Whom all blessings flow
+Praise Him
+All creatures here below
+Praise Him above
+Ye heav'nly host
+Praise Father
+Son and Holy Ghost
+`,
+    chords: `
+`,
+  },
+{
+    id: 57,
+    title: "57. Great Is Thy Faithfulness",
+    key: "C",
+    category: "Gratitude & Thanksgiving",
+    youtube: "https://youtu.be/WvtaGtTeMpI?si=CD0p7O0tHFooCR1o",
+    lyrics: `
+Verse 1
+Great is Thy faithfulness
+O God my Father
+There is no shadow
+Of turning with Thee
+Thou changest not
+Thy compassions they fail not
+As Thou hast been
+Thou forever will be
+Chorus
+Great is Thy faithfulness
+Great is Thy faithfulness
+Morning by morning
+New mercies I see
+And all I have needed
+Thy hand hath provided
+Great is Thy faithfulness
+Lord unto me
+Verse 2
+Summer and winter
+And springtime and harvest
+Sun moon and stars
+In their courses above
+Join with all nature
+In manifold witness
+To Thy great faithfulness
+Mercy and love
+Chorus
+Great is Thy faithfulness
+Great is Thy faithfulness
+Morning by morning
+New mercies I see
+And all I have needed
+Thy hand hath provided
+Great is Thy faithfulness
+Lord unto me
+Verse 3
+Pardon for sin
+And a peace that endureth
+Thine own dear presence
+To cheer and to guide
+Strength for today
+And bright hope for tomorrow
+Blessings all mine
+With ten thousand beside
+Chorus
+Great is Thy faithfulness
+Great is Thy faithfulness
+Morning by morning
+New mercies I see
+And all I have needed
+Thy hand hath provided
+Great is Thy faithfulness
+Lord unto me
+`,
+    chords: `
+`,
+  },
+{
+    id: 58,
+    title: "58. Thank You Jesus for the Blood",
+    key: "G",
+    category: "Gratitude & Thanksgiving",
+    youtube: "https://youtu.be/dhU-Omwg2rU?si=DIyxuFWvgpDKdwzi",
+    lyrics: `
+Verse 1
+I was a wretch
+I remember who I was
+I was lost I was blind
+I was running out of time
+Sin separated
+The breach was far too wide
+But from the far side of the chasm
+You held me in Your sight
+Verse 2
+So You made a way
+Across the great divide
+Left behind Heaven's throne
+To build it here inside
+And there at the cross
+You paid the debt I owed
+Broke my chains
+Freed my soul
+For the first time I had hope
+Chorus
+Thank You Jesus
+For the blood applied
+Thank You Jesus
+It has washed me white
+Thank You Jesus
+You have saved my life
+Brought me from the darkness
+Into glorious light
+Verse 3
+You took my place
+Laid inside my tomb of sin
+You were buried for three days
+But then You walked right out again
+And now death has no sting
+And life has no end
+For I have been transformed
+By the blood of the Lamb
+Chorus
+Thank You Jesus
+For the blood applied
+Thank You Jesus
+It has washed me white
+Thank You Jesus
+You have saved my life
+Brought me from the darkness
+Into glorious light
+Bridge
+There is nothing stronger
+Than the wonder working power
+Of the blood the blood
+That calls us sons and daughters
+We are ransomed by our Father
+Through the blood the blood
+Chorus
+Thank You Jesus
+For the blood applied
+Thank You Jesus
+It has washed me white
+Thank You Jesus
+You have saved my life
+Brought me from the darkness
+Into glorious light
+Outro
+Glory to His name
+Glory to His name
+There to my heart
+Was the blood applied
+Glory to His name
+`,
+    chords: `
+`,
+  },
+{
+    id: 59,
+    title: "59. God, I'm So Grateful",
+    key: "G",
+    category: "Gratitude & Thanksgiving",
+    youtube: "https://youtu.be/wR1VRVbT_9I?si=R-M0uiBJRu82QkbW",
+    lyrics: `
+Verse 1
+There was no way
+Until You made one
+Grace upon grace
+Hallelujah
+Even though I don’t deserve it
+You did it
+Even though I couldn’t earn it
+You give it
+Chorus 1
+Who am I that
+You keep me on Your mind
+God I’m just grateful for You
+I’m just grateful for You
+All my life You’ve been
+Right here by my side
+God I’m just grateful for You
+I’m just grateful for You
+Verse 2
+Holy holy there’s only one
+I give You glory
+For all that You’ve done
+Even though I don’t deserve it
+You did it
+Even though I couldn’t earn it
+You give it
+Chorus 1
+Who am I that
+You keep me on Your mind
+God I’m just grateful for You
+I’m just grateful for You
+All my life You’ve been
+Right here by my side
+God I’m just grateful for You
+I’m just grateful for You
+Bridge
+And I
+I’m lifting both of my hands
+You gave me chance after chance
+After chance
+And I
+I’m giving all that I am
+Cause You gave me chance
+After chance after chance
+Chorus 1
+Who am I that
+You keep me on Your mind
+God I’m just grateful for You
+I’m just grateful for You
+All my life You’ve been
+Right here by my side
+God I’m just grateful for You
+I’m just grateful for You
+Chorus 2
+I survived
+And I’m here to testify
+God I’m just grateful for You
+I’m just grateful for You
+I’m alright if they say
+I’m outta my mind
+God I’m just grateful for You
+God I’m just grateful for You
+`,
+    chords: `
+`,
+  },
+{
+    id: 60,
+    title: "60. House of the Lord",
+    key: "E",
+    category: "Gratitude & Thanksgiving",
+    youtube: "https://youtu.be/XGQTI3q94iY?si=I__UcuGf_pYCyGyE",
+    lyrics: `
+Verse 1
+We worship the God who was
+We worship the God who is
+We worship the God who
+Evermore will be
+Verse 2
+He opened the prison doors
+He parted the raging sea
+My God He holds the victory
+Chorus
+There’s joy in the house of the Lord
+There’s joy in the house
+Of the Lord today
+And we won’t be quiet
+We shout out Your praise
+There’s Joy in the house of the Lord
+Our God is surely in this place
+And we won’t be quiet
+We shout out Your praise
+Turnaround
+We shout out
+Your praise
+Verse 3
+We sing to the God who heals
+We sing to the God who saves
+We sing to the God who always
+Makes a way
+Verse 4
+'Cause He hung upon that Cross
+Then He rose up from that grave
+My God’s still rolling stones away
+Chorus
+There’s joy in the house of the Lord
+There’s joy in the house
+Of the Lord today
+And we won’t be quiet
+We shout out Your praise
+There’s Joy in the house of the Lord
+Our God is surely in this place
+And we won’t be quiet
+We shout out Your praise
+Bridge
+We were the beggars
+Now we’re royalty
+We were the prisoners
+Now we’re running free
+We are forgiven accepted
+Redeemed by His grace
+Let the house of the Lord sing praise
+Chorus
+There’s joy in the house of the Lord
+There’s joy in the house of the Lord today
+And we won’t be quiet
+We shout out Your praise
+There’s Joy in the house of the Lord
+Our God is surely in this place
+And we won’t be quiet
+We shout out Your praise
+Chorus
+There’s joy in the house of the Lord
+There’s joy in the house
+Of the Lord today
+And we won’t be quiet
+We shout out Your praise
+There’s Joy in the house of the Lord
+Our God is surely in this place
+And we won’t be quiet
+We shout out Your praise
+Instrumental
+We shout out
+Your praise
+Instrumental
+We shout out
+Your praise
+We shout out Your praise
+`,
+    chords: `
+`,
+  },
 ];
 
 // ---------- YouTube helpers ----------
