@@ -4930,7 +4930,7 @@ style={{
 position: "fixed",
 bottom: 16,
 right: 16,
-width: "min(680px, 92vw)", // was ~340, now doubled
+width: "min(1000px, 70vw)",
 aspectRatio: "16 / 9",
 background: "#000",
 borderRadius: 10,
