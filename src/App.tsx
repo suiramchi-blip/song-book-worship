@@ -3567,73 +3567,43 @@ Glory to His name
   },
 {
     id: 59,
-    title: "59. God, I'm So Grateful",
+    title: "59. Majesty (Here I Am)",
     key: "G",
     category: "Gratitude & Thanksgiving",
-    youtube: "https://youtu.be/wR1VRVbT_9I?si=R-M0uiBJRu82QkbW",
+    youtube: "https://youtu.be/ySQgvyMews4?si=XYhHilMvVKP7-ls1",
     lyrics: `
 Verse 1
-There was no way
-Until You made one
-Grace upon grace
-Hallelujah
-Even though I don’t deserve it
-You did it
-Even though I couldn’t earn it
-You give it
-Chorus 1
-Who am I that
-You keep me on Your mind
-God I’m just grateful for You
-I’m just grateful for You
-All my life You’ve been
-Right here by my side
-God I’m just grateful for You
-I’m just grateful for You
+Here I am humbled by Your Majesty
+Covered by Your grace so free
 Verse 2
-Holy holy there’s only one
-I give You glory
-For all that You’ve done
-Even though I don’t deserve it
-You did it
-Even though I couldn’t earn it
-You give it
-Chorus 1
-Who am I that
-You keep me on Your mind
-God I’m just grateful for You
-I’m just grateful for You
-All my life You’ve been
-Right here by my side
-God I’m just grateful for You
-I’m just grateful for You
-Bridge
-And I
-I’m lifting both of my hands
-You gave me chance after chance
-After chance
-And I
-I’m giving all that I am
-Cause You gave me chance
-After chance after chance
-Chorus 1
-Who am I that
-You keep me on Your mind
-God I’m just grateful for You
-I’m just grateful for You
-All my life You’ve been
-Right here by my side
-God I’m just grateful for You
-I’m just grateful for You
-Chorus 2
-I survived
-And I’m here to testify
-God I’m just grateful for You
-I’m just grateful for You
-I’m alright if they say
-I’m outta my mind
-God I’m just grateful for You
-God I’m just grateful for You
+Here I am knowing I'm a sinful man
+Covered by the blood of the Lamb
+Pre Chorus
+Now I've found
+The greatest love of all is mine
+Since You laid down Your life
+The greatest sacrifice
+Chorus
+Majesty Majesty
+Your grace has found me just as I am
+Empty-handed but alive in Your hands
+Verse 3
+Here I am
+Humbled by the love that You give
+Forgiven so that I can forgive
+Verse 4
+Here I stand
+Knowing that I'm Your desire
+Sanctified by glory and fire
+Pre Chorus
+Now I've found
+The greatest love of all is mine
+Since You laid down Your life
+The greatest sacrifice
+Chorus
+Majesty Majesty
+Your grace has found me just as I am
+Empty-handed but alive in Your hands
 `,
     chords: `
 `,
