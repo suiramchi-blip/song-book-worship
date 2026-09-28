@@ -4955,20 +4955,19 @@ fontSize: 14,
 
       {/* Floating YouTube mini-player overlay */}
       {showVideo && embedUrl && (
-        <div
-          style={{
-            position: "fixed",
-            bottom: 16,
-            right: 16,
-            width: 340,
-            maxWidth: "92vw",
-            paddingTop: "56.25%",
-            background: "#000",
-            borderRadius: 10,
-            boxShadow: "0 10px 30px rgba(0,0,0,0.45)",
-            zIndex: 9999,
-            overflow: "hidden",
-          }}
+<div
+style={{
+position: "fixed",
+bottom: 16,
+right: 16,
+width: "min(420px, 92vw)",
+aspectRatio: "16 / 9",
+background: "#000",
+borderRadius: 10,
+boxShadow: "0 10px 30px rgba(0,0,0,0.45)",
+zIndex: 9999,
+overflow: "hidden",
+}}
         >
           <iframe
             src={embedUrl}
