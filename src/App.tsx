@@ -4934,7 +4934,7 @@ fontSize: 14,
       // Large on desktop, nearly full width on phone
       width:
       window.innerWidth > 900
-      ? "900px"
+      ? "min(800px, 45vw)"
       : "92vw",
        
       aspectRatio: "16 / 9",
